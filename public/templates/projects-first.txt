@@ -1,0 +1,20 @@
+YOUR NAME
+you@example.com | github.com/yourname | City, State
+
+EDUCATION
+Rutgers University–New Brunswick — B.S. in Computer Science
+Expected graduation: Month Year
+Relevant coursework: [courses]
+
+SELECTED PROJECTS
+[Project name] | [Technologies] | [Source link]
+- Explain the problem, your contribution, and how you tested it.
+- Include a result only if you can support it.
+
+LEADERSHIP & EXPERIENCE
+[Role] | [Organization] | [Dates]
+- Describe your personal contribution.
+
+TECHNICAL SKILLS
+Languages: [languages you know]
+Tools: [relevant tools]

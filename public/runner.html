@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' blob:; worker-src blob:; connect-src 'none'"><title>Practice runner</title></head><body><script>
+let busy=false;
+window.addEventListener('message',event=>{
+ if(event.source!==parent||busy)return;
+ const {id,code,tests}=event.data||{};
+ if(typeof id!=='string'||typeof code!=='string'||code.length>20000||!Array.isArray(tests)||tests.length>30)return;
+ busy=true;
+ const workerCode=`self.onmessage = async ({data}) => {try { const solve = new Function(data.code + '\\n;return solve;')(); const details=[];let passed=0;for(let i=0;i<data.tests.length;i++){const t=data.tests[i];try{const got=await solve(...t.args);const actual=JSON.stringify(got);const good=actual===JSON.stringify(t.expected);if(good)passed++;details.push('Case '+(i+1)+': '+(good?'passed':'expected '+JSON.stringify(t.expected).slice(0,150)+', received '+String(actual).slice(0,150)))}catch(e){details.push('Case '+(i+1)+': '+String(e.message).slice(0,200))}}self.postMessage({passed,total:data.tests.length,details})} catch(e){self.postMessage({error:String(e.message).slice(0,300)})}};`;
+ const url=URL.createObjectURL(new Blob([workerCode],{type:'text/javascript'}));const worker=new Worker(url);
+ let finished=false;const finish=result=>{if(finished)return;finished=true;clearTimeout(timer);worker.terminate();URL.revokeObjectURL(url);busy=false;parent.postMessage({id,...result},'*')};
+ const timer=setTimeout(()=>finish({error:'Time limit exceeded (2 seconds). Check for an infinite loop.'}),2000);
+ worker.onmessage=e=>finish(e.data);worker.onerror=()=>finish({error:'Execution failed. Check your JavaScript syntax.'});worker.postMessage({code,tests});
+});
+</script></body></html>
