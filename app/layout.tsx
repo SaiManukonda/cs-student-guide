@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./newspaper.css";
 
 export const metadata: Metadata = {
   title: "Fieldnotes — The CS Student Workspace",
@@ -19,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="newspaper">
       <body className="antialiased">{children}</body>
     </html>
   );
