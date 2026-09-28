@@ -1,6 +1,6 @@
 # Rutgers CS Student Guide
 
-A newspaper-styled, responsive CS student workspace built with React, Vinext, and Cloudflare Workers.
+A minimal, newspaper-styled, responsive CS student workspace built with React, Vinext, and Cloudflare Workers.
 
 ## Implemented
 
@@ -26,3 +26,7 @@ Install with `npm run install:ci`; start with `npm run dev`. Build with `npm run
 ## Sources
 
 Course content links to Rutgers official requirements, synopses, and track guides. Claude Code lessons link to Anthropic and freeCodeCamp videos and current official setup docs. Project tutorials link to freeCodeCamp. Clubs use the official Rutgers CS directory and club websites. The Rutgers mark comes from rutgers.edu; the app identifies itself as an unofficial student guide. Opportunity records retain original application URLs and source attribution. Reviewed September 28, 2026.
+
+## Interface
+
+Pages prioritize task controls and content. Decorative mastheads, slogans, subtitles, and promotional links are removed. Tutorial prerequisites and exercises, LaTeX help, and degree notes are available in collapsed disclosures.
