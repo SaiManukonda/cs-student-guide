@@ -1,0 +1,8 @@
+SwiftLaTeX pdfTeX WebAssembly compiler, unmodified release v20022022.
+Copyright SwiftLab and respective TeX contributors.
+Distribution: https://github.com/SwiftLaTeX/SwiftLaTeX/releases/tag/v20022022
+Corresponding source: https://github.com/SwiftLaTeX/SwiftLaTeX/tree/v20022022
+License: LICENSE (AGPL-3.0); PdfTeXEngine.js retains its EPL-2.0 / GPL-2.0 with Classpath Exception notice.
+Compiler integration source: index.html and bridge.js in this directory.
+TeX package delivery: https://texlive.texlyre.org/ (TeXlyre's TeX Live endpoint).
+Resume source stays in the browser during compilation. Only requested TeX package filenames are sent to the package endpoint.
