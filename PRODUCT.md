@@ -30,3 +30,5 @@ Course content links to Rutgers official requirements, synopses, and track guide
 ## Interface
 
 Pages prioritize task controls and content. Decorative mastheads, slogans, subtitles, and promotional links are removed. Tutorial prerequisites and exercises, LaTeX help, and degree notes are available in collapsed disclosures.
+
+Navigation uses normal anchors because the production Vinext client router fails during prefetch and navigation. Each destination loads server-rendered content; account state reloads from D1, and the resume editor’s existing unsaved-draft warning remains active.
