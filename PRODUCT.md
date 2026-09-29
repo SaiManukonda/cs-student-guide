@@ -25,7 +25,7 @@ Install with `npm run install:ci`; start with `npm run dev`. Build with `npm run
 
 ## Sources
 
-Course content links to Rutgers official requirements, synopses, and track guides. Claude Code lessons link to Anthropic and freeCodeCamp videos and current official setup docs. Project tutorials link to freeCodeCamp. Clubs use the official Rutgers CS directory and club websites. The Rutgers mark comes from rutgers.edu; the app identifies itself as an unofficial student guide. Opportunity records retain original application URLs and source attribution. Reviewed September 28, 2026.
+Course content links to Rutgers official requirements, synopses, and track guides. AI literacy is a seven-section written Claude Code course with deep-linkable lessons, copyable commands, an original Python regression-test exercise, answer disclosures, and official documentation links. Project tutorials link to freeCodeCamp. Clubs use the official Rutgers CS directory and club websites. The Rutgers mark comes from rutgers.edu; the app identifies itself as an unofficial student guide. Opportunity records retain original application URLs and source attribution. Reviewed September 28, 2026.
 
 ## Interface
 
