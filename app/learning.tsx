@@ -1,5 +1,7 @@
 'use client';
 import {useState} from 'react';
+import {campusClubs} from './campus-clubs';
+import {universities,isUniversity} from './university';
 import videoMetadata from './video-metadata.json';
 import {Play,Bookmark,ArrowUpRight} from 'lucide-react';
 import {Picker,OutLink,type SavedState} from './workspace';
@@ -23,4 +25,4 @@ const clubs=[
  {name:'SLUG',full:'Student Linux Users Group',focus:'Linux & open source',description:'A community for students interested in Linux, free software, and learning how their systems work.',join:'Find the current community and meeting information through SLUG’s website.',url:'https://ruslug.org/'},
  {name:'Rutgers AI',full:'Rutgers Artificial Intelligence Club',focus:'AI learning & projects',description:'Meet students interested in artificial intelligence and explore workshops and collaborative projects.',join:'Use the official getINVOLVED organization listing to find contact and membership information.',url:'https://rutgers.campuslabs.com/engage/organization/ruai'}
 ];
-export function Clubs({college}:{college:string}){return <><div className="library-intro"><span>{college}</span><OutLink href="https://spec.cs.rutgers.edu/clubs/">Official directory</OutLink></div><div className="club-grid">{clubs.map((club,i)=><article className="club-card" key={club.name}><h2>{club.name}</h2><p className="club-full">{club.full}</p><p>{club.description}</p><OutLink href={club.url}>Visit {club.name}</OutLink></article>)}</div><p className="source-note">Unofficial student guide. Check club websites for meeting times.</p></>}
+export function Clubs({college}:{college:string}){const id=isUniversity(college)?universities[college].id:'rutgers';const data=campusClubs[id]||{source:'https://spec.cs.rutgers.edu/clubs/',clubs};return <><div className="library-intro"><span>{college}</span><OutLink href={data.source}>Official directory</OutLink></div><div className="club-grid">{data.clubs.map(club=><article className="club-card" key={club.name}><h2>{club.name}</h2><p className="club-full">{club.full}</p><p>{club.description}</p><OutLink href={club.url}>{club.url===data.source?'Directory & contact':'Visit '+club.name}</OutLink></article>)}</div><p className="source-note">Unofficial student guide. Check club websites for meeting times.</p></>}

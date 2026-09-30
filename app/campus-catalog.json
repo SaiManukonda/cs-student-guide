@@ -1,0 +1,2714 @@
+{
+  "uiuc": [
+    {
+      "code": "CS 100",
+      "title": "Computer Science Orientation",
+      "credits": 1,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 101",
+      "title": "Intro Computing: Engrg & Sci",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 102",
+      "title": "Little Bits to Big Ideas",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 105",
+      "title": "Intro Computing: Non-Tech",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 107",
+      "title": "Data Science Discovery",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 124",
+      "title": "Introduction to Computer Science I",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 125",
+      "title": "Introduction to Computer Science",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 126",
+      "title": "Software Design Studio",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 128",
+      "title": "Introduction to Computer Science II",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 173",
+      "title": "Discrete Structures",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 196",
+      "title": "First-Year Student Honors",
+      "credits": 1,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 199",
+      "title": "Undergraduate Open Seminar in Computer Science",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 210",
+      "title": "Ethical & Professional Issues",
+      "credits": 2,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 211",
+      "title": "Ethical and Professional Conduct",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 222",
+      "title": "Software Design Lab",
+      "credits": 1,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 225",
+      "title": "Data Structures",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 233",
+      "title": "Computer Architecture",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 242",
+      "title": "Programming Studio",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 265",
+      "title": "Innovation Illinois: From Accessible Design to Supercomputing Cultures",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 266",
+      "title": "Community Innovation",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 277",
+      "title": "Algorithms and Data Structures for Data Science",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 296",
+      "title": "Honors Course",
+      "credits": 1,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 307",
+      "title": "Modeling and Learning in Data Science",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 340",
+      "title": "Introduction to Computer Systems",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 341",
+      "title": "System Programming",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 357",
+      "title": "Numerical Methods I",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 361",
+      "title": "Probability & Statistics for Computer Science",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 374",
+      "title": "Introduction to Algorithms & Models of Computation",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 397",
+      "title": "Individual Study",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 398",
+      "title": "Special Topics",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 400",
+      "title": "Accelerated Fundamentals of Computing I",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 401",
+      "title": "Accelerated Fundamentals of Algorithms I",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 402",
+      "title": "Accelerated Fundamentals of Computing II",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 403",
+      "title": "Accelerated Fundamentals of Algorithms II",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 407",
+      "title": "Cryptography",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 409",
+      "title": "The Art of Web Programming",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 410",
+      "title": "Text Information Systems",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 411",
+      "title": "Database Systems",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 412",
+      "title": "Introduction to Data Mining",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 413",
+      "title": "Intro to Combinatorics",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 414",
+      "title": "Multimedia Systems",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 415",
+      "title": "Game Development",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 416",
+      "title": "Data Visualization",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 417",
+      "title": "Introduction to Extended Reality",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 418",
+      "title": "Interactive Computer Graphics",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 419",
+      "title": "Production Computer Graphics",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 420",
+      "title": "Parallel Progrmg: Sci & Engrg",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 421",
+      "title": "Programming Languages & Compilers",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 422",
+      "title": "Programming Language Design",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 423",
+      "title": "Operating Systems Design",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 424",
+      "title": "Real-Time Systems",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 425",
+      "title": "Distributed Systems",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 426",
+      "title": "Compiler Construction",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 427",
+      "title": "Software Engineering I",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 428",
+      "title": "Software Engineering II",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 429",
+      "title": "Software Engineering II, ACP",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 431",
+      "title": "Embedded Systems",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 433",
+      "title": "Computer System Organization",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 434",
+      "title": "Real World Algorithms for IoT and Data Science",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 435",
+      "title": "Cloud Networking",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 436",
+      "title": "Computer Networking Laboratory",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 437",
+      "title": "Topics in Internet of Things",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 438",
+      "title": "Computer Networks",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 439",
+      "title": "Wireless Networks",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 440",
+      "title": "Artificial Intelligence",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 441",
+      "title": "Applied Machine Learning",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 442",
+      "title": "Trustworthy Machine Learning",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 443",
+      "title": "Reinforcement Learning",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 444",
+      "title": "Deep Learning for Computer Vision",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 445",
+      "title": "Computational Photography",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 446",
+      "title": "Machine Learning",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 447",
+      "title": "Natural Language Processing",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 448",
+      "title": "Audio Computing Laboratory",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 450",
+      "title": "Numerical Analysis",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 452",
+      "title": "Topics in Robotics",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 460",
+      "title": "Security Laboratory",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 461",
+      "title": "Computer Security I",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 462",
+      "title": "Issues of Law and Policy in Computer Science",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 463",
+      "title": "Computer Security II",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 464",
+      "title": "Topics in Societal and Ethical Impacts of Computer Technology",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 465",
+      "title": "User Interface Design",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 466",
+      "title": "Introduction to Bioinformatics",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 467",
+      "title": "Social Visualization",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 468",
+      "title": "Tech and Advertising Campaigns",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 469",
+      "title": "Computational Advertising Infrastructure",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 470",
+      "title": "Social and Information Networks",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 473",
+      "title": "Algorithms",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 474",
+      "title": "Logic in Computer Science",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 475",
+      "title": "Formal Models of Computation",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 476",
+      "title": "Program Verification",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 477",
+      "title": "Formal Software Development Methods",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 478",
+      "title": "Quantum Algorithms and Complexity",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 481",
+      "title": "Advanced Topics in Stochastic Processes & Applications",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 482",
+      "title": "Simulation",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 483",
+      "title": "Applied Parallel Programming",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 484",
+      "title": "Parallel Programming",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 491",
+      "title": "Seminar",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 492",
+      "title": "Senior Project I",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 493",
+      "title": "Senior Project II, ACP",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 494",
+      "title": "Senior Project II",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 497",
+      "title": "CS Team Project",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 498",
+      "title": "Special Topics",
+      "credits": null,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    },
+    {
+      "code": "CS 499",
+      "title": "Senior Thesis",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.illinois.edu/courses-of-instruction/cs/"
+    }
+  ],
+  "gatech": [
+    {
+      "code": "CS 1100",
+      "title": "Pathways in Computing",
+      "credits": 1,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 1171",
+      "title": "Introductory Computing in MATLAB",
+      "credits": 1,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 1301",
+      "title": "Introduction to Computing",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 1301R",
+      "title": "Introduction to Computing for Computer Science Recitation",
+      "credits": 0,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 1315",
+      "title": "Introduction to Media Computation",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 1315R",
+      "title": "CS 1315 Recitation",
+      "credits": 0,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 1331",
+      "title": "Introduction to Object Oriented Programming",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 1331R",
+      "title": "CS 1331 Recitation",
+      "credits": 0,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 1332",
+      "title": "Data Structures and Algorithms for Applications",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 1332R",
+      "title": "CS 1332 Recitation",
+      "credits": 0,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 1371",
+      "title": "Computing for Engineers",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 1371R",
+      "title": "CS 1371 Recitation",
+      "credits": 0,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 1803",
+      "title": "Special Topics",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 2050",
+      "title": "Introduction to Discrete Mathematics for Computer Science",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 2050R",
+      "title": "CS 2050 Recitation",
+      "credits": 0,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 2051",
+      "title": "Honors - Induction to Discrete Mathematics for Computer Science",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 2110",
+      "title": "Computer Organization and Programming",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 2200",
+      "title": "Computer Systems and Networks",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 2261",
+      "title": "Media Device Architectures",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 2316",
+      "title": "Data Manipulation for Science and Industry",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 2316R",
+      "title": "CS 2316 Recitation",
+      "credits": 0,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 2340",
+      "title": "Objects and Design",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 2701",
+      "title": "Startup Lab: Introduction to Technology Ventures",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 2740",
+      "title": "Foundations of Mathematics and Computing",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 2801",
+      "title": "Special Topics",
+      "credits": 1,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 2802",
+      "title": "Special Topics",
+      "credits": 2,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 2803",
+      "title": "Special Topics",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3001",
+      "title": "Computing, Society, and Professionalism",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3101",
+      "title": "Computer Science Ventures",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3210",
+      "title": "Design of Operating Systems",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3220",
+      "title": "Computer Structures: Hardware/Software Codesign of a Processor",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3235",
+      "title": "Introduction to Information Security",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3237",
+      "title": "Human Dimension of Cybersecurity: People, Organizations, Societies",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3240",
+      "title": "Languages and Computation",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3251",
+      "title": "Computer Networking I",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3300",
+      "title": "Introduction to Software Engineering",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3311",
+      "title": "Part 1 of a 2 semester project design and implementation sequence conjoined with Tech Communications",
+      "credits": 1,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3312",
+      "title": "Project Implementation",
+      "credits": 2,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3451",
+      "title": "Computer Graphics",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3510",
+      "title": "Design and Analysis of Algorithms",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3511",
+      "title": "Design and Analysis of Algorithms, Honors",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3600",
+      "title": "Introduction to Artificial Intelligence",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3630",
+      "title": "Introduction to Perception and Robotics",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3651",
+      "title": "Prototyping Intelligent Devices",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3743",
+      "title": "Analysis of Emerging Technologies",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3744",
+      "title": "Managing Product, Service & Technology Development",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3750",
+      "title": "Human Computer Interface Design and Evaluation",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3751",
+      "title": "Introduction to User Interface Design",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3790",
+      "title": "Introduction to Cognitive Science",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3801",
+      "title": "Special Topics",
+      "credits": 1,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3803",
+      "title": "Special Topics",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 3873",
+      "title": "Special Topics",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4001",
+      "title": "Computing, Society, and Professionalism",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4002",
+      "title": "Robots and Society",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4003",
+      "title": "AI, Ethics, and Society",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4010",
+      "title": "Introduction to Computer Law",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4057",
+      "title": "Business Process Analysis and Design",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4117",
+      "title": "Introduction to Malware Reverse Engineering",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4210",
+      "title": "Advanced Operating Systems",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4220",
+      "title": "Programming Embedded Systems",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4235",
+      "title": "Introduction to Information Security",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4238",
+      "title": "Computer Systems Security",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4239",
+      "title": "Enterprise Cybersecurity Management",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4240",
+      "title": "Compilers, Interpreters, and Program Analyzers",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4243",
+      "title": "Cyber Warfare",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4251",
+      "title": "Computer Networking II",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4261",
+      "title": "Mobile Applications and Services for Converged Networks",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4262",
+      "title": "Network Security",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4263",
+      "title": "Psychology of Cybersecurity",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4265",
+      "title": "Technical Introduction to Blockchain and Cryptocurrencies",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4267",
+      "title": "Critical Infrastructures Security and Resilience",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4271",
+      "title": "Cybersecurity of Autonomous Vehicles",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4290",
+      "title": "Advanced Computer Organization",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4365",
+      "title": "Introduction to Enterprise Computing",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4392",
+      "title": "Programming Languages",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4400",
+      "title": "Introduction to Database Systems",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4420",
+      "title": "Database System Implementation",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4423",
+      "title": "Advanced Database System Implementation",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4440",
+      "title": "Emerging Database Technologies and Applications",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4455",
+      "title": "Video Game Design and Programming",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4460",
+      "title": "Introduction to Information Visualization",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4460R",
+      "title": "CS 4460 Recitation",
+      "credits": 0,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4462",
+      "title": "Animal-Centered Computing",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4464",
+      "title": "Computational Journalism",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4470",
+      "title": "Introduction to User Interface Software",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4472",
+      "title": "Design of Online Communities",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4475",
+      "title": "Computational Photography",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4476",
+      "title": "Introduction to Computer Vision",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4488",
+      "title": "Procedural Content Generation",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4495",
+      "title": "Computer Vision",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4496",
+      "title": "Computer Animation",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4497",
+      "title": "Computational Aesthetics",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4510",
+      "title": "Automata and Complexity Theory",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4540",
+      "title": "Advanced Algorithms",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4590",
+      "title": "Principles and Applications of Computer Audio",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4605",
+      "title": "Mobile and Ubiquitous Computing",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4615",
+      "title": "Knowledge-Based Modeling and Design",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4625",
+      "title": "Intelligent and Interactive Systems",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4635",
+      "title": "Knowledge-Based Artificial Intelligence",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4641",
+      "title": "Machine Learning",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4644",
+      "title": "Deep Learning",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4646",
+      "title": "Machine Learning for Trading",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4649",
+      "title": "Robot Intelli Planning",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4650",
+      "title": "Natural Language Understanding",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4660",
+      "title": "Introduction to Educational Technology",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4665",
+      "title": "Educational Technology: Design and Evaluation",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4670",
+      "title": "Computer-Supported Collaborative Learning",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4675",
+      "title": "Internet Computing Systems, Services and Applications",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4690",
+      "title": "Empirical Methods for User Interface Design and Evaluation",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4711",
+      "title": "Health Sensing & Interventions",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4723",
+      "title": "Inter Capstone Design",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4725",
+      "title": "Information Security Strategies and Policies",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4726",
+      "title": "Privacy, Technology, Policy, and Law",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4731",
+      "title": "Game AI",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4741",
+      "title": "Integrative Management Development-Project Preparation",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4742",
+      "title": "Integrated Computing and Management Capstone Project",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4745",
+      "title": "Information and Communication Technologies and Global Development",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4770",
+      "title": "Mixed Reality Experience Design",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4795",
+      "title": "GPU Programming for Video Games",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4801",
+      "title": "Special Topics",
+      "credits": 1,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4803",
+      "title": "Special Topics",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4816",
+      "title": "Special Topics",
+      "credits": 6,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4854",
+      "title": "Special Topics",
+      "credits": 4,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4863",
+      "title": "Special Topics",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4873",
+      "title": "Special Topics",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4883",
+      "title": "Special Topics",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    },
+    {
+      "code": "CS 4893",
+      "title": "Special Topics",
+      "credits": 3,
+      "category": "CS catalog",
+      "note": "",
+      "source": "https://catalog.gatech.edu/coursesaz/cs/"
+    }
+  ],
+  "umd": [
+    {
+      "code": "CMSC 411",
+      "title": "Computer Systems Architecture",
+      "credits": 3,
+      "category": "Area 1: Systems",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 412",
+      "title": "Operating Systems",
+      "credits": 4,
+      "category": "Area 1: Systems",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 414",
+      "title": "Computer and Network Security",
+      "credits": 3,
+      "category": "Area 1: Systems",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 416",
+      "title": "Introduction to Parallel Computing",
+      "credits": 3,
+      "category": "Area 1: Systems",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 417",
+      "title": "Computer Networks",
+      "credits": 3,
+      "category": "Area 1: Systems",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 498B",
+      "title": "Selected Topics in Computer Science; Cloud Computing (course will fulfill requirement for students who are enrolled the course in Fall 2024 and Fall 2025 semesters only)",
+      "credits": 3,
+      "category": "Area 1: Systems",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 498C",
+      "title": "Selected Topics in Computer Science; Blockchains, Applied Cryptography, and Cryptocurrency (course will fulfill requirement for students who are enrolled in the course in Spring 2024, Spring 2025, Spring 2026, and Fall 2026 only)",
+      "credits": 3,
+      "category": "Area 1: Systems",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 498I",
+      "title": "Selected Topics in Computer Science; Real World Computer Security (course will fulfill requirement for students who are enrolled the course in Fall 2022 semester only) Students may not receive credit for both iterations of CMSC 498X at this time.",
+      "credits": 3,
+      "category": "Area 1: Systems",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 498K",
+      "title": "Selected Topics in Computer Science; Big Data Systems  (course will fulfill requirement for students who are enrolled in the course in Spring 2018 or Spring 2019 only)",
+      "credits": 3,
+      "category": "Area 1: Systems / Area 2: Information Processing",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 498X",
+      "title": "Selected Topics in Computer Science; Introduction to Software-defined Radio and Wireless Communications (course will fulfill requirement for students who are enrolled the course in Fall 2018 or Fall 2019 semester only) or",
+      "credits": 3,
+      "category": "Area 1: Systems / Area 1: Systems",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 420",
+      "title": "Data Structures",
+      "credits": 3,
+      "category": "Area 2: Information Processing",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 421",
+      "title": "Introduction to Artificial Intelligence",
+      "credits": 3,
+      "category": "Area 2: Information Processing",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 422",
+      "title": "Machine Learning",
+      "credits": 3,
+      "category": "Area 2: Information Processing",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 423",
+      "title": "Bioinformatic Algorithms, Databases, and Tools",
+      "credits": 3,
+      "category": "Area 2: Information Processing",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 424",
+      "title": "Database Design",
+      "credits": 3,
+      "category": "Area 2: Information Processing",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 426",
+      "title": "Computer Vision",
+      "credits": 3,
+      "category": "Area 2: Information Processing",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 427",
+      "title": "Computer Graphics",
+      "credits": 3,
+      "category": "Area 2: Information Processing",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 470",
+      "title": "Introduction to Natural Language Processing",
+      "credits": 3,
+      "category": "Area 2: Information Processing",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 471",
+      "title": "Introduction to Data Visualization (Area 2 OR Area 3)",
+      "credits": 3,
+      "category": "Area 2: Information Processing / Area 3: Software Engineering and Programming Languages",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 472",
+      "title": "Introduction to Deep Learning",
+      "credits": 3,
+      "category": "Area 2: Information Processing",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 498D",
+      "title": "Selected Topics in Computer Science; Introduction to Computational Photography (course will fulfill requirement for students who are enrolled in the course in Spring 2025 and Spring 2026only)",
+      "credits": 3,
+      "category": "Area 2: Information Processing",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 498E",
+      "title": "Selected Topics in Computer Science; Robotics  (course will fulfill requirement for students who are enrolled in the course in Fall 2023 and Spring 2026only)",
+      "credits": 3,
+      "category": "Area 2: Information Processing",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 498F",
+      "title": "Selected Topics in Computer Science; Advances in XR (course will fulfill requirement for students who are enrolled the course in Spring 2022, Spring 2023, Spring 2024 and Spring 2026 semesters only)",
+      "credits": 3,
+      "category": "Area 2: Information Processing",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 498V",
+      "title": "Selected Topics in Computer Science; Advanced Topics in Machine Learning (course will fulfill requirement students who are enrolled in the course in Fall 2018 only)",
+      "credits": 3,
+      "category": "Area 2: Information Processing",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 498Y",
+      "title": "Selected Topics in Computer Science; Statistical Inference and Machine Learning Methods for Genomics Data  (course will fulfill requirement for students who are enrolled in the course in Spring 2024, Spring 2025 and Spring 2026 only)",
+      "credits": 3,
+      "category": "Area 2: Information Processing",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 498Z",
+      "title": "Selected Topics in Computer Science; Differentiable Programming  (course will fulfill requirement for students who are enrolled in the course in Fall 2023, Fall 2025 and Fall 2026only)",
+      "credits": 3,
+      "category": "Area 2: Information Processing",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 430",
+      "title": "Introduction to Compilers",
+      "credits": 3,
+      "category": "Area 3: Software Engineering and Programming Languages",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 431",
+      "title": "Privacy Engineering (formerly CMSC498G)",
+      "credits": 3,
+      "category": "Area 3: Software Engineering and Programming Languages",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 433",
+      "title": "Programming Language Technologies and Paradigms",
+      "credits": 3,
+      "category": "Area 3: Software Engineering and Programming Languages",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 434",
+      "title": "Introduction to Human-Computer Interaction",
+      "credits": 3,
+      "category": "Area 3: Software Engineering and Programming Languages",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 435",
+      "title": "Software Engineering",
+      "credits": 3,
+      "category": "Area 3: Software Engineering and Programming Languages",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 436",
+      "title": "Hand Held Programming Devices",
+      "credits": 3,
+      "category": "Area 3: Software Engineering and Programming Languages",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 498G",
+      "title": "Special Topics in Computer Science; Introduction to Privacy (course will fulfill requirement for students who are enrolled in the course in Spring 2025 and 2026)",
+      "credits": 3,
+      "category": "Area 3: Software Engineering and Programming Languages",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 498J",
+      "title": "Selected Topics in Computer Science; Human-Robot Interaction, Device Prototyping, and Embodied AI  (course will fulfill requirement for students who are enrolled in the course in Fall 2025only)",
+      "credits": 3,
+      "category": "Area 3: Software Engineering and Programming Languages",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 451",
+      "title": "Design and Analysis of Computer Algorithms",
+      "credits": 3,
+      "category": "Area 4: Theory",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 452",
+      "title": "Elementary Theory of Computation",
+      "credits": 3,
+      "category": "Area 4: Theory",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 454",
+      "title": "Algorithms for Data Science",
+      "credits": 3,
+      "category": "Area 4: Theory",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 456",
+      "title": "Cryptology",
+      "credits": 3,
+      "category": "Area 4: Theory",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 457",
+      "title": "Introduction to Quantum Computing",
+      "credits": 3,
+      "category": "Area 4: Theory",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 474",
+      "title": "Introduction to Computational Game Theory",
+      "credits": 3,
+      "category": "Area 4: Theory",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 460",
+      "title": "Computational Methods (credit will only be given for CMSC 460 or CMSC 466)",
+      "credits": 3,
+      "category": "Area 5: Numerical Analysis (choose one)",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 466",
+      "title": "Introduction to Numerical Analysis (credit will only be given for CMSC 466 or CMSC 460)",
+      "credits": 3,
+      "category": "Area 5: Numerical Analysis (choose one)",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 320",
+      "title": "Introduction to Data Science",
+      "credits": 3,
+      "category": "CMSC Upper Level Electives",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 335",
+      "title": "Web Application Development with JavaScript (formerly CMSC398N)",
+      "credits": 3,
+      "category": "CMSC Upper Level Electives",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 389A",
+      "title": "Modern Software Development with GenAI",
+      "credits": 3,
+      "category": "CMSC Upper Level Electives",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 395",
+      "title": "Teaching Techniques for Computer Science (TAs Only)",
+      "credits": 1,
+      "category": "CMSC Upper Level Electives",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 396",
+      "title": "Computer Science Honors Seminar (Dept Honors Only)",
+      "credits": 1,
+      "category": "CMSC Upper Level Electives",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 401",
+      "title": "Algorithms for Geospatial Computing",
+      "credits": 3,
+      "category": "CMSC Upper Level Electives",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 425",
+      "title": "Game Programming",
+      "credits": 3,
+      "category": "CMSC Upper Level Electives",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 437",
+      "title": "Introduction to Quantum Software Laboratory",
+      "credits": 3,
+      "category": "CMSC Upper Level Electives",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 473",
+      "title": "Capstone in Machine Learning",
+      "credits": 3,
+      "category": "CMSC Upper Level Electives",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 475",
+      "title": "Combinatorics and Game Theory",
+      "credits": 3,
+      "category": "CMSC Upper Level Electives",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 476",
+      "title": "Robotics and Perception",
+      "credits": 3,
+      "category": "CMSC Upper Level Electives",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 477",
+      "title": "Robotics Perception and Planning",
+      "credits": 3,
+      "category": "CMSC Upper Level Electives",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 488A",
+      "title": "Quantum Boot Camp",
+      "credits": 1,
+      "category": "CMSC Upper Level Electives",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 498",
+      "title": "Special Topics in Computer Science (courses not otherwise listed in a distributive area)",
+      "credits": null,
+      "category": "CMSC Upper Level Electives",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 498A",
+      "title": "Selected Topics in Computer Science; Independent Study",
+      "credits": null,
+      "category": "CMSC Upper Level Electives",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    },
+    {
+      "code": "CMSC 499A",
+      "title": "Selected Topics in Computer Science; Independent Undergraduate Research",
+      "credits": null,
+      "category": "CMSC Upper Level Electives",
+      "note": "",
+      "source": "https://undergrad.cs.umd.edu/node/4122515"
+    }
+  ],
+  "vt": [
+    {
+      "code": "CS 1064",
+      "title": "Introduction to Programming in Python + CS 2064: Intermediate Programming in Python (grade of C or higher)",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 1114",
+      "title": "Introduction to Software Design (grade of C or higher)",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 1944",
+      "title": "First Year Seminar in Computer Science",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3114",
+      "title": "Data Structures anf Algorithms",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3304",
+      "title": "Comparative Languages",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3604",
+      "title": "Professionalism in Computer Science",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3654",
+      "title": "Introduction to Data Analytics & Visualization",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3714",
+      "title": "Mobile Software Design",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3724",
+      "title": "Introduction to Human Computer Interaction",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3744",
+      "title": "Introduction to GUI Programming & Graphics",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 2064",
+      "title": "Intermediate Programming in Python",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 2104",
+      "title": "Introduction to Problem Solving in Computer Science",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 2114",
+      "title": "Software Design and Data Structures",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 2505",
+      "title": "Introduction to Computer Organization I",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 2506",
+      "title": "Introduction to Computer Organization II",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4094",
+      "title": "Computer Science Capstone",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4104",
+      "title": "Data and Algorithm Analysis",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4604",
+      "title": "Introduction to Database Management Systems",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 1014",
+      "title": "Intro to Computational Thinking",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 1054",
+      "title": "Introduction to Programming in Java",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3214",
+      "title": "Computer Systems",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3314",
+      "title": "Programming Languages Theory and Practice",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3414",
+      "title": "Numerical Methods",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3634",
+      "title": "Computer Science Foundations for Computational Modeling & Data Analytics",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3704",
+      "title": "Intermediate Software Design",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3754",
+      "title": "Cloud Software Development",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3824",
+      "title": "Introduction to Computional Biology and Bioinformatics",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3984",
+      "title": "Entrepreneurship in Computer Science: Starting a CS Business (may become CS 3400)",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 2164",
+      "title": "Foundations of Security Environments",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 2304",
+      "title": "Topics in Programming Systems",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4101",
+      "title": "Algorithm and Society",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4114",
+      "title": "Formal Languages",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4134",
+      "title": "Quantum Computing",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4164",
+      "title": "Future of Security",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4234",
+      "title": "Parallel Computation",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4254",
+      "title": "Network Architecture Programming",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4274",
+      "title": "Secure Computing Capstone (for SC majors and/or students in Cybersecurity minor)",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4414",
+      "title": "Issues in Scientific Computing",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4654",
+      "title": "Intermediate Data Analytics and Machine Learning",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4664",
+      "title": "DCC Capstone (for students in the DCC major only)",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4774",
+      "title": "HCI Design Experience (for HCI Minors Only)",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4804",
+      "title": "Artificial Intelligence",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4824",
+      "title": "Machine Learning",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4944",
+      "title": "Senior Seminar in Computer Science",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 1044",
+      "title": "Introduction to Programming in C (only offered in Spring term)",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3274",
+      "title": "Software Reverse Engineering (only offered in spring term)",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 3804",
+      "title": "Foundations and Applications of Artificial Intelligence",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4224",
+      "title": "Linux Kernel Programming",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4504",
+      "title": "Computer Organization III",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    },
+    {
+      "code": "CS 4984",
+      "title": "Special Studies in Computer Science (vary by semester and topic)",
+      "credits": null,
+      "category": "CS offerings",
+      "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
+      "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+type Club={name:string;full:string;description:string;url:string};
+export const campusClubs:Record<string,{source:string;clubs:Club[]}>= {
+ umd:{source:'https://undergrad.cs.umd.edu/clubs-and-organizations',clubs:[
+ {name:'ACM at UMD',full:'Association for Computing Machinery',description:'Meet other students interested in computing through the campus ACM community.',url:'https://www.acm-umd.com/'},
+ {name:'AWC',full:'Association for Women in Computing',description:'A community for women studying computing at Maryland.',url:'https://awc-umd.github.io/'},
+ {name:'Bitcamp',full:'Student hackathon',description:'Build a project with other students at Maryland’s hackathon.',url:'https://bit.camp/'},
+ {name:'Cybersecurity Club',full:'Security & technical practice',description:'Explore computer security with the UMD cybersecurity community.',url:'https://csec.umd.edu/'},
+ {name:'Code: Black',full:'Computing community',description:'Connect with Black students interested in computer science and technology.',url:'https://www.codeblackumd.com/'}]},
+ uiuc:{source:'https://siebelschool.illinois.edu/student-life/student-organizations',clubs:[
+ {name:'ACM at Illinois',full:'Association for Computing Machinery',description:'Explore computing through special-interest groups, projects and events.',url:'https://acm.illinois.edu/'},
+ {name:'WCS',full:'Women in Computer Science',description:'Education, service and community for students pursuing computing.',url:'https://wcs.illinois.edu/'},
+ {name:'HackIllinois',full:'Student hackathon',description:'Build alongside other students in the Illinois hackathon community.',url:'https://hackillinois.org/'},
+ {name:'B[U]ILT',full:'Black, Indigenous, LatinX in Technology',description:'Community and professional development for students in computing-related fields.',url:'https://built-illinois.org/#/Home'},
+ {name:'Founders',full:'Student entrepreneurship',description:'Meet students developing startup ideas and building new products.',url:'http://founders.illinois.edu/'}]},
+ gatech:{source:'https://www.cc.gatech.edu/student-organizations',clubs:[
+ {name:'Competitive Programming @ Tech',full:'Algorithms & contests',description:'Practice algorithmic problem solving and prepare for programming competitions.',url:'https://www.cc.gatech.edu/student-organizations'},
+ {name:'GT WebDev',full:'Web development',description:'Build web applications with project teams and attend technical workshops.',url:'https://www.cc.gatech.edu/student-organizations'},
+ {name:'VGDev',full:'Video game development',description:'Work on student-led games over the course of a semester.',url:'https://www.cc.gatech.edu/student-organizations'},
+ {name:'Women @ CC',full:'Women at the College of Computing',description:'Community and professional development for female and non-binary computing students.',url:'https://www.cc.gatech.edu/student-organizations'},
+ {name:'RoboJackets',full:'Robotics teams',description:'Build robots for competitions and participate in engineering outreach.',url:'https://robojackets.org/'}]},
+ vt:{source:'https://students.cs.vt.edu/undergraduate-programs/current-students/getting-involved.html',clubs:[
+ {name:'AWC',full:'Association for Women in Computing',description:'Connect with the Virginia Tech community for women in computing.',url:'https://vtawc.github.io/'},
+ {name:'Girls Who Code',full:'Computing community',description:'Find the campus chapter’s membership information and current activities.',url:'https://gobblerconnect.vt.edu/organization/girlswhocode'},
+ {name:'ColorStack at VT',full:'Computing community',description:'Meet other students through Virginia Tech’s ColorStack chapter.',url:'https://sites.google.com/vt.edu/colorstackvt/'},
+ {name:'AISES',full:'American Indian Science and Engineering Society',description:'A CS-affiliated STEM community at Virginia Tech.',url:'https://gobblerconnect.vt.edu/organization/aisesatvt'},
+ {name:'NSBE at VT',full:'National Society of Black Engineers',description:'Connect with Black students in engineering and computing.',url:'https://www.nsbevt.org/'}]}
+};

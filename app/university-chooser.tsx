@@ -1,0 +1,7 @@
+'use client';
+import {useState} from 'react';
+import {universities,universityNames,type UniversityName} from './university';
+export default function UniversityChooser({saving,onChoose}:{saving:boolean;onChoose:(name:UniversityName)=>Promise<boolean>}){
+ const [choice,setChoice]=useState<UniversityName|''>(''),[error,setError]=useState('');
+ return <main className="university-onboarding"><form onSubmit={async e=>{e.preventDefault();if(!choice||saving)return;setError('');if(!await onChoose(choice))setError('Your university could not be saved. Please try again.')}}><p className="onboarding-kicker">CS STUDENT GUIDE</p><h1>Choose your university</h1><p>Get the courses and clubs for your campus. You can change this later in the sidebar.</p><fieldset disabled={saving}><legend className="sr-only">Your university</legend>{universityNames.map(name=>{const u=universities[name];return <label key={name} className={choice===name?'university-choice selected':'university-choice'}><input type="radio" name="university" value={name} checked={choice===name} onChange={()=>setChoice(name)} required/>{u.logo&&<img src={u.logo} alt=""/>}<span><strong>{u.name}</strong><small>{u.campus}{u.shortName==='UMD'||u.shortName==='UIUC'?' · '+u.shortName:''}</small></span></label>})}</fieldset>{error&&<p className="notice" role="alert">{error}</p>}<button className="primary" disabled={!choice||saving}>{saving?'Saving…':'Continue'}</button><a className="onboarding-signout" href="/signout-with-chatgpt?return_to=%2F" target="_top">Sign out</a></form></main>
+}

@@ -3,14 +3,14 @@ import "./globals.css";
 import "./newspaper.css";
 
 export const metadata: Metadata = {
-  title: "Rutgers–New Brunswick — CS Student Guide",
+  title: "CS Student Guide",
   description: "Your computer science workspace. Track applications, build projects, practice coding, and plan your courses.",
   other: {
     "codex-preview": "development",
   },
   icons: {
-    icon: "/branding/rutgers.svg",
-    shortcut: "/branding/rutgers.svg",
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
   },
 };
 

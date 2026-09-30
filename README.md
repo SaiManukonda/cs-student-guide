@@ -1,6 +1,6 @@
 # CS Student Guide
 
-A minimal workspace for computer science students, starting with Rutgers–New Brunswick.
+A minimal workspace for computer science students at Rutgers–New Brunswick, UMD–College Park, UIUC, Georgia Tech, and Virginia Tech. New accounts must select a university before entering the workspace; the sidebar allows switching later.
 
 **[Open the website](https://cs-fieldnotes.nappingexpert.chatgpt.site)** · ChatGPT sign-in required
 
@@ -13,8 +13,8 @@ A minimal workspace for computer science students, starting with Rutgers–New B
 - **Git literacy:** an eight-section written course with branching, merge conflicts, GitHub collaboration, and undo exercises.
 - **Resume studio:** Jake’s Resume LaTeX template, browser compilation, PDF preview, and saved drafts.
 - **Coding practice:** all 75 Blind 75 questions, searchable by topic and difficulty, with JavaScript, Python, Java, and C++ execution and saved submission history.
-- **Course planner:** Rutgers B.S./B.A. progress, 55 approved electives with inline details, course statuses, science sequences, and graduation checks.
-- **CS clubs:** links to Rutgers student organizations.
+- **Course planner:** School-specific catalogs, course statuses, earned-credit progress and graduation checklists. Rutgers retains its B.S./B.A. audit and 55 approved electives. New schools have foundation checklists and separate saved plans; Georgia Tech includes all 36 two-Thread curriculum combinations. UMD covers the general track, UIUC the Grainger CS B.S., and Virginia Tech the CS major. These planners do not certify graduation eligibility.
+- **CS clubs:** University-specific organizations and official directories.
 
 Saved applications, resume drafts, bookmarks, course checklists, and practice submissions belong to each signed-in account. All features are currently free.
 
@@ -74,7 +74,7 @@ See [PRODUCT.md](PRODUCT.md) for implementation details and [development notes](
 
 ## Attribution and limitations
 
-- Rutgers branding and links come from university sources. This is an unofficial student project.
+- University branding and links come from official sources; see `public/branding/SOURCES.md`. This is an unofficial student project.
 - Jake’s Resume is used under its [MIT license](public/templates/JAKES-LICENSE.txt); [original template](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs).
 - SwiftLaTeX notices and source links are in [NOTICE.txt](public/vendor/latex/NOTICE.txt); PDF.js retains its [license](public/vendor/pdfjs/LICENSE).
 - Listings are community maintained; course checklists are not degree audits.
