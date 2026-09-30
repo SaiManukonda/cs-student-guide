@@ -1,6 +1,7 @@
 import Workspace from '../workspace';
 import {notFound} from 'next/navigation';
-import {requireChatGPTUser} from '../chatgpt-auth';
+import {getChatGPTUser} from '../chatgpt-auth';
+import Welcome from '../welcome';
 export const dynamic='force-dynamic';
 export default async function Page({params}:{params:Promise<{section:string}>}){
  const {section}=await params;
@@ -8,6 +9,7 @@ export default async function Page({params}:{params:Promise<{section:string}>}){
  return <SignedInPage section={section}/>;
 }
 async function SignedInPage({section}:{section:string}){
- await requireChatGPTUser('/'+section);
+ const user=await getChatGPTUser();
+ if(!user)return <Welcome returnTo={'/'+section}/>;
  return <Workspace section={section}/>;
 }

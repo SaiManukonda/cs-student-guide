@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./newspaper.css";
+import "./welcome.css";
 
 export const metadata: Metadata = {
-  title: "CS Student Guide",
+  title: "CompSci Guide — Your computer science workspace",
   description: "Your computer science workspace. Track applications, build projects, practice coding, and plan your courses.",
   other: {
     "codex-preview": "development",
   },
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/compsci-guide.svg",
+    shortcut: "/compsci-guide.svg",
   },
 };
 
