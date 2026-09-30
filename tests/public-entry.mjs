@@ -5,10 +5,8 @@ for(const path of ['/','/applications','/courses','/resumes','/practice']){
  assert.equal(response.status,200,`${path} must not redirect anonymous visitors`);
  assert.equal(response.headers.get('location'),null);
  const html=await response.text();
- assert.ok(html.includes('CompSci')&&html.includes('Inside your workspace'));
- assert.ok(html.includes('Sign in with OpenAI'));
- const destination=path==='/'?'/courses':path;
- assert.ok(html.includes('/signin-with-chatgpt?return_to='+encodeURIComponent(destination)),'sign-in returns to requested section');
+ if(path==='/'){assert.ok(html.includes('Continue without signing in'));assert.ok(html.includes('Sign in with OpenAI'));}
+ else assert.ok(html.includes('Loading your workspace'),'public sections render the workspace');
  assert.ok(!html.includes('Your workspace could not load'));
 }
 const anon=await (await fetch(base+'/api/state')).json();

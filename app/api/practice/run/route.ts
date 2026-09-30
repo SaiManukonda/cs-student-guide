@@ -8,7 +8,7 @@ const schema=z.object({problem:z.string().max(100),language:z.enum(['javascript'
 const reply=(body:unknown,status=200)=>Response.json(body,{status,headers:{'Cache-Control':'private, no-store'}});
 async function boundedText(response:Response){const reader=response.body?.getReader();if(!reader)return '';const chunks:Uint8Array[]=[];let size=0;while(true){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>256000){await reader.cancel();throw new Error('Program output exceeded the limit. Remove large debug prints.');}chunks.push(value);}const all=new Uint8Array(size);let at=0;for(const chunk of chunks){all.set(chunk,at);at+=chunk.length;}return new TextDecoder().decode(all);}
 export async function POST(req:Request){
- const user=await getChatGPTUser();if(!user)return reply({error:'Sign in to run code.'},401);
+ const user=await getChatGPTUser();
  if(req.headers.get('origin')!==new URL(req.url).origin)return reply({error:'Invalid request origin.'},403);
  try{
   if(Number(req.headers.get('content-length')||0)>30000)return reply({error:'Code is too large.'},413);
@@ -16,10 +16,13 @@ export async function POST(req:Request){
   let json:unknown;try{json=JSON.parse(raw);}catch{return reply({error:'Invalid request.'},400);}
   const parsed=schema.safeParse(json);if(!parsed.success)return reply({error:'Choose a problem, language, and solution.'},400);
   const {problem:id,language,code,submit}=parsed.data;const p=problems.find(p=>p.id===id);if(!p)return reply({error:'Unknown problem.'},404);
-  // Atomic, persistent per-account limits, across all Worker instances.
+  // Persistent limits for accounts or anonymous networks across Worker instances.
   const now=Date.now(),day=new Date().toISOString().slice(0,10);
-  const allowed=await database().prepare(`INSERT INTO practice_limits(user_id,day,runs,next_at) VALUES(?,?,1,?) ON CONFLICT(user_id) DO UPDATE SET day=excluded.day,runs=CASE WHEN practice_limits.day=excluded.day THEN practice_limits.runs+1 ELSE 1 END,next_at=excluded.next_at WHERE practice_limits.next_at<=? AND (practice_limits.day!=excluded.day OR practice_limits.runs<200) RETURNING runs`).bind(user.userId,day,now+5000,now).first();
-  if(!allowed)return reply({error:'Please wait 5 seconds between runs. Each account can run 200 times per UTC day.'},429);
+  const network=req.headers.get('cf-connecting-ip')||'shared-guest';
+  const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(day+':'+network));
+  const limitKey=user?.userId||'guest:'+Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,'0')).join('');
+  const allowed=await database().prepare(`INSERT INTO practice_limits(user_id,day,runs,next_at) VALUES(?,?,1,?) ON CONFLICT(user_id) DO UPDATE SET day=excluded.day,runs=CASE WHEN practice_limits.day=excluded.day THEN practice_limits.runs+1 ELSE 1 END,next_at=excluded.next_at WHERE practice_limits.next_at<=? AND (practice_limits.day!=excluded.day OR practice_limits.runs<200) RETURNING runs`).bind(limitKey,day,now+5000,now).first();
+  if(!allowed)return reply({error:'Please wait 5 seconds between runs. Up to 200 runs per UTC day per account or guest network.'},429);
   // Only code and the test harness leave the app. Never send identity or workspace data.
   const response=await fetch('https://wandbox.org/api/compile.json',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({compiler:compiler[language as Language],code:buildProgram(p,language,code,submit),options:language==='cpp'?'warning,c++17':'',save:false}),signal:AbortSignal.timeout(45000)});
   if(!response.ok)return reply({error:response.status===429?'The compiler service is busy. Please retry shortly.':'The compiler service is temporarily unavailable. Your code is still in the editor.'},503);
