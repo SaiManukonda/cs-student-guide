@@ -10,9 +10,10 @@ A minimal workspace for computer science students, starting with Rutgers–New B
 - **Opportunity board:** searchable internship listings from Simplify and Pitt CSC.
 - **Project library:** video walkthroughs with prerequisites and exercises.
 - **AI literacy:** a seven-section written Claude Code course with a Python practice project.
+- **Git literacy:** an eight-section written course with branching, merge conflicts, GitHub collaboration, and undo exercises.
 - **Resume studio:** Jake’s Resume LaTeX template, browser compilation, PDF preview, and saved drafts.
-- **Coding practice:** original JavaScript problems with a sandboxed runner and submission history.
-- **Course planner:** Rutgers CS course checklist and official degree references.
+- **Coding practice:** all 75 Blind 75 questions, searchable by topic and difficulty, with JavaScript, Python, Java, and C++ execution and saved submission history.
+- **Course planner:** Rutgers B.S./B.A. progress, 55 approved electives with inline details, course statuses, science sequences, and graduation checks.
 - **CS clubs:** links to Rutgers student organizations.
 
 Saved applications, resume drafts, bookmarks, course checklists, and practice submissions belong to each signed-in account. All features are currently free.
@@ -31,12 +32,15 @@ cd cs-student-guide
 npm run install:ci
 npm run build
 node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0000_dry_wind_dancer.sql
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0001_happy_stepford_cuckoos.sql
 npm run dev
 ```
 
-Open the URL printed by the development server, normally `http://localhost:5173`. Local development provides a simulated ChatGPT account; it does not require production credentials. Apply the initial migration once per new local database.
+Open the URL printed by the development server, normally `http://localhost:5173`. Local development provides a simulated ChatGPT account; it does not require production credentials. Apply both migrations once per new local database. Existing checkouts need only the new migration.
 
 ```sh
+node tests/practice.mjs # Practice catalog and grading checks
+node tests/courses.mjs  # Degree progress and catalog checks
 npx tsc --noEmit   # Type-check
 npm run build     # Production Worker build
 ```
@@ -54,11 +58,14 @@ Authentication is enforced on the server. Only a trusted authentication gateway 
 | Path | Purpose |
 | --- | --- |
 | `app/workspace.tsx` | Shared navigation and application tracker |
-| `app/library.tsx` | Opportunity board and course planner |
-| `app/ai-course.tsx` | Written Claude Code course |
+| `app/library.tsx` | Page selection and opportunity board |
+| `app/course-planner.tsx`, `app/rutgers-courses.ts` | Course planner and degree calculations |
+| `app/rutgers-catalog.json` | Sourced Rutgers core, electives, and science courses |
+| `app/ai-course.tsx`, `app/git-course.tsx` | Written AI and Git courses |
 | `app/learning.tsx` | Project videos and club directory |
 | `app/resume-studio.tsx` | LaTeX editor and saved drafts |
 | `app/practice.tsx` | Coding practice interface |
+| `app/practice-data/` | Blind 75 catalog, starters, remote harnesses, and grading |
 | `app/api/` | Account state and opportunity endpoints |
 | `db/`, `drizzle/` | Database access, schema, and migrations |
 | `public/vendor/` | Browser LaTeX compiler and PDF worker |
@@ -71,7 +78,8 @@ See [PRODUCT.md](PRODUCT.md) for implementation details and [development notes](
 - Jake’s Resume is used under its [MIT license](public/templates/JAKES-LICENSE.txt); [original template](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs).
 - SwiftLaTeX notices and source links are in [NOTICE.txt](public/vendor/latex/NOTICE.txt); PDF.js retains its [license](public/vendor/pdfjs/LICENSE).
 - Listings are community maintained; course checklists are not degree audits.
-- Coding results are browser-generated practice feedback, not a secure competitive judge.
+- [Blind 75](https://www.techinterviewhandbook.org/best-practice-questions/) was curated by Yangshun Tay. Prompts and practice cases here are independently authored; original problem links lead to LeetCode.
+- Coding runs send solution code (not account identity) to Wandbox with saved public snippets disabled. The server checks results against independently authored practice cases. Availability depends on Wandbox; these are learning checks, not a competitive judge. There is a per-account limit of one run per five seconds and 200 runs per UTC day.
 - Resume compilation downloads TeX packages from TeXlyre. Source is compiled in the browser; saving a draft stores it in the signed-in workspace.
 
 Environment files, local databases, dependencies, and build output are excluded from Git. Third-party code and assets retain their respective licenses.

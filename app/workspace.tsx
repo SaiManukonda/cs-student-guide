@@ -1,4 +1,5 @@
 'use client';
+import {type Planner,emptyPlanner} from './rutgers-courses';
 import {useEffect,useState,useRef} from 'react';
 import {ArrowUpRight,ArrowRight,BriefcaseBusiness,Code2,Layers3,BookOpen,GraduationCap,FileText,Plus,Search,Check,Trash2,Bookmark,LogOut,Terminal,PanelLeft,SlidersHorizontal,Users} from 'lucide-react';
 import {SidebarProvider,Sidebar,SidebarHeader,SidebarContent,SidebarFooter,SidebarMenu,SidebarMenuItem,SidebarMenuButton,SidebarTrigger} from '@/components/ui/sidebar';
@@ -10,9 +11,9 @@ import {Skeleton} from '@/components/ui/skeleton';
 import {Toaster,toast} from 'sonner';
 
 type Application={id:string;company:string;role:string;url:string;status:string;date:string;notes:string};
-export type SavedState={applications:Application[];projects:string[];courses:string[];college:string;resumeSource:string;submissions:{id:string;problem:string;passed:number;total:number;code:string;date:string}[]};
-export const freshState:SavedState={applications:[],projects:[],courses:[],college:'Rutgers–New Brunswick',resumeSource:'',submissions:[]};
-const nav=[['applications','My applications',BriefcaseBusiness],['opportunities','Open opportunities',Search],['projects','Project library',Layers3],['ai-literacy','AI literacy',BookOpen],['resumes','Resume studio',FileText],['practice','Coding practice',Code2],['courses','Course planner',GraduationCap],['clubs','CS clubs',Users]] as const;
+export type SavedState={planner:Planner;applications:Application[];projects:string[];courses:string[];college:string;resumeSource:string;practiceSolved:string[];submissions:{id:string;problem:string;language?:'javascript'|'python'|'java'|'cpp';passed:number;total:number;code:string;date:string}[]};
+export const freshState:SavedState={planner:emptyPlanner,applications:[],projects:[],courses:[],college:'Rutgers–New Brunswick',resumeSource:'',practiceSolved:[],submissions:[]};
+const nav=[['applications','My applications',BriefcaseBusiness],['opportunities','Open opportunities',Search],['projects','Project library',Layers3],['ai-literacy','AI literacy',BookOpen],['git-literacy','Git literacy',BookOpen],['resumes','Resume studio',FileText],['practice','Coding practice',Code2],['courses','Course planner',GraduationCap],['clubs','CS clubs',Users]] as const;
 const statuses=['Saved','Applied','Interviewing','Offer','Rejected'];
 export function Picker({value,onChange,options,label}:{value:string;onChange:(v:string)=>void;options:string[];label:string}){return <Select value={value} onValueChange={onChange}><SelectTrigger aria-label={label}><SelectValue/></SelectTrigger><SelectContent>{options.map(o=><SelectItem key={o} value={o}>{o}</SelectItem>)}</SelectContent></Select>}
 export function OutLink({href,children}:{href:string;children:React.ReactNode}){return <a href={href} target="_blank" rel="noreferrer" className="out-link">{children}<ArrowUpRight size={15}/></a>}

@@ -1,0 +1,5129 @@
+[
+  {
+    "id": "two-sum",
+    "name": "Two Sum",
+    "topic": "Array",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "nums",
+        "type": "int[]"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      }
+    ],
+    "returns": "int[]",
+    "prompt": "Return two distinct indices whose values add up to target. Exactly one pair exists; either index order is accepted.",
+    "hint": "Store each number and its index while looking for its complement.",
+    "tests": [
+      {
+        "args": [
+          [
+            4,
+            8,
+            1,
+            6
+          ],
+          10
+        ],
+        "expected": [
+          0,
+          3
+        ]
+      },
+      {
+        "args": [
+          [
+            3,
+            3
+          ],
+          6
+        ],
+        "expected": [
+          0,
+          1
+        ]
+      },
+      {
+        "args": [
+          [
+            -5,
+            2,
+            7
+          ],
+          2
+        ],
+        "expected": [
+          0,
+          2
+        ]
+      },
+      {
+        "args": [
+          [
+            0,
+            9,
+            0
+          ],
+          0
+        ],
+        "expected": [
+          0,
+          2
+        ]
+      }
+    ],
+    "mode": "unordered",
+    "kind": "normal"
+  },
+  {
+    "id": "best-time-to-buy-and-sell-stock",
+    "name": "Best Time to Buy and Sell Stock",
+    "topic": "Array",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "prices",
+        "type": "int[]"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Choose one day to buy and a later day to sell. Return the largest possible profit, or 0 if no trade is profitable.",
+    "hint": "Track the lowest price seen before each day.",
+    "tests": [
+      {
+        "args": [
+          [
+            8,
+            2,
+            6,
+            1,
+            7
+          ]
+        ],
+        "expected": 6
+      },
+      {
+        "args": [
+          [
+            9,
+            7,
+            4
+          ]
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          [
+            3
+          ]
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          [
+            2,
+            4,
+            1,
+            5
+          ]
+        ],
+        "expected": 4
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "contains-duplicate",
+    "name": "Contains Duplicate",
+    "topic": "Array",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "nums",
+        "type": "int[]"
+      }
+    ],
+    "returns": "bool",
+    "prompt": "Return whether any integer appears more than once.",
+    "hint": "Compare the array length with the number of distinct values.",
+    "tests": [
+      {
+        "args": [
+          [
+            5,
+            2,
+            5
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          [
+            0,
+            0
+          ]
+        ],
+        "expected": true
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "product-of-array-except-self",
+    "name": "Product of Array Except Self",
+    "topic": "Array",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "nums",
+        "type": "int[]"
+      }
+    ],
+    "returns": "int[]",
+    "prompt": "Return an array whose entry at i is the product of all numbers except nums[i]. Use O(n) time without division.",
+    "hint": "Combine a prefix product and a suffix product.",
+    "tests": [
+      {
+        "args": [
+          [
+            2,
+            3,
+            4
+          ]
+        ],
+        "expected": [
+          12,
+          8,
+          6
+        ]
+      },
+      {
+        "args": [
+          [
+            0,
+            2,
+            4
+          ]
+        ],
+        "expected": [
+          8,
+          0,
+          0
+        ]
+      },
+      {
+        "args": [
+          [
+            0,
+            0,
+            3
+          ]
+        ],
+        "expected": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "args": [
+          [
+            -1,
+            2,
+            -3
+          ]
+        ],
+        "expected": [
+          -6,
+          3,
+          -2
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "maximum-subarray",
+    "name": "Maximum Subarray",
+    "topic": "Array",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "nums",
+        "type": "int[]"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Return the largest sum of a nonempty contiguous section of nums.",
+    "hint": "At each number, either extend the current section or begin again.",
+    "tests": [
+      {
+        "args": [
+          [
+            -3,
+            4,
+            -1,
+            2,
+            -6
+          ]
+        ],
+        "expected": 5
+      },
+      {
+        "args": [
+          [
+            -8,
+            -2,
+            -5
+          ]
+        ],
+        "expected": -2
+      },
+      {
+        "args": [
+          [
+            9
+          ]
+        ],
+        "expected": 9
+      },
+      {
+        "args": [
+          [
+            2,
+            3,
+            -1,
+            4
+          ]
+        ],
+        "expected": 8
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "maximum-product-subarray",
+    "name": "Maximum Product Subarray",
+    "topic": "Array",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "nums",
+        "type": "int[]"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Return the largest product of a nonempty contiguous section of nums.",
+    "hint": "A negative number can turn the smallest running product into the largest.",
+    "tests": [
+      {
+        "args": [
+          [
+            2,
+            -3,
+            -4
+          ]
+        ],
+        "expected": 24
+      },
+      {
+        "args": [
+          [
+            -2,
+            0,
+            -1
+          ]
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          [
+            -3
+          ]
+        ],
+        "expected": -3
+      },
+      {
+        "args": [
+          [
+            0,
+            2,
+            3,
+            -1
+          ]
+        ],
+        "expected": 6
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "find-minimum-in-rotated-sorted-array",
+    "name": "Find Minimum in Rotated Sorted Array",
+    "topic": "Array",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "nums",
+        "type": "int[]"
+      }
+    ],
+    "returns": "int",
+    "prompt": "A nonempty strictly increasing array was rotated zero or more places. Return its minimum in O(log n) time.",
+    "hint": "Compare the middle element with the right endpoint.",
+    "tests": [
+      {
+        "args": [
+          [
+            6,
+            8,
+            1,
+            3
+          ]
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          [
+            5
+          ]
+        ],
+        "expected": 5
+      },
+      {
+        "args": [
+          [
+            2,
+            1
+          ]
+        ],
+        "expected": 1
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "search-in-rotated-sorted-array",
+    "name": "Search in Rotated Sorted Array",
+    "topic": "Array",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "nums",
+        "type": "int[]"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Find target in a rotated strictly increasing array. Return its index or -1 in O(log n) time.",
+    "hint": "One half of each search interval remains sorted.",
+    "tests": [
+      {
+        "args": [
+          [
+            5,
+            7,
+            9,
+            1,
+            3
+          ],
+          1
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          [
+            5,
+            7,
+            9,
+            1,
+            3
+          ],
+          2
+        ],
+        "expected": -1
+      },
+      {
+        "args": [
+          [
+            1
+          ],
+          1
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          [
+            1
+          ],
+          0
+        ],
+        "expected": -1
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "3sum",
+    "name": "3Sum",
+    "topic": "Array",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "nums",
+        "type": "int[]"
+      }
+    ],
+    "returns": "int[][]",
+    "prompt": "Return every distinct triple of values that sums to zero. A triple uses three different indices. Triple and result order do not matter.",
+    "hint": "Sort, fix one element, then move two pointers; skip repeated values.",
+    "tests": [
+      {
+        "args": [
+          [
+            -2,
+            0,
+            1,
+            1,
+            2
+          ]
+        ],
+        "expected": [
+          [
+            -2,
+            0,
+            2
+          ],
+          [
+            -2,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "expected": [
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            4
+          ]
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [
+            -1,
+            0,
+            1,
+            2,
+            -1,
+            -4
+          ]
+        ],
+        "expected": [
+          [
+            -1,
+            -1,
+            2
+          ],
+          [
+            -1,
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "mode": "nested",
+    "kind": "normal"
+  },
+  {
+    "id": "container-with-most-water",
+    "name": "Container With Most Water",
+    "topic": "Array",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "height",
+        "type": "int[]"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Choose two vertical lines. Return the largest area between them: their distance times the shorter height.",
+    "hint": "Move inward from the shorter of the two boundary lines.",
+    "tests": [
+      {
+        "args": [
+          [
+            3,
+            1,
+            4,
+            2,
+            5
+          ]
+        ],
+        "expected": 12
+      },
+      {
+        "args": [
+          [
+            1,
+            1
+          ]
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          [
+            4,
+            3,
+            2,
+            1,
+            4
+          ]
+        ],
+        "expected": 16
+      },
+      {
+        "args": [
+          [
+            0,
+            0
+          ]
+        ],
+        "expected": 0
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "sum-of-two-integers",
+    "name": "Sum of Two Integers",
+    "topic": "Binary",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "a",
+        "type": "int"
+      },
+      {
+        "name": "b",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Compute a + b without using addition or subtraction operators. Inputs and the result fit signed 32-bit integers.",
+    "hint": "XOR adds without carrying; shifted AND gives the carries. Python needs a 32-bit mask.",
+    "tests": [
+      {
+        "args": [
+          7,
+          4
+        ],
+        "expected": 11
+      },
+      {
+        "args": [
+          -5,
+          2
+        ],
+        "expected": -3
+      },
+      {
+        "args": [
+          -3,
+          -4
+        ],
+        "expected": -7
+      },
+      {
+        "args": [
+          0,
+          12
+        ],
+        "expected": 12
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "number-of-1-bits",
+    "name": "Number of 1 Bits",
+    "topic": "Binary",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "n",
+        "type": "long"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Count the set bits in the unsigned 32-bit representation of n (0 through 4294967295).",
+    "hint": "Each n & (n - 1) clears one set bit.",
+    "tests": [
+      {
+        "args": [
+          13
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          0
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          4294967295
+        ],
+        "expected": 32
+      },
+      {
+        "args": [
+          2147483648
+        ],
+        "expected": 1
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "counting-bits",
+    "name": "Counting Bits",
+    "topic": "Binary",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int[]",
+    "prompt": "For every integer from 0 through n, return its number of set bits. n is nonnegative.",
+    "hint": "Reuse the answer for i >> 1 and inspect the last bit.",
+    "tests": [
+      {
+        "args": [
+          5
+        ],
+        "expected": [
+          0,
+          1,
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "args": [
+          0
+        ],
+        "expected": [
+          0
+        ]
+      },
+      {
+        "args": [
+          2
+        ],
+        "expected": [
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "args": [
+          8
+        ],
+        "expected": [
+          0,
+          1,
+          1,
+          2,
+          1,
+          2,
+          2,
+          3,
+          1
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "missing-number",
+    "name": "Missing Number",
+    "topic": "Binary",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "nums",
+        "type": "int[]"
+      }
+    ],
+    "returns": "int",
+    "prompt": "nums contains n distinct integers drawn from 0 through n. Return the absent integer.",
+    "hint": "XOR all indices and all values.",
+    "tests": [
+      {
+        "args": [
+          [
+            0,
+            1,
+            3
+          ]
+        ],
+        "expected": 2
+      },
+      {
+        "args": [
+          [
+            1
+          ]
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          [
+            3,
+            0,
+            1
+          ]
+        ],
+        "expected": 2
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "reverse-bits",
+    "name": "Reverse Bits",
+    "topic": "Binary",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "n",
+        "type": "long"
+      }
+    ],
+    "returns": "long",
+    "prompt": "Reverse all 32 bits of unsigned n and return the unsigned result (0 through 4294967295).",
+    "hint": "Read the low bit and shift it into a growing result, exactly 32 times.",
+    "tests": [
+      {
+        "args": [
+          1
+        ],
+        "expected": 2147483648
+      },
+      {
+        "args": [
+          0
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          4294967295
+        ],
+        "expected": 4294967295
+      },
+      {
+        "args": [
+          13
+        ],
+        "expected": 2952790016
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "climbing-stairs",
+    "name": "Climbing Stairs",
+    "topic": "Dynamic Programming",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Reach step n using jumps of one or two steps. Return how many different jump sequences reach it. 1 ≤ n ≤ 45.",
+    "hint": "The final jump comes from one or two steps below.",
+    "tests": [
+      {
+        "args": [
+          1
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          2
+        ],
+        "expected": 2
+      },
+      {
+        "args": [
+          5
+        ],
+        "expected": 8
+      },
+      {
+        "args": [
+          10
+        ],
+        "expected": 89
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "coin-change",
+    "name": "Coin Change",
+    "topic": "Dynamic Programming",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "coins",
+        "type": "int[]"
+      },
+      {
+        "name": "amount",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "prompt": "With unlimited positive-denomination coins, return the fewest coins needed for amount, or -1 if impossible.",
+    "hint": "Build minimum counts for smaller amounts.",
+    "tests": [
+      {
+        "args": [
+          [
+            1,
+            3,
+            4
+          ],
+          6
+        ],
+        "expected": 2
+      },
+      {
+        "args": [
+          [
+            2
+          ],
+          3
+        ],
+        "expected": -1
+      },
+      {
+        "args": [
+          [
+            2,
+            5
+          ],
+          0
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          [
+            5,
+            7
+          ],
+          14
+        ],
+        "expected": 2
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "longest-increasing-subsequence",
+    "name": "Longest Increasing Subsequence",
+    "topic": "Dynamic Programming",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "nums",
+        "type": "int[]"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Return the length of the longest strictly increasing subsequence; selected positions need not be adjacent.",
+    "hint": "Track the smallest possible tail for each subsequence length.",
+    "tests": [
+      {
+        "args": [
+          [
+            5,
+            1,
+            4,
+            2,
+            3
+          ]
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          [
+            2,
+            2,
+            2
+          ]
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "expected": 4
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "longest-common-subsequence",
+    "name": "Longest Common Subsequence",
+    "topic": "Dynamic Programming",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "text1",
+        "type": "string"
+      },
+      {
+        "name": "text2",
+        "type": "string"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Return the length of the longest sequence obtainable from both strings by deleting characters without reordering them.",
+    "hint": "Compare prefixes; matching last characters extend a shorter answer.",
+    "tests": [
+      {
+        "args": [
+          "abcde",
+          "ace"
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          "abc",
+          "def"
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          "",
+          "ab"
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          "aab",
+          "azb"
+        ],
+        "expected": 2
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "word-break",
+    "name": "Word Break",
+    "topic": "Dynamic Programming",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "wordDict",
+        "type": "string[]"
+      }
+    ],
+    "returns": "bool",
+    "prompt": "Return whether s can be formed by concatenating dictionary words. A word may be reused. Dictionary entries are nonempty.",
+    "hint": "Mark which prefix lengths can be segmented.",
+    "tests": [
+      {
+        "args": [
+          "rainbow",
+          [
+            "rain",
+            "bow"
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          "aaaa",
+          [
+            "a",
+            "aa"
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          "catsandog",
+          [
+            "cats",
+            "dog",
+            "sand",
+            "and",
+            "cat"
+          ]
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          "",
+          [
+            "a"
+          ]
+        ],
+        "expected": true
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "combination-sum-iv",
+    "name": "Combination Sum IV",
+    "topic": "Dynamic Programming",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "nums",
+        "type": "int[]"
+      },
+      {
+        "name": "target",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Count ordered sequences of positive, distinct values from nums that sum to target. Values may repeat; the empty sequence counts for target 0. The count fits signed 32-bit.",
+    "hint": "For each total, consider every possible final value.",
+    "tests": [
+      {
+        "args": [
+          [
+            1,
+            2
+          ],
+          4
+        ],
+        "expected": 5
+      },
+      {
+        "args": [
+          [
+            3
+          ],
+          4
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          [
+            2,
+            3
+          ],
+          0
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            3
+          ],
+          4
+        ],
+        "expected": 7
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "house-robber",
+    "name": "House Robber",
+    "topic": "Dynamic Programming",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "nums",
+        "type": "int[]"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Choose nonadjacent houses in a line to maximize the total nonnegative money collected. Return that total.",
+    "hint": "At each house, choose between skipping it and taking it after skipping its neighbor.",
+    "tests": [
+      {
+        "args": [
+          [
+            2,
+            7,
+            9,
+            3,
+            1
+          ]
+        ],
+        "expected": 12
+      },
+      {
+        "args": [
+          [
+            4,
+            1,
+            2,
+            7
+          ]
+        ],
+        "expected": 11
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          [
+            5
+          ]
+        ],
+        "expected": 5
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "house-robber-ii",
+    "name": "House Robber II",
+    "topic": "Dynamic Programming",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "nums",
+        "type": "int[]"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Maximize money from nonadjacent houses arranged in a circle. The first and last houses are neighbors.",
+    "hint": "Compare the line excluding the first house with the line excluding the last.",
+    "tests": [
+      {
+        "args": [
+          [
+            2,
+            3,
+            2
+          ]
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            1
+          ]
+        ],
+        "expected": 4
+      },
+      {
+        "args": [
+          [
+            5
+          ]
+        ],
+        "expected": 5
+      },
+      {
+        "args": [
+          [
+            4,
+            1
+          ]
+        ],
+        "expected": 4
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "decode-ways",
+    "name": "Decode Ways",
+    "topic": "Dynamic Programming",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Digits 1 through 26 stand for letters A through Z. Count valid decodings of a nonempty digit string. A code cannot start with 0.",
+    "hint": "Check both the final single digit and the final pair.",
+    "tests": [
+      {
+        "args": [
+          "226"
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          "06"
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          "10"
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          "11106"
+        ],
+        "expected": 2
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "unique-paths",
+    "name": "Unique Paths",
+    "topic": "Dynamic Programming",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "m",
+        "type": "int"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Count routes from the top-left to the bottom-right of an m-by-n grid, moving only right or down. Both dimensions are positive; the answer fits signed 32-bit.",
+    "hint": "Each cell can be entered from above or from its left.",
+    "tests": [
+      {
+        "args": [
+          3,
+          4
+        ],
+        "expected": 10
+      },
+      {
+        "args": [
+          1,
+          5
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          2,
+          2
+        ],
+        "expected": 2
+      },
+      {
+        "args": [
+          3,
+          3
+        ],
+        "expected": 6
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "jump-game",
+    "name": "Jump Game",
+    "topic": "Dynamic Programming",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "nums",
+        "type": "int[]"
+      }
+    ],
+    "returns": "bool",
+    "prompt": "Starting at index 0, nums[i] is the maximum forward jump from i. Return whether the final index is reachable. The array is nonempty and values are nonnegative.",
+    "hint": "Keep the farthest reachable index.",
+    "tests": [
+      {
+        "args": [
+          [
+            2,
+            3,
+            1,
+            1,
+            4
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            3,
+            2,
+            1,
+            0,
+            4
+          ]
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          [
+            0
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        "expected": false
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "clone-graph",
+    "name": "Clone Graph",
+    "topic": "Graph",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "node",
+        "type": "graph"
+      }
+    ],
+    "returns": "graph",
+    "prompt": "Return a deep copy of the connected undirected graph. Nodes have val and neighbors fields. Input/output examples use adjacency lists for labels 1 through n; [] denotes no graph. The copy must share no nodes with the original.",
+    "hint": "Map each original node to its clone before copying neighbors.",
+    "tests": [
+      {
+        "args": [
+          [
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              2
+            ],
+            [
+              1
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            2
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            []
+          ]
+        ],
+        "expected": [
+          []
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      }
+    ],
+    "mode": "graph",
+    "kind": "normal"
+  },
+  {
+    "id": "course-schedule",
+    "name": "Course Schedule",
+    "topic": "Graph",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "numCourses",
+        "type": "int"
+      },
+      {
+        "name": "prerequisites",
+        "type": "int[][]"
+      }
+    ],
+    "returns": "bool",
+    "prompt": "Courses are labeled 0 through numCourses - 1. Each [a,b] requires b before a. Return whether all courses can be completed.",
+    "hint": "A directed prerequisite cycle makes completion impossible.",
+    "tests": [
+      {
+        "args": [
+          3,
+          [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          2,
+          [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          1,
+          []
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          1,
+          [
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "expected": false
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "pacific-atlantic-water-flow",
+    "name": "Pacific Atlantic Water Flow",
+    "topic": "Graph",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "heights",
+        "type": "int[][]"
+      }
+    ],
+    "returns": "int[][]",
+    "prompt": "Water flows to adjacent cells of equal or lower height. The top/left edges meet the Pacific; bottom/right meet the Atlantic. Return all [row,column] cells able to reach both oceans, in any order.",
+    "hint": "Search backward from each ocean into cells of equal or greater height.",
+    "tests": [
+      {
+        "args": [
+          [
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              3
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              5
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              3,
+              2,
+              1
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ]
+      }
+    ],
+    "mode": "unordered",
+    "kind": "normal"
+  },
+  {
+    "id": "number-of-islands",
+    "name": "Number of Islands",
+    "topic": "Graph",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "grid",
+        "type": "string[][]"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Count groups of horizontally or vertically connected \"1\" cells. \"0\" is water. grid is rectangular.",
+    "hint": "Flood-fill each previously unseen land cell.",
+    "tests": [
+      {
+        "args": [
+          [
+            [
+              "1",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1"
+            ]
+          ]
+        ],
+        "expected": 2
+      },
+      {
+        "args": [
+          [
+            [
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          [
+            [
+              "1"
+            ]
+          ]
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ]
+        ],
+        "expected": 2
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "longest-consecutive-sequence",
+    "name": "Longest Consecutive Sequence",
+    "topic": "Graph",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "nums",
+        "type": "int[]"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Return the length of the longest run of consecutive integer values, regardless of input order. Use O(n) expected time.",
+    "hint": "Only begin counting at values whose predecessor is absent.",
+    "tests": [
+      {
+        "args": [
+          [
+            7,
+            1,
+            3,
+            2,
+            8
+          ]
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            2,
+            3
+          ]
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          [
+            -2,
+            -1,
+            0,
+            4
+          ]
+        ],
+        "expected": 3
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "alien-dictionary",
+    "name": "Alien Dictionary",
+    "topic": "Graph",
+    "level": "Hard",
+    "args": [
+      {
+        "name": "words",
+        "type": "string[]"
+      }
+    ],
+    "returns": "string",
+    "prompt": "The words are sorted using an unknown ordering of lowercase English letters. Return any ordering containing every distinct letter exactly once that makes the list sorted. Return an empty string if no ordering works.",
+    "hint": "The first differing letters in neighboring words define edges; also reject a longer word before its prefix.",
+    "tests": [
+      {
+        "args": [
+          [
+            "wrt",
+            "wrf",
+            "er",
+            "ett",
+            "rftt"
+          ]
+        ],
+        "expected": "wertf"
+      },
+      {
+        "args": [
+          [
+            "abc",
+            "ab"
+          ]
+        ],
+        "expected": ""
+      },
+      {
+        "args": [
+          [
+            "z",
+            "x",
+            "z"
+          ]
+        ],
+        "expected": ""
+      },
+      {
+        "args": [
+          [
+            "za",
+            "zb",
+            "ca",
+            "cb"
+          ]
+        ],
+        "expected": "zacb"
+      }
+    ],
+    "mode": "alien",
+    "kind": "normal"
+  },
+  {
+    "id": "graph-valid-tree",
+    "name": "Graph Valid Tree",
+    "topic": "Graph",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "int[][]"
+      }
+    ],
+    "returns": "bool",
+    "prompt": "Decide whether the undirected graph on nodes 0 through n - 1 is a tree. n is positive; edges have no duplicates or self-loops.",
+    "hint": "A tree is connected and has exactly n - 1 edges.",
+    "tests": [
+      {
+        "args": [
+          4,
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          3,
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          4,
+          [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          1,
+          []
+        ],
+        "expected": true
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "number-of-connected-components-in-an-undirected-graph",
+    "name": "Number of Connected Components in an Undirected Graph",
+    "topic": "Graph",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "n",
+        "type": "int"
+      },
+      {
+        "name": "edges",
+        "type": "int[][]"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Count the connected components of an undirected graph whose nodes are 0 through n - 1. Isolated nodes each form a component.",
+    "hint": "Union endpoints of every edge, or traverse from each unvisited node.",
+    "tests": [
+      {
+        "args": [
+          5,
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        ],
+        "expected": 2
+      },
+      {
+        "args": [
+          3,
+          []
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          1,
+          []
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          4,
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        ],
+        "expected": 1
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "insert-interval",
+    "name": "Insert Interval",
+    "topic": "Interval",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "intervals",
+        "type": "int[][]"
+      },
+      {
+        "name": "newInterval",
+        "type": "int[]"
+      }
+    ],
+    "returns": "int[][]",
+    "prompt": "Insert newInterval into sorted, nonoverlapping closed intervals, merging overlaps. Return intervals sorted by start. Touching endpoints overlap.",
+    "hint": "Copy intervals before the insertion, merge overlaps, then copy the rest.",
+    "tests": [
+      {
+        "args": [
+          [
+            [
+              1,
+              3
+            ],
+            [
+              7,
+              9
+            ]
+          ],
+          [
+            2,
+            8
+          ]
+        ],
+        "expected": [
+          [
+            1,
+            9
+          ]
+        ]
+      },
+      {
+        "args": [
+          [],
+          [
+            2,
+            3
+          ]
+        ],
+        "expected": [
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              2
+            ],
+            [
+              5,
+              6
+            ]
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "expected": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              5
+            ]
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "expected": [
+          [
+            1,
+            5
+          ]
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "merge-intervals",
+    "name": "Merge Intervals",
+    "topic": "Interval",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "intervals",
+        "type": "int[][]"
+      }
+    ],
+    "returns": "int[][]",
+    "prompt": "Merge every overlap among closed intervals and return the remaining intervals sorted by start. Touching endpoints overlap.",
+    "hint": "Sort by start, then extend the last merged interval when needed.",
+    "tests": [
+      {
+        "args": [
+          [
+            [
+              4,
+              6
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              5
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              2
+            ],
+            [
+              5,
+              8
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            8
+          ]
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "non-overlapping-intervals",
+    "name": "Non-overlapping Intervals",
+    "topic": "Interval",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "intervals",
+        "type": "int[][]"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Remove as few intervals as possible so that the rest do not overlap. Return the number removed. End-to-start touching is allowed.",
+    "hint": "Greedily keep the interval that ends earliest.",
+    "tests": [
+      {
+        "args": [
+          [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              4,
+              6
+            ]
+          ]
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        ],
+        "expected": 2
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": 0
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "meeting-rooms",
+    "name": "Meeting Rooms",
+    "topic": "Interval",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "intervals",
+        "type": "int[][]"
+      }
+    ],
+    "returns": "bool",
+    "prompt": "Return whether one person can attend every meeting. Each [start,end] has start < end. A meeting may start exactly when another ends.",
+    "hint": "Sort the start times and compare adjacent meetings.",
+    "tests": [
+      {
+        "args": [
+          [
+            [
+              0,
+              4
+            ],
+            [
+              5,
+              7
+            ]
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            [
+              0,
+              5
+            ],
+            [
+              4,
+              8
+            ]
+          ]
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": true
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "meeting-rooms-ii",
+    "name": "Meeting Rooms II",
+    "topic": "Interval",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "intervals",
+        "type": "int[][]"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Return the minimum number of rooms needed for all meetings. A room becomes available at the exact end time.",
+    "hint": "Track the earliest ending active meeting, or sweep sorted starts and ends.",
+    "tests": [
+      {
+        "args": [
+          [
+            [
+              0,
+              10
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              4,
+              7
+            ]
+          ]
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        ],
+        "expected": 2
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "reverse-linked-list",
+    "name": "Reverse Linked List",
+    "topic": "Linked List",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "head",
+        "type": "list"
+      }
+    ],
+    "returns": "list",
+    "prompt": "Reverse the links of a singly linked list and return its new head. A ListNode has val and next; examples serialize lists as arrays.",
+    "hint": "Keep previous, current, and next pointers.",
+    "tests": [
+      {
+        "args": [
+          [
+            1,
+            4,
+            7
+          ]
+        ],
+        "expected": [
+          7,
+          4,
+          1
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [
+            5
+          ]
+        ],
+        "expected": [
+          5
+        ]
+      },
+      {
+        "args": [
+          [
+            2,
+            9
+          ]
+        ],
+        "expected": [
+          9,
+          2
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "linked-list-cycle",
+    "name": "Linked List Cycle",
+    "topic": "Linked List",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "head",
+        "type": "list"
+      }
+    ],
+    "returns": "bool",
+    "prompt": "Return whether following next pointers ever revisits a node. Examples show [values, pos], where pos is the index the tail links to; -1 means no cycle. Only head is passed to solve.",
+    "hint": "Move one pointer one step and another two steps.",
+    "tests": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3
+          ],
+          1
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            1
+          ],
+          0
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            1,
+            2
+          ],
+          -1
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          [],
+          -1
+        ],
+        "expected": false
+      }
+    ],
+    "mode": "exact",
+    "kind": "cycle"
+  },
+  {
+    "id": "merge-two-sorted-lists",
+    "name": "Merge Two Sorted Lists",
+    "topic": "Linked List",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "list1",
+        "type": "list"
+      },
+      {
+        "name": "list2",
+        "type": "list"
+      }
+    ],
+    "returns": "list",
+    "prompt": "Merge two sorted singly linked lists into one sorted list and return its head.",
+    "hint": "Use a dummy head and repeatedly take the smaller next node.",
+    "tests": [
+      {
+        "args": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "expected": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "args": [
+          [],
+          []
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [],
+          [
+            2
+          ]
+        ],
+        "expected": [
+          2
+        ]
+      },
+      {
+        "args": [
+          [
+            1,
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "expected": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "merge-k-sorted-lists",
+    "name": "Merge K Sorted Lists",
+    "topic": "Linked List",
+    "level": "Hard",
+    "args": [
+      {
+        "name": "lists",
+        "type": "list[]"
+      }
+    ],
+    "returns": "list",
+    "prompt": "Merge an array of sorted linked lists into one sorted list and return its head.",
+    "hint": "Use a heap containing the next node of each nonempty list.",
+    "tests": [
+      {
+        "args": [
+          [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3
+            ]
+          ]
+        ],
+        "expected": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [
+            [],
+            [
+              2
+            ]
+          ]
+        ],
+        "expected": [
+          2
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              1
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ]
+        ],
+        "expected": [
+          0,
+          1,
+          1
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "remove-nth-node-from-end-of-list",
+    "name": "Remove Nth Node From End of List",
+    "topic": "Linked List",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "head",
+        "type": "list"
+      },
+      {
+        "name": "n",
+        "type": "int"
+      }
+    ],
+    "returns": "list",
+    "prompt": "Remove the nth node counted backward from the end, and return the head. n is valid and the list is nonempty.",
+    "hint": "Separate two pointers by n nodes; a dummy head handles deleting the first.",
+    "tests": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          2
+        ],
+        "expected": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "args": [
+          [
+            1
+          ],
+          1
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [
+            1,
+            2
+          ],
+          2
+        ],
+        "expected": [
+          2
+        ]
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            3
+          ],
+          1
+        ],
+        "expected": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "reorder-list",
+    "name": "Reorder List",
+    "topic": "Linked List",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "head",
+        "type": "list"
+      }
+    ],
+    "returns": "list",
+    "prompt": "Rewire L0 → L1 → … → Ln into L0 → Ln → L1 → Ln-1 → … without changing node values. Return the head after reordering.",
+    "hint": "Find the middle, reverse the second half, then weave the halves.",
+    "tests": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "expected": [
+          1,
+          4,
+          2,
+          3
+        ]
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "expected": [
+          1,
+          5,
+          2,
+          4,
+          3
+        ]
+      },
+      {
+        "args": [
+          [
+            1
+          ]
+        ],
+        "expected": [
+          1
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "set-matrix-zeroes",
+    "name": "Set Matrix Zeroes",
+    "topic": "Matrix",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "matrix",
+        "type": "int[][]"
+      }
+    ],
+    "returns": "int[][]",
+    "prompt": "If an entry is 0, set its whole row and column to 0. Modify the matrix in place, then return it for checking. Aim for O(1) extra space.",
+    "hint": "Use the first row and first column as markers.",
+    "tests": [
+      {
+        "args": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              4,
+              0,
+              6
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            1,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              1
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              0
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            0
+          ]
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "spiral-matrix",
+    "name": "Spiral Matrix",
+    "topic": "Matrix",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "matrix",
+        "type": "int[][]"
+      }
+    ],
+    "returns": "int[]",
+    "prompt": "Return the entries of a rectangular matrix in clockwise spiral order, starting at the top-left.",
+    "hint": "Maintain the four bounds of the remaining rectangle.",
+    "tests": [
+      {
+        "args": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              4,
+              5,
+              6
+            ]
+          ]
+        ],
+        "expected": [
+          1,
+          2,
+          3,
+          6,
+          5,
+          4
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ]
+        ],
+        "expected": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              2
+            ]
+          ]
+        ],
+        "expected": [
+          1,
+          2
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "rotate-image",
+    "name": "Rotate Image",
+    "topic": "Matrix",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "matrix",
+        "type": "int[][]"
+      }
+    ],
+    "returns": "int[][]",
+    "prompt": "Rotate a square matrix 90 degrees clockwise in place. Return the resulting matrix for checking.",
+    "hint": "Transpose the matrix, then reverse each row.",
+    "tests": [
+      {
+        "args": [
+          [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              1
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              4,
+              5,
+              6
+            ],
+            [
+              7,
+              8,
+              9
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            7,
+            4,
+            1
+          ],
+          [
+            8,
+            5,
+            2
+          ],
+          [
+            9,
+            6,
+            3
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        ],
+        "expected": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "word-search",
+    "name": "Word Search",
+    "topic": "Matrix",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "board",
+        "type": "string[][]"
+      },
+      {
+        "name": "word",
+        "type": "string"
+      }
+    ],
+    "returns": "bool",
+    "prompt": "Return whether word can be traced through horizontally or vertically adjacent board cells without reusing a cell. The board and word are nonempty. Cells contain single-character strings.",
+    "hint": "Backtrack from matching starting cells and restore each visited cell.",
+    "tests": [
+      {
+        "args": [
+          [
+            [
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "D"
+            ]
+          ],
+          "ABD"
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            [
+              "A",
+              "B"
+            ],
+            [
+              "C",
+              "D"
+            ]
+          ],
+          "ABA"
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          [
+            [
+              "X"
+            ]
+          ],
+          "X"
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            [
+              "A",
+              "A"
+            ]
+          ],
+          "AAA"
+        ],
+        "expected": false
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "longest-substring-without-repeating-characters",
+    "name": "Longest Substring Without Repeating Characters",
+    "topic": "String",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Return the maximum length of a contiguous substring with no repeated characters. Practice inputs use ASCII.",
+    "hint": "Move the left boundary past the last occurrence of a repeated character.",
+    "tests": [
+      {
+        "args": [
+          "abcaef"
+        ],
+        "expected": 5
+      },
+      {
+        "args": [
+          "bbbb"
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          ""
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          "abba"
+        ],
+        "expected": 2
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "longest-repeating-character-replacement",
+    "name": "Longest Repeating Character Replacement",
+    "topic": "String",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Change at most k uppercase English letters so that one contiguous substring contains only one repeated letter. Return its maximum length.",
+    "hint": "A window is affordable when length minus its most frequent letter count is at most k.",
+    "tests": [
+      {
+        "args": [
+          "AABABBA",
+          1
+        ],
+        "expected": 4
+      },
+      {
+        "args": [
+          "ABAB",
+          2
+        ],
+        "expected": 4
+      },
+      {
+        "args": [
+          "",
+          0
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          "ABCDE",
+          1
+        ],
+        "expected": 2
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "minimum-window-substring",
+    "name": "Minimum Window Substring",
+    "topic": "String",
+    "level": "Hard",
+    "args": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "t",
+        "type": "string"
+      }
+    ],
+    "returns": "string",
+    "prompt": "Return the shortest substring of s containing every character of t, including multiplicity. Return \"\" if impossible or t is empty. Inputs have a unique shortest answer.",
+    "hint": "Expand to cover the required counts, then shrink while coverage holds.",
+    "tests": [
+      {
+        "args": [
+          "cabbaac",
+          "aba"
+        ],
+        "expected": "baa"
+      },
+      {
+        "args": [
+          "a",
+          "aa"
+        ],
+        "expected": ""
+      },
+      {
+        "args": [
+          "abc",
+          ""
+        ],
+        "expected": ""
+      },
+      {
+        "args": [
+          "xyza",
+          "a"
+        ],
+        "expected": "a"
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "valid-anagram",
+    "name": "Valid Anagram",
+    "topic": "String",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "s",
+        "type": "string"
+      },
+      {
+        "name": "t",
+        "type": "string"
+      }
+    ],
+    "returns": "bool",
+    "prompt": "Return whether s and t have the same characters with the same counts. Practice inputs use lowercase English letters.",
+    "hint": "Compare frequency counts.",
+    "tests": [
+      {
+        "args": [
+          "listen",
+          "silent"
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          "aab",
+          "abb"
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          "",
+          ""
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          "a",
+          "aa"
+        ],
+        "expected": false
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "group-anagrams",
+    "name": "Group Anagrams",
+    "topic": "String",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "strs",
+        "type": "string[]"
+      }
+    ],
+    "returns": "string[][]",
+    "prompt": "Group strings that contain the same letters with the same multiplicities. Both group order and order within groups are irrelevant.",
+    "hint": "Use sorted letters or a frequency tuple as a grouping key.",
+    "tests": [
+      {
+        "args": [
+          [
+            "tea",
+            "ate",
+            "bat",
+            "eat"
+          ]
+        ],
+        "expected": [
+          [
+            "tea",
+            "ate",
+            "eat"
+          ],
+          [
+            "bat"
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            "",
+            ""
+          ]
+        ],
+        "expected": [
+          [
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [
+            "a",
+            "b"
+          ]
+        ],
+        "expected": [
+          [
+            "a"
+          ],
+          [
+            "b"
+          ]
+        ]
+      }
+    ],
+    "mode": "nested",
+    "kind": "normal"
+  },
+  {
+    "id": "valid-parentheses",
+    "name": "Valid Parentheses",
+    "topic": "String",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "returns": "bool",
+    "prompt": "s contains only (), [], and {}. Return whether brackets close in the correct nesting order. The empty string is valid.",
+    "hint": "Push opening brackets and match every closing bracket to the stack top.",
+    "tests": [
+      {
+        "args": [
+          "{[()]}"
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          "([)]"
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          ""
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          "(("
+        ],
+        "expected": false
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "valid-palindrome",
+    "name": "Valid Palindrome",
+    "topic": "String",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "returns": "bool",
+    "prompt": "Ignoring all characters except ASCII letters and digits, and ignoring letter case, return whether s reads the same backward.",
+    "hint": "Skip non-alphanumeric characters while moving two pointers inward.",
+    "tests": [
+      {
+        "args": [
+          "No lemon, no melon!"
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          "0P"
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          "..."
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          "abca"
+        ],
+        "expected": false
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "longest-palindromic-substring",
+    "name": "Longest Palindromic Substring",
+    "topic": "String",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "returns": "string",
+    "prompt": "Return any longest contiguous palindrome in s. Return \"\" for an empty string.",
+    "hint": "Expand around every odd and even center.",
+    "tests": [
+      {
+        "args": [
+          "babad"
+        ],
+        "expected": "bab"
+      },
+      {
+        "args": [
+          "cbbd"
+        ],
+        "expected": "bb"
+      },
+      {
+        "args": [
+          ""
+        ],
+        "expected": ""
+      },
+      {
+        "args": [
+          "abcd"
+        ],
+        "expected": "a"
+      }
+    ],
+    "mode": "palindrome",
+    "kind": "normal"
+  },
+  {
+    "id": "palindromic-substrings",
+    "name": "Palindromic Substrings",
+    "topic": "String",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "s",
+        "type": "string"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Count nonempty contiguous palindromes. Identical text at different positions counts separately.",
+    "hint": "Expand around each center and count each successful expansion.",
+    "tests": [
+      {
+        "args": [
+          "aaa"
+        ],
+        "expected": 6
+      },
+      {
+        "args": [
+          "abc"
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          ""
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          "abba"
+        ],
+        "expected": 6
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "encode-and-decode-strings",
+    "name": "Encode and Decode Strings",
+    "topic": "String",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "strs",
+        "type": "string[]"
+      }
+    ],
+    "returns": "string[]",
+    "prompt": "Implement encode(strs) to turn a list of strings into one string and decode(data) to recover the exact list. Empty strings and delimiters must survive. The runner calls decode(encode(strs)).",
+    "hint": "Prefix each string with its length instead of relying on a delimiter alone.",
+    "tests": [
+      {
+        "args": [
+          [
+            "ab",
+            "c"
+          ]
+        ],
+        "expected": [
+          "ab",
+          "c"
+        ]
+      },
+      {
+        "args": [
+          [
+            "",
+            "x#2",
+            ""
+          ]
+        ],
+        "expected": [
+          "",
+          "x#2",
+          ""
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [
+            "hello\nworld",
+            "12:yes"
+          ]
+        ],
+        "expected": [
+          "hello\nworld",
+          "12:yes"
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "strings-codec"
+  },
+  {
+    "id": "maximum-depth-of-binary-tree",
+    "name": "Maximum Depth of Binary Tree",
+    "topic": "Tree",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "root",
+        "type": "tree"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Return the number of nodes on the longest root-to-leaf path; an empty tree has depth 0. TreeNode has val, left, and right. Examples use breadth-first values with null for missing children.",
+    "hint": "A nonempty tree is one level deeper than its deepest child.",
+    "tests": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            null,
+            4
+          ]
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": 0
+      },
+      {
+        "args": [
+          [
+            5
+          ]
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          [
+            1,
+            null,
+            2,
+            null,
+            3
+          ]
+        ],
+        "expected": 3
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "same-tree",
+    "name": "Same Tree",
+    "topic": "Tree",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "p",
+        "type": "tree"
+      },
+      {
+        "name": "q",
+        "type": "tree"
+      }
+    ],
+    "returns": "bool",
+    "prompt": "Return whether two binary trees have identical shapes and corresponding values.",
+    "hint": "Compare both roots, then both left children and both right children.",
+    "tests": [
+      {
+        "args": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            null,
+            2
+          ]
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          [],
+          []
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "expected": false
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "invert-binary-tree",
+    "name": "Invert Binary Tree",
+    "topic": "Tree",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "root",
+        "type": "tree"
+      }
+    ],
+    "returns": "tree",
+    "prompt": "Swap the left and right children at every node, and return the root.",
+    "hint": "Invert each subtree and swap the two children.",
+    "tests": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            4,
+            null,
+            null,
+            5
+          ]
+        ],
+        "expected": [
+          1,
+          3,
+          2,
+          5,
+          null,
+          null,
+          4
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [
+            7
+          ]
+        ],
+        "expected": [
+          7
+        ]
+      },
+      {
+        "args": [
+          [
+            1,
+            null,
+            2
+          ]
+        ],
+        "expected": [
+          1,
+          2
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "binary-tree-maximum-path-sum",
+    "name": "Binary Tree Maximum Path Sum",
+    "topic": "Tree",
+    "level": "Hard",
+    "args": [
+      {
+        "name": "root",
+        "type": "tree"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Return the largest sum along any nonempty path in a nonempty binary tree. A path follows edges without revisiting a node; it need not pass through the root.",
+    "hint": "Return the best one-sided gain upward while checking a path joining both sides.",
+    "tests": [
+      {
+        "args": [
+          [
+            -10,
+            9,
+            20,
+            null,
+            null,
+            15,
+            7
+          ]
+        ],
+        "expected": 42
+      },
+      {
+        "args": [
+          [
+            -3
+          ]
+        ],
+        "expected": -3
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "expected": 6
+      },
+      {
+        "args": [
+          [
+            -2,
+            -1
+          ]
+        ],
+        "expected": -1
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "binary-tree-level-order-traversal",
+    "name": "Binary Tree Level Order Traversal",
+    "topic": "Tree",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "root",
+        "type": "tree"
+      }
+    ],
+    "returns": "int[][]",
+    "prompt": "Return node values grouped by depth, from root downward and left to right within each level.",
+    "hint": "Process one breadth-first queue layer at a time.",
+    "tests": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            null,
+            4
+          ]
+        ],
+        "expected": [
+          [
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4
+          ]
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [
+            7
+          ]
+        ],
+        "expected": [
+          [
+            7
+          ]
+        ]
+      },
+      {
+        "args": [
+          [
+            1,
+            null,
+            2
+          ]
+        ],
+        "expected": [
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "serialize-and-deserialize-binary-tree",
+    "name": "Serialize and Deserialize Binary Tree",
+    "topic": "Tree",
+    "level": "Hard",
+    "args": [
+      {
+        "name": "root",
+        "type": "tree"
+      }
+    ],
+    "returns": "tree",
+    "prompt": "Implement serialize(root) returning a string, and deserialize(data) returning an equivalent new binary tree. The runner round-trips the tree through your string format.",
+    "hint": "A traversal needs explicit markers for missing children.",
+    "tests": [
+      {
+        "args": [
+          [
+            1,
+            2,
+            3,
+            null,
+            4
+          ]
+        ],
+        "expected": [
+          1,
+          2,
+          3,
+          null,
+          4
+        ]
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [
+            -5
+          ]
+        ],
+        "expected": [
+          -5
+        ]
+      },
+      {
+        "args": [
+          [
+            1,
+            null,
+            2,
+            null,
+            3
+          ]
+        ],
+        "expected": [
+          1,
+          null,
+          2,
+          null,
+          3
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "tree-codec"
+  },
+  {
+    "id": "subtree-of-another-tree",
+    "name": "Subtree of Another Tree",
+    "topic": "Tree",
+    "level": "Easy",
+    "args": [
+      {
+        "name": "root",
+        "type": "tree"
+      },
+      {
+        "name": "subRoot",
+        "type": "tree"
+      }
+    ],
+    "returns": "bool",
+    "prompt": "Return whether some node of root begins a subtree identical to subRoot. For these exercises, the empty tree is a subtree of every tree.",
+    "hint": "At each candidate root, compare the complete subtree shape and values.",
+    "tests": [
+      {
+        "args": [
+          [
+            3,
+            4,
+            5,
+            1,
+            2
+          ],
+          [
+            4,
+            1,
+            2
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            3,
+            4,
+            5,
+            1,
+            2,
+            null,
+            null,
+            null,
+            null,
+            0
+          ],
+          [
+            4,
+            1,
+            2
+          ]
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          [
+            1
+          ],
+          []
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [],
+          [
+            1
+          ]
+        ],
+        "expected": false
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "construct-binary-tree-from-preorder-and-inorder-traversal",
+    "name": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "topic": "Tree",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "preorder",
+        "type": "int[]"
+      },
+      {
+        "name": "inorder",
+        "type": "int[]"
+      }
+    ],
+    "returns": "tree",
+    "prompt": "Reconstruct a binary tree from its preorder and inorder traversals. Values are unique and the traversals are valid.",
+    "hint": "The next preorder value is the root; its inorder position splits the subtrees.",
+    "tests": [
+      {
+        "args": [
+          [
+            3,
+            9,
+            20,
+            15,
+            7
+          ],
+          [
+            9,
+            3,
+            15,
+            20,
+            7
+          ]
+        ],
+        "expected": [
+          3,
+          9,
+          20,
+          null,
+          null,
+          15,
+          7
+        ]
+      },
+      {
+        "args": [
+          [],
+          []
+        ],
+        "expected": []
+      },
+      {
+        "args": [
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "expected": [
+          1
+        ]
+      },
+      {
+        "args": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            3,
+            2,
+            1
+          ]
+        ],
+        "expected": [
+          1,
+          2,
+          null,
+          3
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "validate-binary-search-tree",
+    "name": "Validate Binary Search Tree",
+    "topic": "Tree",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "root",
+        "type": "tree"
+      }
+    ],
+    "returns": "bool",
+    "prompt": "Return whether every node has only smaller values in its left subtree and only larger values in its right subtree. Duplicates are invalid; an empty tree is valid.",
+    "hint": "Carry strict lower and upper bounds into recursive calls.",
+    "tests": [
+      {
+        "args": [
+          [
+            2,
+            1,
+            3
+          ]
+        ],
+        "expected": true
+      },
+      {
+        "args": [
+          [
+            5,
+            1,
+            4,
+            null,
+            null,
+            3,
+            6
+          ]
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          [
+            2,
+            2,
+            3
+          ]
+        ],
+        "expected": false
+      },
+      {
+        "args": [
+          []
+        ],
+        "expected": true
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "kth-smallest-element-in-a-bst",
+    "name": "Kth Smallest Element in a BST",
+    "topic": "Tree",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "root",
+        "type": "tree"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Return the kth smallest value in a binary search tree with unique values. k is 1-based and valid.",
+    "hint": "Inorder traversal visits values in sorted order.",
+    "tests": [
+      {
+        "args": [
+          [
+            3,
+            1,
+            4,
+            null,
+            2
+          ],
+          1
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          [
+            3,
+            1,
+            4,
+            null,
+            2
+          ],
+          3
+        ],
+        "expected": 3
+      },
+      {
+        "args": [
+          [
+            1
+          ],
+          1
+        ],
+        "expected": 1
+      },
+      {
+        "args": [
+          [
+            2,
+            1,
+            3
+          ],
+          3
+        ],
+        "expected": 3
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "lowest-common-ancestor-of-a-binary-search-tree",
+    "name": "Lowest Common Ancestor of a Binary Search Tree",
+    "topic": "Tree",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "root",
+        "type": "tree"
+      },
+      {
+        "name": "p",
+        "type": "int"
+      },
+      {
+        "name": "q",
+        "type": "int"
+      }
+    ],
+    "returns": "int",
+    "prompt": "Return the value of the lowest common ancestor of the nodes with values p and q in a BST with unique values. Both values exist; a node can be its own ancestor.",
+    "hint": "Move left or right while both values lie on the same side.",
+    "tests": [
+      {
+        "args": [
+          [
+            6,
+            2,
+            8,
+            0,
+            4,
+            7,
+            9,
+            null,
+            null,
+            3,
+            5
+          ],
+          2,
+          8
+        ],
+        "expected": 6
+      },
+      {
+        "args": [
+          [
+            6,
+            2,
+            8,
+            0,
+            4,
+            7,
+            9,
+            null,
+            null,
+            3,
+            5
+          ],
+          2,
+          4
+        ],
+        "expected": 2
+      },
+      {
+        "args": [
+          [
+            2,
+            1
+          ],
+          2,
+          1
+        ],
+        "expected": 2
+      },
+      {
+        "args": [
+          [
+            3,
+            1,
+            4,
+            null,
+            2
+          ],
+          1,
+          2
+        ],
+        "expected": 1
+      }
+    ],
+    "mode": "exact",
+    "kind": "normal"
+  },
+  {
+    "id": "implement-trie-prefix-tree",
+    "name": "Implement Trie (Prefix Tree)",
+    "topic": "Tree",
+    "level": "Medium",
+    "args": [],
+    "returns": "bool",
+    "prompt": "Implement Trie with insert(word), search(word), and startsWith(prefix). search matches a whole inserted word; startsWith matches any inserted prefix. Examples show operations and their arguments. Only query results are returned.",
+    "hint": "Each node stores edges by character and a flag for a complete word.",
+    "tests": [
+      {
+        "args": [
+          [
+            "insert",
+            "search",
+            "search",
+            "startsWith",
+            "insert",
+            "search"
+          ],
+          [
+            "apple",
+            "apple",
+            "app",
+            "app",
+            "app",
+            "app"
+          ]
+        ],
+        "expected": [
+          true,
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "args": [
+          [
+            "search",
+            "startsWith"
+          ],
+          [
+            "a",
+            "a"
+          ]
+        ],
+        "expected": [
+          false,
+          false
+        ]
+      },
+      {
+        "args": [
+          [
+            "insert",
+            "insert",
+            "search"
+          ],
+          [
+            "cat",
+            "cat",
+            "cat"
+          ]
+        ],
+        "expected": [
+          true
+        ]
+      },
+      {
+        "args": [
+          [
+            "insert",
+            "startsWith",
+            "search"
+          ],
+          [
+            "hello",
+            "hell",
+            "hell"
+          ]
+        ],
+        "expected": [
+          true,
+          false
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "trie"
+  },
+  {
+    "id": "design-add-and-search-words-data-structure",
+    "name": "Design Add and Search Words Data Structure",
+    "topic": "Tree",
+    "level": "Medium",
+    "args": [],
+    "returns": "bool",
+    "prompt": "Implement WordDictionary with addWord(word) and search(pattern). A dot in a search pattern matches exactly one character. Only search results are returned.",
+    "hint": "Use a trie; branch over all children when a pattern contains a dot.",
+    "tests": [
+      {
+        "args": [
+          [
+            "addWord",
+            "addWord",
+            "search",
+            "search",
+            "search"
+          ],
+          [
+            "bad",
+            "dad",
+            "pad",
+            ".ad",
+            "b.."
+          ]
+        ],
+        "expected": [
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "args": [
+          [
+            "search"
+          ],
+          [
+            "."
+          ]
+        ],
+        "expected": [
+          false
+        ]
+      },
+      {
+        "args": [
+          [
+            "addWord",
+            "search",
+            "search"
+          ],
+          [
+            "a",
+            "..",
+            "."
+          ]
+        ],
+        "expected": [
+          false,
+          true
+        ]
+      },
+      {
+        "args": [
+          [
+            "addWord",
+            "search"
+          ],
+          [
+            "cat",
+            "c.t"
+          ]
+        ],
+        "expected": [
+          true
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "dictionary"
+  },
+  {
+    "id": "word-search-ii",
+    "name": "Word Search II",
+    "topic": "Tree",
+    "level": "Hard",
+    "args": [
+      {
+        "name": "board",
+        "type": "string[][]"
+      },
+      {
+        "name": "words",
+        "type": "string[]"
+      }
+    ],
+    "returns": "string[]",
+    "prompt": "Return every dictionary word that can be traced through neighboring horizontal/vertical cells without reusing a cell within a word. Return each word once, in any order.",
+    "hint": "Share search prefixes with a trie and backtrack through the board.",
+    "tests": [
+      {
+        "args": [
+          [
+            [
+              "o",
+              "a"
+            ],
+            [
+              "t",
+              "h"
+            ]
+          ],
+          [
+            "oath",
+            "oa",
+            "hat",
+            "oat"
+          ]
+        ],
+        "expected": [
+          "oa"
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              "a"
+            ]
+          ],
+          [
+            "a",
+            "aa"
+          ]
+        ],
+        "expected": [
+          "a"
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              "a",
+              "b"
+            ]
+          ],
+          [
+            "ab",
+            "ba"
+          ]
+        ],
+        "expected": [
+          "ab",
+          "ba"
+        ]
+      },
+      {
+        "args": [
+          [
+            [
+              "x"
+            ]
+          ],
+          [
+            "y"
+          ]
+        ],
+        "expected": []
+      }
+    ],
+    "mode": "unordered",
+    "kind": "normal"
+  },
+  {
+    "id": "top-k-frequent-elements",
+    "name": "Top K Frequent Elements",
+    "topic": "Heap",
+    "level": "Medium",
+    "args": [
+      {
+        "name": "nums",
+        "type": "int[]"
+      },
+      {
+        "name": "k",
+        "type": "int"
+      }
+    ],
+    "returns": "int[]",
+    "prompt": "Return the k most frequent distinct integers, in any order. k is valid and the set of top k values is unique. Aim to beat O(n log n) time.",
+    "hint": "Group values by frequency, or maintain a heap of size k.",
+    "tests": [
+      {
+        "args": [
+          [
+            1,
+            1,
+            1,
+            2,
+            2,
+            3
+          ],
+          2
+        ],
+        "expected": [
+          1,
+          2
+        ]
+      },
+      {
+        "args": [
+          [
+            4
+          ],
+          1
+        ],
+        "expected": [
+          4
+        ]
+      },
+      {
+        "args": [
+          [
+            -1,
+            -1,
+            2
+          ],
+          1
+        ],
+        "expected": [
+          -1
+        ]
+      },
+      {
+        "args": [
+          [
+            5,
+            5,
+            6,
+            6,
+            6,
+            7
+          ],
+          2
+        ],
+        "expected": [
+          5,
+          6
+        ]
+      }
+    ],
+    "mode": "unordered",
+    "kind": "normal"
+  },
+  {
+    "id": "find-median-from-data-stream",
+    "name": "Find Median from Data Stream",
+    "topic": "Heap",
+    "level": "Hard",
+    "args": [],
+    "returns": "double",
+    "prompt": "Implement MedianFinder with addNum(num) and findMedian(). Return the middle value, or the mean of the two middle values when the count is even. Every median query follows at least one insertion. Examples return only query results.",
+    "hint": "Keep a max-heap for the lower half and a min-heap for the upper half.",
+    "tests": [
+      {
+        "args": [
+          [
+            "addNum",
+            "addNum",
+            "findMedian",
+            "addNum",
+            "findMedian"
+          ],
+          [
+            1,
+            4,
+            0,
+            2,
+            0
+          ]
+        ],
+        "expected": [
+          2.5,
+          2
+        ]
+      },
+      {
+        "args": [
+          [
+            "addNum",
+            "findMedian"
+          ],
+          [
+            -2,
+            0
+          ]
+        ],
+        "expected": [
+          -2
+        ]
+      },
+      {
+        "args": [
+          [
+            "addNum",
+            "addNum",
+            "findMedian"
+          ],
+          [
+            -3,
+            -1,
+            0
+          ]
+        ],
+        "expected": [
+          -2
+        ]
+      },
+      {
+        "args": [
+          [
+            "addNum",
+            "addNum",
+            "findMedian"
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "expected": [
+          0
+        ]
+      }
+    ],
+    "mode": "exact",
+    "kind": "median"
+  }
+]
