@@ -1,3 +1,4 @@
+import ThemeToggle from './theme-toggle';
 import {chatGPTSignInPath} from './chatgpt-auth';
 
 const features=[
@@ -11,7 +12,7 @@ const features=[
 
 export default function Welcome({signedIn=false,returnTo='/courses'}:{signedIn?:boolean;returnTo?:string}){
  const href=signedIn?returnTo:chatGPTSignInPath(returnTo);
- return <main className="guide-welcome">
+ return <main className="guide-welcome"><ThemeToggle/>
   <div className="guide-sheet">
    <header className="guide-heading"><h1>CompSci<span>Guide</span><span className="guide-period">.</span></h1><p>Your computer science workspace.</p></header>
    <section className="guide-features" aria-labelledby="features-title"><h2 id="features-title" className="sr-only">Inside your workspace</h2><dl>{features.map(([title,description])=><div key={title}><dt>{title}</dt><dd>{description}</dd></div>)}</dl></section>

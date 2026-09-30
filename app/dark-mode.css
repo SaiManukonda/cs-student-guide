@@ -1,0 +1,44 @@
+/* Warm charcoal, cream and teal, matching saimanukonda.me. */
+html{color-scheme:light}
+html.dark{
+ color-scheme:dark;
+ --paper:#211f1b;--paper-deep:#151412;--ink:#f4ead6;--ink-soft:#c5bba7;--rule:#696255;--editorial:#8bd7ca;
+ --background:var(--paper);--foreground:var(--ink);--card:var(--paper);--card-foreground:var(--ink);
+ --popover:#2b2821;--popover-foreground:var(--ink);--primary:#8bd7ca;--primary-foreground:#151412;
+ --secondary:#2b2821;--secondary-foreground:var(--ink);--muted:#332f28;--muted-foreground:#c5bba7;
+ --accent:#18352f;--accent-foreground:#8bd7ca;--destructive:#f0a798;--border:#5c564b;--input:#696255;--ring:#8bd7ca;
+ --sidebar:#1b1916;--sidebar-foreground:#c5bba7;--sidebar-primary:#8bd7ca;--sidebar-primary-foreground:#151412;
+ --sidebar-accent:#18352f;--sidebar-accent-foreground:#8bd7ca;--sidebar-border:#5c564b;--sidebar-ring:#8bd7ca;
+ --night-text:#f4ead6;--night-muted:#c5bba7;--night-link:#8bd7ca;--night-danger:#f0a798;
+ --night-line:#5c564b;--night-surface:#2b2821;--night-accent-fill:#18352f;--night-on-color:#fffaf0;
+}
+.theme-toggle{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;flex-shrink:0;border:1px solid var(--rule);border-radius:0;background:var(--paper);color:var(--ink);cursor:pointer}
+.theme-toggle:hover{background:var(--secondary)}
+.guide-welcome>.theme-toggle,.university-onboarding>.theme-toggle{position:absolute;top:18px;right:20px}
+.guide-welcome,.university-onboarding{position:relative}
+.topbar>.theme-toggle{margin-left:auto;justify-self:end;grid-column:3;grid-row:1}
+html.dark .primary{background:var(--editorial);border-color:var(--editorial);color:#151412}
+html.dark .primary:hover{background:#b0e5db}
+html.dark .side [data-slot=sidebar-inner]{background:var(--sidebar)}
+html.dark .side [data-slot=sidebar-menu-button][data-active=true],html.dark .course-toc a[aria-current=step],html.dark .course-os button[aria-pressed=true],html.dark .university-choice.selected,html.dark .course-complete>select{background:#18352f;color:#8bd7ca;border-color:#6bb5a9}
+html.dark .data-panel tr:hover,html.dark .side [data-slot=sidebar-menu-button]:hover{background:#332f28}
+html.dark .status{background:#30352a;color:#c4d9b2;border-color:#65785a}
+html.dark .status-applied{background:#253438;color:#afdae4;border-color:#52747d}
+html.dark .status-interviewing{background:#3c3321;color:#e9cc88;border-color:#8f794c}
+html.dark .status-offer{background:#18352f;color:#8bd7ca;border-color:#508a7f}
+html.dark .status-rejected{background:#3b2722;color:#f0b2a0;border-color:#9a6b5c}
+html.dark .notice{background:#352d20;color:#e9cc88;border-color:#8f794c}
+html.dark .guide-start{border-color:var(--border)}
+html.dark .guide-signin{border-color:#696255}
+html.dark .university-brand img,html.dark .university-masthead img,html.dark .university-choice img{background:#fbf6e8;padding:5px;mix-blend-mode:normal}
+html.dark .degree-metrics progress,html.dark .degree-metrics progress::-webkit-progress-bar{background:#484237}
+html.dark .degree-metrics progress::-webkit-progress-value{background:var(--editorial)}
+html.dark .degree-metrics progress::-moz-progress-bar{background:var(--editorial)}
+html.dark select option{background:var(--paper);color:var(--ink)}
+html.dark [data-sonner-toast]{background:var(--popover)!important;color:var(--ink)!important;border-color:var(--border)!important}
+/* The printed resume and PDF retain their document colors. */
+html.dark .resume-paper{background:#fffdf4;color:#24271e}
+@media(max-width:767px){.topbar>.theme-toggle{width:36px;height:36px}.guide-welcome>.theme-toggle,.university-onboarding>.theme-toggle{top:12px;right:12px}.guide-welcome{padding-top:60px}.university-onboarding{padding-top:70px}}
+
+.page-heading>h1{margin-right:auto}.workspace-theme{order:3}html.dark .search{background:var(--paper)}
+@media(max-width:767px){.workspace-theme{display:none}}
