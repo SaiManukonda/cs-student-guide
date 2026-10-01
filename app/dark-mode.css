@@ -42,3 +42,7 @@ html.dark .resume-paper{background:#fffdf4;color:#24271e}
 
 .page-heading>h1{margin-right:auto}.workspace-theme{order:3}html.dark .search{background:var(--paper)}
 @media(max-width:767px){.workspace-theme{display:none}}
+
+/* Practice IDE; the editor owns syntax and selection colors. */
+.ide-editor{min-width:0;flex:1;overflow:hidden}.ide-editor .cm-editor{height:420px;font:14px/1.75 ui-monospace,SFMono-Regular,Consolas,monospace}.ide-editor .cm-scroller{overflow:auto}.ide-editor .cm-content{padding:14px 0}.ide-editor .cm-line{padding:0 14px}.ide-editor .cm-focused{outline:2px solid var(--editorial);outline-offset:-2px}.ide-editor .cm-tooltip{font:13px/1.5 ui-monospace,monospace}.ide-editor .cm-search input{color:inherit;background:var(--paper);border:1px solid var(--border)}.ide-status{display:flex;justify-content:space-between;gap:12px;padding:8px 14px;font:11px/1.5 ui-monospace,monospace;background:var(--paper);color:var(--ink-soft);border-top:1px solid var(--border);flex-wrap:wrap}.ide-loading{min-height:420px;padding:24px;color:var(--ink-soft)}
+@media(max-width:600px){.ide-editor .cm-editor{height:350px;font-size:13px}.ide-status #editor-shortcuts{display:none}.ide-loading{min-height:350px}}
