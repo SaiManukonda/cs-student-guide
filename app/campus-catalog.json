@@ -2710,5 +2710,1863 @@
       "note": "Enter the credits awarded on your record. The department’s offerings list does not specify credit hours.",
       "source": "https://students.cs.vt.edu/undergraduate-programs/current-students/course-information-and-course-offerings.html"
     }
+  ],
+  "umich": [
+    {
+      "code": "EECS 367",
+      "title": "Introduction to Autonomous Robotics",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 373",
+      "title": "Introduction to Embedded System Design",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 388",
+      "title": "Introduction to Computer Security",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 390",
+      "title": "Programming Paradigms",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 404",
+      "title": "Game Engine Architecture and Data-Oriented Programming",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "Begins WN27",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 427",
+      "title": "VLSI Design I",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 442",
+      "title": "Computer Vision",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 445",
+      "title": "Introduction to Machine Learning",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 470",
+      "title": "Computer Architecture",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 471",
+      "title": "Applied Parallel Programming with GPUs",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 474",
+      "title": "Algorithms for Data Science",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 475",
+      "title": "Introduction to Cryptography",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 476",
+      "title": "Data Mining",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 477",
+      "title": "Introduction to Algorithms",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 478",
+      "title": "Logic Circuit Synthesis and Optimization",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 479",
+      "title": "Introduction to Quantum Computing",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 481",
+      "title": "Software Engineering (taken FA17 or after)",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 482",
+      "title": "Operating Systems",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 483",
+      "title": "Compiler Construction",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 484",
+      "title": "Database Management Systems",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 485",
+      "title": "Web Database and Information Systems",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 486",
+      "title": "Information Retrieval & Web Search",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 487",
+      "title": "Introduction to Natural Language Processing",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 489",
+      "title": "Computer Networks",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 490",
+      "title": "Programming Languages",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 491",
+      "title": "Introduction to Distributed Systems",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 492",
+      "title": "Introduction to Artificial Intelligence",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 493",
+      "title": "User Interface Development",
+      "credits": 4.0,
+      "category": "ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 498",
+      "title": "Special Topics",
+      "credits": null,
+      "category": "ULCS",
+      "note": "Topic and semester approval required; not automatically assigned to a requirement.",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 440",
+      "title": "Extended Reality for Social Impact (new FA24)",
+      "credits": 4.0,
+      "category": "Capstone",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 441",
+      "title": "Mobile App Development for Entrepreneurs",
+      "credits": 4.0,
+      "category": "Capstone",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 443",
+      "title": "CS Thesis Course",
+      "credits": 3.0,
+      "category": "Capstone",
+      "note": "Thesis pathway requires approval and applicable honors/GPA requirements.",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 447",
+      "title": "Machine Learning Research Experience",
+      "credits": 4.0,
+      "category": "Capstone",
+      "note": "Begins WN27",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 448",
+      "title": "Applied Machine Learning for Modeling Human Behavior",
+      "credits": 4.0,
+      "category": "Capstone",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 449",
+      "title": "Conversational Artificial Intelligence",
+      "credits": 4.0,
+      "category": "Capstone",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 467",
+      "title": "Autonomous Robotics",
+      "credits": 4.0,
+      "category": "Capstone",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 472",
+      "title": "Computer Architecture Project",
+      "credits": 4.0,
+      "category": "Capstone",
+      "note": "Replaces EECS 470 as an Capstone starting in WN26",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 473",
+      "title": "Advanced Embedded Systems",
+      "credits": 4.0,
+      "category": "Capstone",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 480",
+      "title": "Social Computing Systems",
+      "credits": 4.0,
+      "category": "Capstone",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 494",
+      "title": "Computer Game Design and Development",
+      "credits": 4.0,
+      "category": "Capstone",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 495",
+      "title": "Accessible Computing",
+      "credits": 4.0,
+      "category": "Capstone",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 497",
+      "title": "Human-Centered Software Design & Development",
+      "credits": 4.0,
+      "category": "Capstone",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CSE 596",
+      "title": "Engineering Interactive Systems",
+      "credits": 4.0,
+      "category": "Capstone",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CSE 401X",
+      "title": "CSE Departmental Credit (CS-LSA students: please note, CSE 401X is considered non-LSA credit and does not contribute to the 100 LSA credit requirement)",
+      "credits": null,
+      "category": "Expanded ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CSE 572",
+      "title": "Randomness and Computation",
+      "credits": 4.0,
+      "category": "Expanded ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CSE 574",
+      "title": "Computational Complexity",
+      "credits": 4.0,
+      "category": "Expanded ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CSE 575",
+      "title": "Advanced Cryptography",
+      "credits": 4.0,
+      "category": "Expanded ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CSE 577",
+      "title": "Formal Verification of Hardware and Software Systems",
+      "credits": 4.0,
+      "category": "Expanded ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CSE 598",
+      "title": "Special Topics",
+      "credits": null,
+      "category": "Expanded ULCS",
+      "note": "Topic and semester approval required; not automatically assigned to a requirement.",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ECE 544",
+      "title": "Analysis of Societal Networks",
+      "credits": null,
+      "category": "Expanded ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 444",
+      "title": "Analysis of Societal Networks",
+      "credits": null,
+      "category": "Expanded ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 453",
+      "title": "Principles of Machine Learning",
+      "credits": 4.0,
+      "category": "Expanded ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 460",
+      "title": "Control Systems Analysis and Design",
+      "credits": 4.0,
+      "category": "Expanded ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 461",
+      "title": "Embedded Control System",
+      "credits": 4.0,
+      "category": "Expanded ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 465",
+      "title": "Introduction to Algorithmic Robotics",
+      "credits": 3.0,
+      "category": "Expanded ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 553",
+      "title": "Machine Learning (ECE)",
+      "credits": 3.0,
+      "category": "Expanded ULCS",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "AEROSP 215",
+      "title": "Introduction to Solid Mechanics and Aerospace Structures",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "AEROSP 225",
+      "title": "Introduction to Gas Dynamics",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ASTRO 201",
+      "title": "Introduction to Astrophysics",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ASTRO 205",
+      "title": "Exploring the X-Ray Universe",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ASTRO 206",
+      "title": "Black Holes",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ASTRO 361",
+      "title": "Astronomical Techniques",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ASTRO 404",
+      "title": "Galaxies and the Universe",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "BIOINF 463",
+      "title": "Mathematical Modeling in Biology",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "BIOINF 501",
+      "title": "Mathematical Foundations for Bioinformatics",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "BIOLOGY 305",
+      "title": "Genetics",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "BIOMEDE 221",
+      "title": "Biophysical Chemistry and Thermodynamics",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "BIOMEDE 231",
+      "title": "Introduction to Biomechanics",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CHE 230",
+      "title": "Material and Energy Balances",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CHEM 210",
+      "title": "Structure and Reactivity I",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CHEM 211",
+      "title": "Investigations in Chemistry",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CHEM 215",
+      "title": "Structure and Reactivity II",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CHEM 216",
+      "title": "Synthesis and Characterization of Organic Compounds",
+      "credits": 2.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CHEM 230",
+      "title": "Physical Chemical Principles and Applications",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CHEM 241",
+      "title": "Introduction to Chemical Analysis",
+      "credits": 2.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CHEM 242",
+      "title": "Introduction to Chemical Analysis Laboratory",
+      "credits": 2.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CHEM 260",
+      "title": "Chemical Principles",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CEE 211",
+      "title": "Statics and Dynamics",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CEE 212",
+      "title": "Solid and Structural Mechanics",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CEE 230",
+      "title": "Energy and Environment",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CEE 265",
+      "title": "Sustainable Engineering Principles",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CMPLXSYS 250",
+      "title": "Energy and Climate Change: Technology, Markets, and Policy",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CMPLXSYS 260",
+      "title": "Tipping Points, Bandwagons and Cascades: From Individual Behavior to Social Dynamics",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "CMPLXSYS 270",
+      "title": "Agent Based Modeling",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "COMPFOR 221",
+      "title": "Python Programming for Digital Media",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "DATASCI 306",
+      "title": "Introduction to Statistical Computing",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "DATASCI 315",
+      "title": "Statistics and Artificial Intelligence",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "DATASCI 415",
+      "title": "Data Mining and Statistical Learning",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "DATSCI 470",
+      "title": "Introduction to the Design of Experiments",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EARTH 408",
+      "title": "Intro to GIS in the Earth Sciences",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ECON 401",
+      "title": "Intermed Micro Thry",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ECON 402",
+      "title": "Intermed Macro Thry",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ECON 409",
+      "title": "Game Theory",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ECON 452",
+      "title": "Intermediate Introduction to Statistics and Econometrics II",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 201",
+      "title": "Computer Science Pragmatics",
+      "credits": 2.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 215",
+      "title": "Introduction to Electronic Circuits",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 216",
+      "title": "Introduction to Signals and Systems",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 230",
+      "title": "Electromagnetics I",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 245",
+      "title": "Mathematics for Machine Learning",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "EECS 245: Mathematics for Machine Learning (4 credits) \nPlease note: EECS 245 can satisfy either the CS Linear Algebra requirement or a Flexible Technical Elective. Email ugadmin@eecs.umich.edu if you would like it to count toward Flexible Technical Elective.",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 250",
+      "title": "Electronic Sensing Systems",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "EECS 250: Electronic Sensing Systems (only if taken WN17 or before)",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 270",
+      "title": "Introduction to Logic Design",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 285",
+      "title": "Practical Programming in Java",
+      "credits": 2.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 408",
+      "title": "Advanced Operating Systems Projects",
+      "credits": 2.0,
+      "category": "Flexible technical elective",
+      "note": "EECS 408: Advanced Operating Systems Projects (2 credits) Please note: This course requires concurrent enrollment in EECS 482.",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ENGR 350",
+      "title": "International Lab. Experience for Engineers",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "ENGR 350: International Lab. Experience for Engineers [See Directed Study Rule above.]",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ENGR 355",
+      "title": "Intermediate Multidisciplinary Engineering Project",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "ENGR 355: Intermediate Multidisciplinary Engineering Project [See Directed Study Rule above.] (1-4 credits)*",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ENGR 403",
+      "title": "Scientific Visualization",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ENGR 450",
+      "title": "Multidisciplinary Design",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "ENGR 450: Multidisciplinary Design [See Directed Study Rule above.] (4 credits)",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ENGR 455",
+      "title": "Advanced Multidisciplinary Engineering Project",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "ENGR 455: Advanced Multidisciplinary Engineering Project [See Directed Study Rule above.] (1-4 credits)*",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ENGR 480",
+      "title": "Global Synthesis Project",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "ENGR 480: Global Synthesis Project (Tauber Institute) [See Directed Study Rule above.] (4 credits)",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ENTR 475",
+      "title": "TechLab: Entrepreneurial Exploration and Development",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "ENTR 475: TechLab: Entrepreneurial Exploration and Development [See Directed Study Rule above.] (Up to 4 credits)",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ENTR 485",
+      "title": "Only sections of TechLab MCity, PJTL Climate Change, PJTL Electrification, and PJTL: MCity",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "ENTR 485: Only sections of TechLab MCity, PJTL Climate Change, PJTL Electrification, and PJTL: MCity [See Directed Study Rule above.] (Up to 4 credits)",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "FIN 302",
+      "title": "Making Financial Decisions",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "FIN 342",
+      "title": "Big Data in Finance",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "FIN 427",
+      "title": "Artificial Intelligence and Machine Learning in Investment Strategies",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "FIN 428",
+      "title": "FinTech Innovations",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "IOE 202",
+      "title": "Operations Modeling",
+      "credits": 2.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "LING 441",
+      "title": "Introduction to Computational Linguistics",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "LING 442",
+      "title": "Computational Linguistics II",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "LING 445",
+      "title": "Introduction to Machine Learning for Natural Language Processing",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MFG 504",
+      "title": "Tauber Institute Project",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MKT 425",
+      "title": "New Products and Innovation Management",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MATSCIE 220",
+      "title": "Introduction to Materials and Manufacturing",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MATSCIE 242",
+      "title": "Physics of Materials",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MATSCIE 250",
+      "title": "Principles of Engineering Materials",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MATH 214",
+      "title": "Applied Linear Algebra",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "MATH 214: Applied Linear Algebra (if not used for CoE Math Core) (4 credits)",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MATH 215",
+      "title": "Calculus III",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "MATH 215: Calculus III (if not used for CoE Math Core) (4 credits)",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MATH 216",
+      "title": "Introduction to Differential Equations",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MATH 217",
+      "title": "Linear Algebra",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "MATH 217: Linear Algebra (if not used for CoE Math Core) (4 credits)",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MATH 285",
+      "title": "Honors Multivariable and Vector Calculus",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "MATH 285: Honors Multivariable and Vector Calculus (if not used for CoE Math Core) (4 credits)",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MATH 286",
+      "title": "Honors Differential Equations",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "MATH 286: Honors Differential Equations (if not used for CoE Math Core) (3 credits)",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MATH 297",
+      "title": "Introduction to Analysis",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MECHENG 211",
+      "title": "Introduction to Solid Mechanics",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MECHENG 235",
+      "title": "Thermodynamics",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MECHENG 240",
+      "title": "Introduction to Dynamics and Vibrations",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MECHENG 250",
+      "title": "Design and Manufacturing I",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MCDB 306",
+      "title": "Introductory Genetics Laboratory",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "MCDB 310",
+      "title": "Introductory Biochemistry",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "NAVARCH 270",
+      "title": "Marine Design",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "NERS 211",
+      "title": "Introduction to Nuclear Engineering and Radiological Sciences",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "NERS 250",
+      "title": "Fundamentals of Nuclear Engineering and Radiological Sciences",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "PAT 204",
+      "title": "Creative Coding",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "PAT 452",
+      "title": "Interactive Music Design II",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "PAT 462",
+      "title": "Digital Sound Synthesis",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "PAT 463",
+      "title": "Music and AI",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "PAT 464",
+      "title": "Generative AI for Music and Audio Creation",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "PHIL 414",
+      "title": "Mathematical Logic",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "PHIL 417",
+      "title": "Logic, Computation, and Learning",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "POLSCI 490",
+      "title": "Game Theory and Formal Models",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "PSYCH 449",
+      "title": "Decision Processes",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "ROB 204",
+      "title": "Introduction to Human-Robot Systems",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "SI 201",
+      "title": "Data Oriented Prog",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "SI 303",
+      "title": "Introducion to Qualitative Methods",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "SI 313",
+      "title": "Introduction to Quantitative Methods",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "SI 315",
+      "title": "Models of Social Information Processing",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "SI 338",
+      "title": "Web Design, Development, and Accessibility",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "SI 342",
+      "title": "Games and UX",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "SI 357",
+      "title": "Introduction to Development",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "SI 465",
+      "title": "Applied AI: Machine Learning",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "SI 563",
+      "title": "Game Theory",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "SI 630",
+      "title": "Natural Language Processing: Algorithms and People",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "STATS 401",
+      "title": "Applied Statistical Methods II",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "STATS 403",
+      "title": "Introduction to Quantitative Research Methods",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "STATS 406",
+      "title": "Computational Methods in Statistics and Data Science",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "STATS 413",
+      "title": "Applied Regression Analysis",
+      "credits": 4.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "STATS 425",
+      "title": "Introduction to Probability",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "STATS 426",
+      "title": "Introduction to Theoretical Statistics",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "STATS 430",
+      "title": "Applied Probability",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "STATS 449",
+      "title": "Topics in Biostatistics",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "STATS 531",
+      "title": "Analysis of Time Series",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "TO 302",
+      "title": "Managing Business Operations",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "TO 313",
+      "title": "Operations Management",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "TO 414",
+      "title": "Advanced Analytics For Management Consulting",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "TO 428",
+      "title": "FinTech: Blockchain, Cryptocurrencies, and Other Technology Innovations In and Out of Finance",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "TO 450",
+      "title": "Business Intelligence and Data Visualization",
+      "credits": 3.0,
+      "category": "Flexible technical elective",
+      "note": "",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 183",
+      "title": "Elementary Programming Concepts",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "EECS 180",
+      "title": "AP Computer Science credit",
+      "credits": null,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "EECS 203",
+      "title": "Discrete Mathematics",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "EECS 280",
+      "title": "Programming and Introductory Data Structures",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "EECS 281",
+      "title": "Data Structures and Algorithms",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "EECS 370",
+      "title": "Introduction to Computer Organization",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "EECS 376",
+      "title": "Foundations of Computer Science",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 465",
+      "title": "Introduction to Combinatorics",
+      "credits": 3,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 565",
+      "title": "Combinatorics and Graph Theory",
+      "credits": 3,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "ENGR 100",
+      "title": "Introduction to Engineering",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1SWddhvvfBVS6WIpE21xqGtlQkQgUAq6PJFbmtwcTsXY/preview"
+    },
+    {
+      "code": "ENGR 101",
+      "title": "Introduction to Computers and Programming",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1SWddhvvfBVS6WIpE21xqGtlQkQgUAq6PJFbmtwcTsXY/preview"
+    },
+    {
+      "code": "ENGR 151",
+      "title": "Accelerated Introduction to Computers and Programming",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1SWddhvvfBVS6WIpE21xqGtlQkQgUAq6PJFbmtwcTsXY/preview"
+    },
+    {
+      "code": "ROB 102",
+      "title": "Introduction to AI and Programming",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "ROB 101",
+      "title": "Computational Linear Algebra",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "TCHNCLCM 300",
+      "title": "Technical Communication for Electrical and Computer Science",
+      "credits": 1,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1SWddhvvfBVS6WIpE21xqGtlQkQgUAq6PJFbmtwcTsXY/preview"
+    },
+    {
+      "code": "TCHNCLCM 497",
+      "title": "Advanced Technical Communication for Computer Science",
+      "credits": 2,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1SWddhvvfBVS6WIpE21xqGtlQkQgUAq6PJFbmtwcTsXY/preview"
+    },
+    {
+      "code": "EECS 295",
+      "title": "Ethics, Communication, and Computing",
+      "credits": 2,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "EECS 496",
+      "title": "Major Design Experience: Professionalism",
+      "credits": 2,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "ENGR 499-002",
+      "title": "Ethics and Professionalism — approved section",
+      "credits": null,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1SWddhvvfBVS6WIpE21xqGtlQkQgUAq6PJFbmtwcTsXY/preview"
+    },
+    {
+      "code": "COMPFOR 111",
+      "title": "Ethical Issues in Computing",
+      "credits": null,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "CSE 543",
+      "title": "Knowledge Systems: AI Ethics",
+      "credits": null,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "COMM 349",
+      "title": "Digital Media Ethics",
+      "credits": null,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "CHEM 125",
+      "title": "General Chemistry Laboratory I",
+      "credits": 1,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1SWddhvvfBVS6WIpE21xqGtlQkQgUAq6PJFbmtwcTsXY/preview"
+    },
+    {
+      "code": "CHEM 126",
+      "title": "General Chemistry Laboratory II",
+      "credits": 1,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1SWddhvvfBVS6WIpE21xqGtlQkQgUAq6PJFbmtwcTsXY/preview"
+    },
+    {
+      "code": "CHEM 130",
+      "title": "General Chemistry",
+      "credits": 3,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1SWddhvvfBVS6WIpE21xqGtlQkQgUAq6PJFbmtwcTsXY/preview"
+    },
+    {
+      "code": "PHYSICS 140",
+      "title": "General Physics I",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1SWddhvvfBVS6WIpE21xqGtlQkQgUAq6PJFbmtwcTsXY/preview"
+    },
+    {
+      "code": "PHYSICS 141",
+      "title": "Elementary Laboratory I",
+      "credits": 1,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1SWddhvvfBVS6WIpE21xqGtlQkQgUAq6PJFbmtwcTsXY/preview"
+    },
+    {
+      "code": "PHYSICS 240",
+      "title": "General Physics II",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1SWddhvvfBVS6WIpE21xqGtlQkQgUAq6PJFbmtwcTsXY/preview"
+    },
+    {
+      "code": "PHYSICS 241",
+      "title": "Elementary Laboratory II",
+      "credits": 1,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1SWddhvvfBVS6WIpE21xqGtlQkQgUAq6PJFbmtwcTsXY/preview"
+    },
+    {
+      "code": "MATH 115",
+      "title": "Calculus I",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 120",
+      "title": "AP Calculus I credit",
+      "credits": null,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 185",
+      "title": "Honors Calculus I",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 295",
+      "title": "Honors Mathematics I",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 116",
+      "title": "Calculus II",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 121",
+      "title": "AP Calculus II credit",
+      "credits": null,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 156",
+      "title": "Applied Honors Calculus II",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 186",
+      "title": "Honors Calculus II",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 276",
+      "title": "Honors Mathematics II",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 296",
+      "title": "Honors Mathematics II",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 417",
+      "title": "Matrix Algebra I",
+      "credits": 3,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 419",
+      "title": "Linear Spaces and Matrix Theory",
+      "credits": 3,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 205",
+      "title": "Calculus III alternative",
+      "credits": null,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 316",
+      "title": "Differential Equations",
+      "credits": 3,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "STATS 250",
+      "title": "Introduction to Statistics and Data Analysis",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "DATASCI 101",
+      "title": "Introduction to Data Science",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "STATS 280",
+      "title": "Honors Introduction to Statistics and Data Analysis",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "STATS 412",
+      "title": "Introduction to Probability and Statistics",
+      "credits": 3,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "EECS 301",
+      "title": "Probabilistic Methods in Engineering",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "ECON 451",
+      "title": "Intermediate Introduction to Statistics and Econometrics I",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "IOE 265",
+      "title": "Probability and Statistics for Engineers",
+      "credits": 4,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "TO 301",
+      "title": "Business Analytics and Statistics",
+      "credits": null,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 425",
+      "title": "Introduction to Probability",
+      "credits": 3,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 525",
+      "title": "Probability Theory",
+      "credits": 3,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "STATS 525",
+      "title": "Probability Theory",
+      "credits": 3,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "MATH 526",
+      "title": "Discrete State Stochastic Processes",
+      "credits": 3,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "STATS 526",
+      "title": "Discrete State Stochastic Processes",
+      "credits": 3,
+      "category": "Foundation",
+      "note": "",
+      "source": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview"
+    },
+    {
+      "code": "EECS 399",
+      "title": "Directed Study",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "Combined directed study/research limit: 4 technical elective credits.",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    },
+    {
+      "code": "EECS 499",
+      "title": "Directed Study",
+      "credits": null,
+      "category": "Flexible technical elective",
+      "note": "Combined directed study/research limit: 4 technical elective credits.",
+      "source": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+    }
   ]
 }

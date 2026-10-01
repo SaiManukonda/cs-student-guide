@@ -1,3 +1,4 @@
+import {michiganAudit} from './umich-audit';
 import {campusCourses,programs,type CampusId} from './campus-programs';
 import {campusCourseKey,type CampusPlan} from './campus-plan';
 import {uiucFocus,uiucTeam,vtCore,vtTheory,vtCapstone,vtExcluded} from './campus-audit-data';
@@ -19,6 +20,7 @@ export function assignSlots(groups:{options:string[];count:number}[],done:Set<st
  return groups.map((_,i)=>[...owner].filter(([,slot])=>slots[slot].group===i).map(([code])=>code));
 }
 export function campusAudit(id:CampusId,completed:string[],plan:CampusPlan):CampusAudit{
+ if(id==='umich')return michiganAudit(completed,plan);
  const courses=campusCourses(id),byCode=new Map(courses.map(c=>[c.code,c])),done=new Set(courses.filter(c=>completed.includes(campusCourseKey(id,c.code))).map(c=>c.code));
  const credits=(code:string)=>plan.creditOverrides[code]??byCode.get(code)?.credits??0;
  // A zero-credit override means duplicate/ineligible credit, except genuine 0-hour courses.

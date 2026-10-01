@@ -12,8 +12,8 @@ try{
  assert.equal(emptyWorkspace.college,'');
  assert.equal(workspaceSchema.safeParse(emptyWorkspace).success,false,'saving requires an explicit university');
  assert.equal(workspaceSchema.safeParse({...emptyWorkspace,college:'not a school'}).success,false);
- assert.equal(universityNames.length,5);
- assert.equal((markup.match(/type="radio"/g)||[]).length,5);
+ assert.equal(universityNames.length,6);
+ assert.equal((markup.match(/type="radio"/g)||[]).length,6);
  assert.ok(!markup.includes('checked=""'),'no default choice');
  assert.match(markup,/<button[^>]*disabled=""/,'Continue disabled before choosing');
  for(const name of universityNames){

@@ -1,0 +1,787 @@
+{
+  "ulcs": [
+    "EECS 367",
+    "EECS 373",
+    "EECS 388",
+    "EECS 390",
+    "EECS 404",
+    "EECS 427",
+    "EECS 442",
+    "EECS 445",
+    "EECS 470",
+    "EECS 471",
+    "EECS 474",
+    "EECS 475",
+    "EECS 476",
+    "EECS 477",
+    "EECS 478",
+    "EECS 479",
+    "EECS 481",
+    "EECS 482",
+    "EECS 483",
+    "EECS 484",
+    "EECS 485",
+    "EECS 486",
+    "EECS 487",
+    "EECS 489",
+    "EECS 490",
+    "EECS 491",
+    "EECS 492",
+    "EECS 493"
+  ],
+  "capstone": [
+    "EECS 440",
+    "EECS 441",
+    "EECS 443",
+    "EECS 447",
+    "EECS 448",
+    "EECS 449",
+    "EECS 467",
+    "EECS 472",
+    "EECS 473",
+    "EECS 480",
+    "EECS 494",
+    "EECS 495",
+    "EECS 497",
+    "CSE 596"
+  ],
+  "expanded": [
+    "CSE 401X",
+    "CSE 572",
+    "CSE 574",
+    "CSE 575",
+    "CSE 577",
+    "ECE 544",
+    "EECS 444",
+    "EECS 453",
+    "EECS 460",
+    "EECS 461",
+    "EECS 465",
+    "EECS 553"
+  ],
+  "flex": [
+    "AEROSP 215",
+    "AEROSP 225",
+    "ASTRO 201",
+    "ASTRO 205",
+    "ASTRO 206",
+    "ASTRO 361",
+    "ASTRO 404",
+    "BIOINF 463",
+    "BIOINF 501",
+    "BIOLOGY 305",
+    "BIOMEDE 221",
+    "BIOMEDE 231",
+    "CHE 230",
+    "CHEM 210",
+    "CHEM 211",
+    "CHEM 215",
+    "CHEM 216",
+    "CHEM 230",
+    "CHEM 241",
+    "CHEM 242",
+    "CHEM 260",
+    "CEE 211",
+    "CEE 212",
+    "CEE 230",
+    "CEE 265",
+    "CMPLXSYS 250",
+    "CMPLXSYS 260",
+    "CMPLXSYS 270",
+    "COMPFOR 221",
+    "DATASCI 306",
+    "DATASCI 315",
+    "DATASCI 415",
+    "DATSCI 470",
+    "EARTH 408",
+    "ECON 401",
+    "ECON 402",
+    "ECON 409",
+    "ECON 452",
+    "EECS 201",
+    "EECS 215",
+    "EECS 216",
+    "EECS 230",
+    "EECS 245",
+    "EECS 270",
+    "EECS 285",
+    "EECS 408",
+    "ENGR 350",
+    "ENGR 403",
+    "ENGR 450",
+    "ENGR 480",
+    "ENTR 475",
+    "FIN 302",
+    "FIN 342",
+    "FIN 427",
+    "FIN 428",
+    "IOE 202",
+    "LING 441",
+    "LING 442",
+    "LING 445",
+    "MFG 504",
+    "MKT 425",
+    "MATSCIE 220",
+    "MATSCIE 242",
+    "MATSCIE 250",
+    "MATH 214",
+    "MATH 215",
+    "MATH 216",
+    "MATH 217",
+    "MATH 285",
+    "MATH 286",
+    "MATH 297",
+    "MECHENG 211",
+    "MECHENG 235",
+    "MECHENG 240",
+    "MECHENG 250",
+    "MCDB 306",
+    "MCDB 310",
+    "NAVARCH 270",
+    "NERS 211",
+    "NERS 250",
+    "PAT 204",
+    "PAT 452",
+    "PAT 462",
+    "PAT 463",
+    "PAT 464",
+    "PHIL 414",
+    "PHIL 417",
+    "POLSCI 490",
+    "PSYCH 449",
+    "ROB 204",
+    "SI 201",
+    "SI 303",
+    "SI 313",
+    "SI 315",
+    "SI 338",
+    "SI 342",
+    "SI 357",
+    "SI 465",
+    "SI 563",
+    "SI 630",
+    "STATS 401",
+    "STATS 403",
+    "STATS 406",
+    "STATS 413",
+    "STATS 425",
+    "STATS 426",
+    "STATS 430",
+    "STATS 449",
+    "STATS 531",
+    "TO 302",
+    "TO 313",
+    "TO 414",
+    "TO 428",
+    "TO 450",
+    "EECS 399",
+    "EECS 499"
+  ],
+  "research": [
+    "ENGR 350",
+    "ENGR 355",
+    "ENGR 450",
+    "ENGR 455",
+    "ENGR 480",
+    "ENTR 475",
+    "ENTR 485",
+    "EECS 399",
+    "EECS 499"
+  ],
+  "stats": [
+    "STATS 250",
+    "DATASCI 101",
+    "STATS 280",
+    "STATS 412",
+    "STATS 426",
+    "EECS 301",
+    "ECON 451",
+    "IOE 265",
+    "TO 301",
+    "MATH 425",
+    "STATS 425",
+    "MATH 525",
+    "STATS 525",
+    "MATH 526",
+    "STATS 526"
+  ],
+  "sources": {
+    "lsa": "https://docs.google.com/document/d/1n1mqcdKegEyzARW_r6dB-kaoDdBPC353ty_esaJe0sc/preview",
+    "eng": "https://docs.google.com/document/d/1SWddhvvfBVS6WIpE21xqGtlQkQgUAq6PJFbmtwcTsXY/preview",
+    "electives": "https://docs.google.com/spreadsheets/d/1fzrh1CnpGIrIjvCVtKRqihvVXCOSCc5fTZgbsWOuN9I/preview"
+  },
+  "flexRules": [
+    {
+      "category": "Aerospace Engineering",
+      "text": "AEROSP 215: Introduction to Solid Mechanics and Aerospace Structures (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "AEROSP 225: Introduction to Gas Dynamics (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "Any AEROSP course at the 300-level or higher [AEROSP 390 & 490: see Directed Study Rule above.]"
+    },
+    {
+      "category": "Astronomy",
+      "text": "ASTRO 201: Introduction to Astrophysics (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "ASTRO 205: Exploring the X-Ray Universe (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "ASTRO 206: Black Holes (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "ASTRO 361: Astronomical Techniques (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "ASTRO 404: Galaxies and the Universe (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "Any ASTRO course at the 400-level (except 429 and 461)"
+    },
+    {
+      "category": "Bioinformatics",
+      "text": "BIOINF 463: Mathematical Modeling in Biology"
+    },
+    {
+      "category": "",
+      "text": "BIOINF 501: Mathematical Foundations for Bioinformatics (3 credits)"
+    },
+    {
+      "category": "Biology",
+      "text": "BIOLOGY 305: Genetics (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "Any BIOLOGY, EEB, or MCDB course at the 400-level or higher"
+    },
+    {
+      "category": "Biomedical Engineering",
+      "text": "BIOMEDE 221: Biophysical Chemistry and Thermodynamics (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "BIOMEDE 231: Introduction to Biomechanics (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "Any BIOMEDE course at the 300-level or higher [BIOMEDE 490: see Directed Study Rule above.]"
+    },
+    {
+      "category": "Chemical Engineering",
+      "text": "CHE 230: Material and Energy Balances  (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "Any CHE course at the 300-level or higher [except CHE 405. CHE 490: see Directed Study Rule above.]"
+    },
+    {
+      "category": "Chemistry",
+      "text": "CHEM 210: Structure and Reactivity I (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "CHEM 211: Investigations in Chemistry (1-2 credits)"
+    },
+    {
+      "category": "",
+      "text": "CHEM 215: Structure and Reactivity II (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "CHEM 216: Synthesis and Characterization of Organic Compounds (2 credits)"
+    },
+    {
+      "category": "",
+      "text": "CHEM 230: Physical Chemical Principles and Applications (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "CHEM 241: Introduction to Chemical Analysis (2 credits)"
+    },
+    {
+      "category": "",
+      "text": "CHEM 242: Introduction to Chemical Analysis Laboratory (2 credits)"
+    },
+    {
+      "category": "",
+      "text": "CHEM 260: Chemical Principles (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "Any CHEM course at the 300-level or higher [CHEM 398, 399, 498, & 499: see Directed Study Rule above.]"
+    },
+    {
+      "category": "Civil and Environmental Engineering",
+      "text": "CEE 211: Statics and Dynamics (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "CEE 212: Solid and Structural Mechanics (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "CEE 230: Energy and Environment (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "CEE 265: Sustainable Engineering Principles (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "Any CEE course at the 300-level or higher (except 303) [CEE 490: see Directed Study Rule above.]"
+    },
+    {
+      "category": "Climate and Space",
+      "text": "Any CLIMATE or SPACE course at the 300-level or higher [CLIMATE/SPACE 499: see Directed Study Rule above.]"
+    },
+    {
+      "category": "Complex Systems",
+      "text": "CMPLXSYS 250: Energy and Climate Change: Technology, Markets, and Policy (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "CMPLXSYS/SOC 251: Computational Social Sciences"
+    },
+    {
+      "category": "",
+      "text": "CMPLXSYS 260: Tipping Points, Bandwagons and Cascades: From Individual Behavior to Social Dynamics (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "CMPLXSYS 270: Agent Based Modeling (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "Any CMPLXSYS course at the 300-lvl or higher"
+    },
+    {
+      "category": "Program for Computing in the Arts and Sciences",
+      "text": "COMPFOR 221: Python Programming for Digital Media (3 credits)"
+    },
+    {
+      "category": "Data Science",
+      "text": "DATASCI 306: Introduction to Statistical Computing"
+    },
+    {
+      "category": "",
+      "text": "DATASCI 315: Statistics and Artificial Intelligence"
+    },
+    {
+      "category": "",
+      "text": "DATASCI 415: Data Mining and Statistical Learning"
+    },
+    {
+      "category": "",
+      "text": "DATSCI 470: Introduction to the Design of Experiments"
+    },
+    {
+      "category": "Earth",
+      "text": "EARTH 408: Intro to GIS in the Earth Sciences (4 credits)"
+    },
+    {
+      "category": "Economics",
+      "text": "ECON 401: Intermed Micro Thry (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "ECON 402: Intermed Macro Thry (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "ECON 409: Game Theory (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "ECON 452: Intermediate Introduction to Statistics and Econometrics II  (4 credits)"
+    },
+    {
+      "category": "Electrical Engineering and Computer Science",
+      "text": "EECS 201: Computer Science Pragmatics (2 credits)"
+    },
+    {
+      "category": "",
+      "text": "EECS 215: Introduction to Electronic Circuits (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "EECS 216: Introduction to Signals and Systems (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "EECS 230: Electromagnetics I  (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "EECS 245: Mathematics for Machine Learning (4 credits) \nPlease note: EECS 245 can satisfy either the CS Linear Algebra requirement or a Flexible Technical Elective. Email ugadmin@eecs.umich.edu if you would like it to count toward Flexible Technical Elective."
+    },
+    {
+      "category": "",
+      "text": "EECS 250: Electronic Sensing Systems (only if taken WN17 or before)"
+    },
+    {
+      "category": "",
+      "text": "EECS 270: Introduction to Logic Design (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "EECS 285: Practical Programming in Java (2 credits)"
+    },
+    {
+      "category": "",
+      "text": "EECS 408: Advanced Operating Systems Projects (2 credits) Please note: This course requires concurrent enrollment in EECS 482."
+    },
+    {
+      "category": "",
+      "text": "Any EECS or CSE or ECE course at the 300-level or higher (except 398*, 402, 406, 409, 410, 496, 498*, \nand Capstone courses**) [EECS 399 (FA’14 or later)/499: see Directed Study Rule above.]"
+    },
+    {
+      "category": "",
+      "text": "Each special topics course is reviewed for possible FTE/ULCS credit for the term/topic offered; see the \nAdvising Office for details."
+    },
+    {
+      "category": "",
+      "text": "*Special topics course approvals for possible use toward program requirements, evaluated \neach term, can be found here."
+    },
+    {
+      "category": "",
+      "text": "**Capstone courses do not count towards FTE if taken in WN'24 or later (except 470, 473, and 494, \nwhich continue to count as FTE)."
+    },
+    {
+      "category": "Engineering",
+      "text": "ENGR 350: International Lab. Experience for Engineers [See Directed Study Rule above.]"
+    },
+    {
+      "category": "",
+      "text": "ENGR 355: Intermediate Multidisciplinary Engineering Project [See Directed Study Rule above.] (1-4 credits)*"
+    },
+    {
+      "category": "",
+      "text": "ENGR 403: Scientific Visualization"
+    },
+    {
+      "category": "",
+      "text": "ENGR 450: Multidisciplinary Design [See Directed Study Rule above.] (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "ENGR 455: Advanced Multidisciplinary Engineering Project [See Directed Study Rule above.] (1-4 credits)*"
+    },
+    {
+      "category": "",
+      "text": "ENGR 480: Global Synthesis Project (Tauber Institute) [See Directed Study Rule above.] (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "*For MDP industry-sponsored projects, ENGR 355 and 455 can only count towards Flex Tech if both semesters of MDP project are completed. See CS-Eng MDP page (point #3). MDP faculty research projects for ENGR 355/455 can also count as Flex Tech."
+    },
+    {
+      "category": "Entrepreneurship",
+      "text": "ENTR 475: TechLab: Entrepreneurial Exploration and Development [See Directed Study Rule above.] (Up to 4 credits)"
+    },
+    {
+      "category": "",
+      "text": "ENTR 485: Only sections of TechLab MCity, PJTL Climate Change, PJTL Electrification, and PJTL: MCity [See Directed Study Rule above.] (Up to 4 credits)"
+    },
+    {
+      "category": "Finance",
+      "text": "FIN 302: Making Financial Decisions (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "FIN 342: Big Data in Finance (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "FIN 427: Artificial Intelligence and Machine Learning in Investment Strategies (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "FIN 428: FinTech Innovations (3 credits)"
+    },
+    {
+      "category": "Industrial and Operations Engineering",
+      "text": "IOE 202: Operations Modeling (course is not open to students with 85 credits or more) (2 credits)"
+    },
+    {
+      "category": "",
+      "text": "Any IOE course at the 300-level or higher (except 422) [IOE 490: see Directed Study Rule above.]"
+    },
+    {
+      "category": "Linguistics",
+      "text": "LING 441: Introduction to Computational Linguistics (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "LING 442: Computational Linguistics II (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "LING 445: Introduction to Machine Learning for Natural Language Processing (3 credits)"
+    },
+    {
+      "category": "Manufacturing",
+      "text": "MFG 504: Tauber Institute Project (3 credits)"
+    },
+    {
+      "category": "Marketing",
+      "text": "MKT 425: New Products and Innovation Management (with AI) (3 credits)"
+    },
+    {
+      "category": "Materials Science and Engineering",
+      "text": "MATSCIE 220: Introduction to Materials and Manufacturing (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "MATSCIE 242: Physics of Materials (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "MATSCIE 250: Principles of Engineering Materials (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "Any MATSCIE course at the 300-level or higher [MATSCIE 490: see Directed Study Rule above.]"
+    },
+    {
+      "category": "Mathematics",
+      "text": "MATH 214: Applied Linear Algebra (if not used for CoE Math Core) (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "MATH 215: Calculus III (if not used for CoE Math Core) (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "MATH 216: Introduction to Differential Equations"
+    },
+    {
+      "category": "",
+      "text": "MATH 217: Linear Algebra (if not used for CoE Math Core) (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "MATH 285: Honors Multivariable and Vector Calculus (if not used for CoE Math Core) (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "MATH 286: Honors Differential Equations (if not used for CoE Math Core) (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "MATH 297: Introduction to Analysis"
+    },
+    {
+      "category": "",
+      "text": "Any MATH course at the 300-level or higher (except 310, 327, 333, 385, 389, 399, 417, 419, 422, 429, 431, 485, 486, 489, 497)"
+    },
+    {
+      "category": "Mechanical Engineering",
+      "text": "MECHENG 211: Introduction to Solid Mechanics (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "MECHENG 235: Thermodynamics (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "MECHENG 240: Introduction to Dynamics and Vibrations (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "MECHENG 250: Design and Manufacturing I  (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "Any MECHENG course at the 300-level or higher [MECHENG 490 & 491: see Directed Study Rule above.]"
+    },
+    {
+      "category": "Molecular, Cellular, and Developmental Biology (MCBD)",
+      "text": "MCDB 306: Introductory Genetics Laboratory (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "MCDB 310: Introductory Biochemistry (3 credits)"
+    },
+    {
+      "category": "Naval Architecture and Marine Engineering",
+      "text": "NAVARCH 270: Marine Design (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "Any NAVARCH course at the 300-level or higher [NAVARCH 490: see Directed Study Rule above.]"
+    },
+    {
+      "category": "Nuclear Engineering and Radiological Sciences",
+      "text": "NERS 211: Introduction to Nuclear Engineering and Radiological Sciences (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "NERS 250: Fundamentals of Nuclear Engineering and Radiological Sciences (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "Any NERS course at the 300-level or higher [NERS 499: see Directed Study Rule above.]"
+    },
+    {
+      "category": "Performing Arts Technology",
+      "text": "PAT 204: Creative Coding (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "PAT 452: Interactive Music Design II (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "PAT 462: Digital Sound Synthesis (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "PAT 463: Music and AI (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "PAT 464: Generative AI for Music and Audio Creation"
+    },
+    {
+      "category": "Philosophy",
+      "text": "PHIL 414: Mathematical Logic (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "PHIL 417: Logic, Computation, and Learning (3 credits)"
+    },
+    {
+      "category": "Physics",
+      "text": "Any PHYSICS course at the 300-level or higher (except 333, 334, 420, and 481). [PHYS 496, 497, 498, 499: see \nDirected Study Rule above.]"
+    },
+    {
+      "category": "Political Science",
+      "text": "POLSCI 490: Game Theory and Formal Models (4 credits)"
+    },
+    {
+      "category": "Psychology",
+      "text": "PSYCH 449: Decision Processes (3 credits)"
+    },
+    {
+      "category": "Robotics",
+      "text": "ROB 204: Introduction to Human-Robot Systems (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "Any ROB course at the 300-level or higher [ROB 490: see Directed Study Rule above.]"
+    },
+    {
+      "category": "School of Information",
+      "text": "SI 201: Data Oriented Prog (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "SI 303: Introducion to Qualitative Methods (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "Winter 2026 only SI 311.062: Casual Inference"
+    },
+    {
+      "category": "",
+      "text": "SI 313: Introduction to Quantitative Methods (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "SI 315: Models of Social Information Processing (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "SI 338: Web Design, Development, and Accessibility (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "SI 342: Games and UX (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "SI 357: Introduction to Development (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "SI 465: Applied AI: Machine Learning"
+    },
+    {
+      "category": "",
+      "text": "SI 563: Game Theory (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "SI 630: Natural Language Processing: Algorithms and People (3 credits)"
+    },
+    {
+      "category": "Statistics",
+      "text": "STATS 401: Applied Statistical Methods II (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "STATS 403: Introduction to Quantitative Research Methods (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "STATS 406: Computational Methods in Statistics and Data Science (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "STATS 413: Applied Regression Analysis (4 credits)"
+    },
+    {
+      "category": "",
+      "text": "STATS 425: Introduction to Probability (cross-listed with MATH 425) (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "STATS 426: Introduction to Theoretical Statistics (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "STATS 430: Applied Probability (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "STATS 449: Topics in Biostatistics (cross-listed with BIOSTAT 449) (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "STATS 531: Analysis of Time Series (3 credits)"
+    },
+    {
+      "category": "Technology & Operations (Ross School of Business)",
+      "text": "TO 302: Managing Business Operations (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "TO 313: Operations Management (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "TO 414: Advanced Analytics For Management Consulting (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "TO 428: FinTech: Blockchain, Cryptocurrencies, and Other Technology Innovations In and Out of Finance (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "TO 450: Business Intelligence and Data Visualization (3 credits)"
+    },
+    {
+      "category": "",
+      "text": "TO 605/MFG 605: Manufacturing and Supply Operations (1.5-3 credits)"
+    }
+  ]
+}
