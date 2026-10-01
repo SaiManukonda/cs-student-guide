@@ -84,3 +84,23 @@ See [PRODUCT.md](PRODUCT.md) for implementation details and [development notes](
 - Resume compilation downloads TeX packages from TeXlyre. Source is compiled in the browser; saving a draft stores it in the signed-in workspace.
 
 Environment files, local databases, dependencies, and build output are excluded from Git. Third-party code and assets retain their respective licenses.
+
+### Automatic university course audits
+
+The UMD general track, UIUC Grainger CS, Virginia Tech CS, and all 36 cached
+Georgia Tech Thread combinations now derive requirement progress from completed
+courses. `app/campus-audit.ts` handles elective allocation; the planner shows
+remaining requirements with inline course status controls. Legacy confirmation
+checkboxes remain in saved records for compatibility but never award progress.
+Degree-credit progress is separate from this course-requirement estimate.
+
+Rules were checked against the linked official university catalogs on October 1,
+2026. UMD semester-specific topics/STIC combinations, individually approved
+substitutions, non-CS requirements and Georgia Tech alternative experiential
+pathways are explicitly outside the automatic audit. Course completion assumes
+the required passing grade. UIUC 3-or-4-credit offerings default to 3 where the
+program lists that minimum; users can correct awarded credits. Wellness does not
+contribute to Georgia Tech's 124 degree credits.
+
+Run `node tests/campus-audit.mjs` for automatic allocation, all Thread curricula,
+distribution/focus rules, credit limits, alternatives and school isolation.

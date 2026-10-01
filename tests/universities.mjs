@@ -26,7 +26,7 @@ try{
  for(const id of Object.keys(programs)){
   const courses=campusCourses(id);assert.ok(courses.length>=40);assert.equal(courses.length,new Set(courses.map(c=>c.code)).size);
   for(const group of programs[id].core)for(const code of group)assert.ok(courses.some(c=>c.code===code),id+' missing '+code);
-  const first=courses.find(c=>c.credits>0);const done=[campusCourseKey(id,first.code)];
+  const first=courses.find(c=>c.credits>0&&!c.code.startsWith('APPH '));const done=[campusCourseKey(id,first.code)];
   assert.equal(campusProgress(id,done,emptyCampusPlan).credits,first.credits);
   assert.equal(campusProgress(id,[...done,...done],emptyCampusPlan).credits,first.credits,'duplicate IDs never double count');
   assert.equal(campusProgress(id,done,{...emptyCampusPlan,creditOverrides:{[first.code]:0}}).credits,0);
