@@ -56,7 +56,7 @@ export function buildProgram(p:Problem,l:Language,code:string,all:boolean):strin
  if(l==='java'){
   // Java import declarations must precede the supplied node classes.
   const imports=code.match(/^\s*import\s+[^;]+;/gm)||[];
-  return 'import java.util.*;\n'+imports.join('\n')+'\n'+javaRuntime+'\n'+code.replace(/^\s*import\s+[^;]+;/gm,'')+'\nclass Wandbox { public static void main(String[] args) {\n'+bodies.join('\n')+'\n}}';
+  return 'import java.util.*;\n'+imports.join('\n')+'\n'+javaRuntime+'\n'+code.replace(/^\s*import\s+[^;]+;/gm,'')+'\nclass Wandbox {\n'+bodies.map((body,i)=>'static void case'+i+'(){\n'+body+'\n}').join('\n')+'\npublic static void main(String[] args) {\n'+bodies.map((_,i)=>'case'+i+'();').join('\n')+'\n}}';
  }
  return '#include <bits/stdc++.h>\nusing namespace std;\n'+cppRuntime+'\n'+code+'\nint main(){\n'+bodies.join('\n')+'\nreturn 0;\n}';
 }
@@ -66,6 +66,13 @@ function ordered(x:unknown,nested=false):unknown {
  return x.map(v=>nested&&Array.isArray(v)?[...v].sort((a,b)=>canonical(a).localeCompare(canonical(b))):v).sort((a,b)=>canonical(a).localeCompare(canonical(b)));
 }
 export function accepts(p:Problem,input:unknown[],expected:unknown,actual:unknown):boolean {
+ if(p.id==='minimum-window-substring'){
+  if(typeof actual!=='string'||actual.length!==(expected as string).length||!(input[0] as string).includes(actual))return false;
+  if(expected==='')return actual==='';
+  const counts=new Map<string,number>();for(const c of actual)counts.set(c,(counts.get(c)||0)+1);
+  for(const c of input[1] as string){const n=counts.get(c)||0;if(!n)return false;counts.set(c,n-1)}return true;
+ }
+ if(p.id==='two-sum')return Array.isArray(actual)&&actual.length===2&&actual.every(i=>Number.isInteger(i)&&i>=0&&i<(input[0] as number[]).length)&&actual[0]!==actual[1]&&(input[0] as number[])[actual[0]]+(input[0] as number[])[actual[1]]===input[1];
  if(p.mode==='alien'){
   if(typeof actual!=='string')return false;
   if(expected==='')return actual==='';
@@ -83,5 +90,5 @@ export type RunResult={passed:number;total:number;details:string[]};
 export function grade(p:Problem,all:boolean,stdout:string):RunResult {
  const cases=all?p.tests:p.tests.slice(0,1),rows=new Map<number,{value?:unknown;error?:string}>();
  for(const line of stdout.split('\n')){if(!line.startsWith(marker))continue;try{const row=JSON.parse(line.slice(marker.length));if(Number.isInteger(row.index)&&row.index>=0&&row.index<cases.length)rows.set(row.index,row);}catch{/* Treat malformed output as a failed case. */}}
- let passed=0;const details=cases.map((t,i)=>{const row=rows.get(i);if(!row)return `Case ${i+1}: no result (the program stopped or exceeded its limit).`;if(row.error)return `Case ${i+1}: ${String(row.error).slice(0,600)}`;const ok=accepts(p,t.args,t.expected,row.value);if(ok){passed++;return `Case ${i+1}: passed`;}return `Case ${i+1}: expected ${canonical(t.expected).slice(0,250)}; received ${String(canonical(row.value)).slice(0,250)}`;});return {passed,total:cases.length,details};
+ let passed=0;const details=cases.map((t,i)=>{const row=rows.get(i),name=`Case ${i+1}${t.label?' — '+t.label:''}`;if(!row)return `${name}: no result (the program stopped or exceeded its limit).`;if(row.error)return `${name}: ${String(row.error).slice(0,600)}`;const ok=accepts(p,t.args,t.expected,row.value);if(ok){passed++;return `${name}: passed`;}return `${name}: expected ${canonical(t.expected).slice(0,250)}; received ${String(canonical(row.value)).slice(0,250)}`;});return {passed,total:cases.length,details};
 }

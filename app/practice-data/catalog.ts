@@ -1,7 +1,7 @@
 import data from './problems.json';
 export type Language = 'javascript' | 'python' | 'java' | 'cpp';
 export type ValueType = 'int' | 'long' | 'double' | 'bool' | 'string' | 'int[]' | 'int[][]' | 'string[]' | 'string[][]' | 'tree' | 'list' | 'list[]' | 'graph';
-export type Problem = {id:string;name:string;topic:string;level:string;args:{name:string;type:ValueType}[];returns:ValueType;prompt:string;hint:string;tests:{args:unknown[];expected:unknown}[];mode:string;kind:string};
+export type Problem = {id:string;name:string;topic:string;level:string;args:{name:string;type:ValueType}[];returns:ValueType;prompt:string;hint:string;tests:{args:unknown[];expected:unknown;label?:string;coverage?:string}[];mode:string;kind:string};
 export const problems = data as Problem[];
 export const languages: {id:Language;name:string;file:string}[] = [{id:'javascript',name:'JavaScript',file:'solution.js'},{id:'python',name:'Python',file:'solution.py'},{id:'java',name:'Java',file:'Solution.java'},{id:'cpp',name:'C++',file:'solution.cpp'}];
 export const listSource = 'https://www.techinterviewhandbook.org/best-practice-questions/';

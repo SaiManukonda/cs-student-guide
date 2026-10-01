@@ -40,6 +40,7 @@ Open the URL printed by the development server, normally `http://localhost:5173`
 
 ```sh
 node tests/practice.mjs # Practice catalog and grading checks
+node tests/practice-expanded.mjs # Expanded fixtures and cross-language checks
 node tests/courses.mjs  # Degree progress and catalog checks
 npx tsc --noEmit   # Type-check
 npm run build     # Production Worker build

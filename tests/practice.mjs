@@ -13,7 +13,7 @@ try{
  const {problems,languages,starter}=await import(pathToFileURL(join(dir,'catalog.mjs')));
  const {buildProgram,grade,accepts}=await import(pathToFileURL(join(dir,'engine.mjs')));
  assert.equal(problems.length,75);assert.equal(new Set(problems.map(p=>p.id)).size,75);
- for(const p of problems){assert.match(p.id,/^[a-z0-9-]+$/);assert.ok(p.tests.length>=4);for(const t of p.tests)assert.ok(accepts(p,t.args,t.expected,t.expected),p.id);for(const l of languages)assert.ok(starter(p,l.id).length>50);new vm.Script(buildProgram(p,'javascript',starter(p,'javascript'),true));}
+ for(const p of problems){assert.match(p.id,/^[a-z0-9-]+$/);assert.ok(p.tests.length>=24);for(const t of p.tests)assert.ok(accepts(p,t.args,t.expected,t.expected),p.id);for(const l of languages)assert.ok(starter(p,l.id).length>50);new vm.Script(buildProgram(p,'javascript',starter(p,'javascript'),true));}
  const run=(id,code)=>{const p=problems.find(p=>p.id===id),lines=[];vm.runInNewContext(buildProgram(p,'javascript',code,true),{console:{log:x=>lines.push(x)}},{timeout:1500});return grade(p,true,lines.join('\n'));};
  const fixtures={
   'two-sum':`function solve(a,t){for(let i=0;i<a.length;i++)for(let j=i+1;j<a.length;j++)if(a[i]+a[j]===t)return [j,i];}`,
@@ -37,6 +37,8 @@ try{
  assert.ok(accepts(pal,['babad'],'bab','aba'));assert.ok(!accepts(pal,['babad'],'bab','bad'));
  assert.ok(accepts(alien,[['za','zb','ca','cb']],'zacb','azbc'));assert.ok(!accepts(alien,[['za','zb','ca','cb']],'zacb','abcz'));
  assert.ok(!accepts(alien,[['a','b']],'ab','aa'));
+ const windowProblem=problems.find(p=>p.id==='minimum-window-substring');
+ assert.ok(accepts(windowProblem,['abxba','ab'],'ab','ba'));assert.ok(!accepts(windowProblem,['abxba','aa'],'ab','ba'));
  const two=problems[0];assert.equal(grade(two,true,'not a result').passed,0);assert.equal(grade(two,true,'__CAMPUS_CASE__invalid').passed,0);
- console.log('Verified 75 problems, 300 cases, 300 starters; node adapters, design problems, alternate-answer grading, and invalid outputs.');
+ console.log(`Verified 75 problems, ${problems.reduce((n,p)=>n+p.tests.length,0)} cases, 300 starters; node adapters, design problems, alternate-answer grading, and invalid outputs.`);
 }finally{await rm(dir,{recursive:true,force:true});}
