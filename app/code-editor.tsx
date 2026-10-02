@@ -6,12 +6,14 @@ import {EditorView,keymap} from '@codemirror/view';
 import {indentWithTab} from '@codemirror/commands';
 import {indentUnit} from '@codemirror/language';
 import {javascript} from '@codemirror/lang-javascript';
+import {html} from '@codemirror/lang-html';
+import {css} from '@codemirror/lang-css';
 import {python} from '@codemirror/lang-python';
 import {java} from '@codemirror/lang-java';
 import {cpp} from '@codemirror/lang-cpp';
 import {oneDark} from '@codemirror/theme-one-dark';
 import type {Language} from './practice-data/catalog';
-const modes={javascript,python,java,cpp};
+const modes={javascript,python,java,cpp,html,css};
 const palette=(dark:boolean)=>EditorView.theme({
  '&':{backgroundColor:dark?'#211f1b':'#fffaf0',color:dark?'#f4ead6':'#201c16'},
  '.cm-content':{caretColor:dark?'#8bd7ca':'#285951'},
@@ -23,7 +25,7 @@ const palette=(dark:boolean)=>EditorView.theme({
  '.cm-tooltip-autocomplete > ul > li[aria-selected]':{backgroundColor:dark?'#18352f':'#d0e0d7',color:dark?'#8bd7ca':'#201c16'},
  '.cm-panels':{backgroundColor:dark?'#2b2821':'#eee8d9',color:dark?'#f4ead6':'#201c16'},
 },{dark});
-export default function CodeEditor({value,onChange,language,disabled=false}:{value:string;onChange:(value:string)=>void;language:Language;disabled?:boolean}){
+export default function CodeEditor({value,onChange,language,disabled=false}:{value:string;onChange:(value:string)=>void;language:Language|'html'|'css';disabled?:boolean}){
  const host=useRef<HTMLDivElement>(null),view=useRef<EditorView|null>(null),change=useRef(onChange);
  change.current=onChange;
  const [position,setPosition]=useState({line:1,column:1});

@@ -12,11 +12,12 @@ import CoursePlanner from './course-planner';
 import CampusPlanner from './campus-planner';
 import {universities,isUniversity} from './university';
 import {type CampusId} from './campus-programs';
-import {TutorialLibrary,Clubs} from './learning';
+import {Clubs} from './learning';
 import ResumeStudio from './resume-studio';
 import Practice from './practice';
 import AiCourse from './ai-course';
 import GitCourse from './git-course';
+import ProjectLab from './project-lab/workspace';
 type Props={section:string;state:SavedState;save:(s:SavedState)=>Promise<boolean>;add:(a?:{company:string;role:string;url:string;employmentType:string})=>void;saving:boolean};
 type Job={id:string;company:string;role:string;url:string;locations:string[];category:string;terms:string[];posted:number;employmentType:string};
 export default function Library(props:Props){const {section,state,save,saving}=props;
@@ -26,7 +27,7 @@ export default function Library(props:Props){const {section,state,save,saving}=p
  if(section==='clubs')return <Clubs college={state.college}/>;
  if(section==='ai-literacy')return <AiCourse/>;
  if(section==='git-literacy')return <GitCourse/>;
- if(section==='projects')return <TutorialLibrary kind={section} state={state} save={save} saving={saving}/>;
+ if(section==='projects')return <ProjectLab state={state} save={save} saving={saving}/>;
  if(section==='courses'&&isUniversity(state.college)){const id=universities[state.college].id;return id==='rutgers'?<CoursePlanner key={id} state={state} save={save} saving={saving}/>:<CampusPlanner key={id} id={id as CampusId} state={state} save={save} saving={saving}/>;}
  return null;
 }
