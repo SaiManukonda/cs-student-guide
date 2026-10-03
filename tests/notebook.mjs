@@ -8,13 +8,13 @@ import {pathToFileURL} from 'node:url';
 const dir=await mkdtemp(join(tmpdir(),'compsci-notebook-'));
 try{
  const outfile=join(dir,'test.mjs');
- await build({stdin:{contents:`export * from './app/project-lab/notebook-course';export * from './app/workspace-schema';export * from './app/browser-workspace';`,resolveDir:process.cwd()},bundle:true,platform:'node',format:'esm',outfile});
+ await build({stdin:{contents:`export * from './app/project-lab/notebook-course';export * from './app/project-lab/ml-course';export * from './app/workspace-schema';export * from './app/browser-workspace';`,resolveDir:process.cwd()},bundle:true,platform:'node',format:'esm',outfile});
  const m=await import(pathToFileURL(outfile));const progress=m.freshNotebook();
  assert.ok(m.notebookSchema.safeParse(progress).success);
  const notebook=m.exportNotebook(progress);assert.equal(notebook.nbformat,4);assert.equal(notebook.cells.length,12);assert.equal(notebook.cells.filter(c=>c.cell_type==='code').length,6);
  assert.equal(new Set(notebook.cells.map(c=>c.id)).size,notebook.cells.length);
  assert.ok(notebook.cells.find(c=>c.id==='load').source.includes('order_id,day,item'));
- const source=join(dir,'cells.json');await writeFile(source,JSON.stringify(m.notebookLessons.flatMap(l=>[l.starter,l.solution,l.check])));
+ const source=join(dir,'cells.json');await writeFile(source,JSON.stringify([...m.notebookLessons,...m.mlCourse.lessons].flatMap(l=>[l.starter,l.solution,l.check])));
  const python=spawnSync('python3',['-c','import ast,json,sys\nfor code in json.load(open(sys.argv[1])): ast.parse(code)',source],{encoding:'utf8'});assert.equal(python.status,0,python.stderr);
  const state={...m.emptyWorkspace,college:'Rutgers–New Brunswick',notebooks:{'campus-sales':progress}};
  const map=new Map(),storage={getItem:k=>map.get(k)??null,setItem:(k,v)=>map.set(k,v)};
@@ -25,5 +25,13 @@ try{
  assert.ok(!m.notebookSchema.safeParse({...progress,cells:[...progress.cells,progress.cells[0]]}).success);
  assert.ok(!m.notebookSchema.safeParse({...progress,cells:progress.cells.slice(1)}).success);
  assert.ok(!m.notebookSchema.safeParse({...progress,cells:progress.cells.map(c=>({...c,source:'x'.repeat(20001)}))}).success);
+ const ml=m.freshNotebook(m.mlCourse.lessons);
+ assert.ok(m.mlNotebookSchema.safeParse(ml).success);
+ assert.ok(!m.notebookSchema.safeParse(ml).success);
+ assert.ok(!m.mlNotebookSchema.safeParse(progress).success);
+ assert.equal(m.exportNotebook(ml,m.mlCourse.lessons).cells.length,12);
+ const both={...state,notebooks:{...state.notebooks,'iris-classifier':ml}};
+ m.writeBrowserWorkspace(storage,both);assert.deepEqual(m.readBrowserWorkspace(storage).notebooks,both.notebooks);
+ assert.deepEqual(m.importBrowserWorkspace({...local,notebooks:both.notebooks},local).notebooks,both.notebooks);
  console.log('Notebook checks passed: cell syntax, standalone Jupyter export, schema bounds, guest persistence, account import and legacy state.');
 }finally{await rm(dir,{recursive:true,force:true})}

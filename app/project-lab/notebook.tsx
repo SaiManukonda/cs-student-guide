@@ -4,14 +4,15 @@ import {Play,RotateCcw,Square,Download,Plus} from 'lucide-react';
 import CodeEditor from '../code-editor';
 import {type SavedState,OutLink} from '../workspace';
 import {useNotebookKernel,type CellRun} from './notebook-kernel';
-import {notebookLessons,notebookId,freshNotebook,exportNotebook,type NotebookProgress,type NotebookOutput} from './notebook-course';
-type Props={state:SavedState;save:(s:SavedState)=>Promise<boolean>;saving:boolean;onBack:()=>void};
-export default function NotebookLab({state,save,saving,onBack}:Props){
- const [notebook,setNotebook]=useState<NotebookProgress>(()=>state.notebooks?.[notebookId]||freshNotebook());
- const [saved,setSaved]=useState(()=>JSON.stringify(state.notebooks?.[notebookId]||freshNotebook()));
+import {salesCourse,type NotebookCourse,freshNotebook,exportNotebook,type NotebookProgress,type NotebookOutput} from './notebook-course';
+type Props={state:SavedState;save:(s:SavedState)=>Promise<boolean>;saving:boolean;onBack:()=>void;course?:NotebookCourse};
+export default function NotebookLab({state,save,saving,onBack,course=salesCourse}:Props){
+ const {id:notebookId,lessons:notebookLessons}=course;
+ const [notebook,setNotebook]=useState<NotebookProgress>(()=>state.notebooks?.[notebookId]||freshNotebook(notebookLessons));
+ const [saved,setSaved]=useState(()=>JSON.stringify(state.notebooks?.[notebookId]||freshNotebook(notebookLessons)));
  const [outputs,setOutputs]=useState<Record<string,CellRun>>({}),[running,setRunning]=useState<string|null>(null),[batch,setBatch]=useState(false),[error,setError]=useState('');
  const [reference,setReference]=useState<string|null>(null),[replace,setReplace]=useState<string|null>(null),[hint,setHint]=useState<string|null>(null);
- const kernel=useNotebookKernel(),cancel=useRef(false),current=useRef(notebook);current.current=notebook;
+ const kernel=useNotebookKernel(course.packages),cancel=useRef(false),current=useRef(notebook);current.current=notebook;
  const dirty=JSON.stringify(notebook)!==saved,busy=kernel.busy||batch||running!==null;
  useEffect(()=>{
   const leave=(e:BeforeUnloadEvent)=>{if(JSON.stringify(current.current)!==saved){e.preventDefault();e.returnValue='';}};
@@ -35,12 +36,12 @@ export default function NotebookLab({state,save,saving,onBack}:Props){
  async function runAll(){cancel.current=false;setBatch(true);try{for(const c of current.current.cells){if(cancel.current||!await runCell(c.id))break;}}finally{setBatch(false);}}
  function restart(){cancel.current=true;kernel.stop();setOutputs({});setRunning(null);setBatch(false);}
  async function persist(){const snapshot=current.current;setError('');if(await save({...state,notebooks:{...state.notebooks,[notebookId]:snapshot}})){setSaved(JSON.stringify(snapshot));return true;}setError('Could not save. Your notebook is still here; try again.');return false;}
- function download(){const url=URL.createObjectURL(new Blob([JSON.stringify(exportNotebook(notebook),null,2)],{type:'application/x-ipynb+json'}));const a=document.createElement('a');a.href=url;a.download='campus-cafe-sales.ipynb';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
- return <section className="notebook-lab" aria-label="Sales analysis notebook">
+ function download(){const url=URL.createObjectURL(new Blob([JSON.stringify(exportNotebook(notebook,notebookLessons),null,2)],{type:'application/x-ipynb+json'}));const a=document.createElement('a');a.href=url;a.download=course.filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+ return <section className="notebook-lab" aria-label={course.title+" notebook"}>
  <button className="text-link project-back" disabled={saving||busy} onClick={async()=>{if(!dirty||await persist())onBack()}}>Back to project library</button>
- <div className="notebook-title"><div><h2>Campus café sales</h2><p>Python · pandas · NumPy</p></div><span>{notebook.completed.length} / 6 lessons complete</span></div>
+ <div className="notebook-title"><div><h2>{course.title}</h2><p>{course.stack}</p></div><span>{notebook.completed.length} / {notebookLessons.length} lessons complete</span></div>
  <div className="notebook-toolbar"><button className="primary" disabled={busy} onClick={runAll}><Play size={15}/>Run all</button><button className="secondary" onClick={restart}><RotateCcw size={15}/>{busy?'Stop & restart':'Restart kernel'}</button><button className="secondary" disabled={saving||busy||!dirty} onClick={persist}>{saving?'Saving…':'Save notebook'}</button><button className="secondary" onClick={download}><Download size={15}/>.ipynb</button><span role="status">{kernel.status}</span></div>
- <p className="notebook-help">Run cells from top to bottom. Variables are shared until you restart the kernel. The first run downloads Python, pandas and NumPy; execution stays in your browser.</p>
+ <p className="notebook-help">Run cells from top to bottom. Variables are shared until you restart the kernel. The first run downloads Python and this project’s packages; execution stays in your browser.</p>
  <div className="notebook-save-status"><span>{dirty?'Unsaved changes':'Notebook saved'}</span><span>Saving keeps code and progress. Re-run cells to restore outputs after reopening.</span></div>
  {error&&<p className="notice" role="alert">{error}</p>}
  <nav className="notebook-outline" aria-label="Notebook lessons">{notebookLessons.map((l,i)=><button key={l.id} onClick={()=>document.getElementById('cell-'+l.id)?.scrollIntoView({behavior:'smooth',block:'start'})}>{notebook.completed.includes(l.id)?'✓':i+1} {l.title}</button>)}</nav>

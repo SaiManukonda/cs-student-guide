@@ -2,7 +2,7 @@
 import {useEffect,useRef,useState} from 'react';
 import type {NotebookOutput} from './notebook-course';
 export type CellRun={outputs:NotebookOutput[];error:string|null;checkError:string|null;execution:number;source:string;invalidated?:boolean};
-export function useNotebookKernel(){
+export function useNotebookKernel(packages:string[]){
  const worker=useRef<Worker|null>(null),pending=useRef<{id:string;resolve:(v:CellRun)=>void;reject:(e:Error)=>void;timer:ReturnType<typeof setTimeout>}|null>(null);
  const [status,setStatus]=useState('Python not started'),[busy,setBusy]=useState(false);
  const loaded=useRef(false);
@@ -30,7 +30,7 @@ export function useNotebookKernel(){
   }else setStatus('Running cell…');
   return new Promise<CellRun>((resolve,reject)=>{
    const id=crypto.randomUUID();pending.current={id,resolve,reject,timer:setTimeout(()=>stop(loaded.current?'Cell timed out · kernel stopped':'Python download timed out · check your connection and retry'),loaded.current?30000:120000)};
-   worker.current!.postMessage({type:'run',id,source,check});
+   worker.current!.postMessage({type:'run',id,source,check,packages});
   });
  }
  return {status,busy,execute,stop};

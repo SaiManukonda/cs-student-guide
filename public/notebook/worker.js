@@ -43,15 +43,15 @@ def _run_cell(source, check):
             check_error = str(exc)[:1000]
     return _json.dumps({"outputs": _outputs[:15], "error": error, "checkError": check_error})
 `;
-async function ready(){
- if(!boot)boot=(async()=>{postMessage({type:'status',message:'Loading Python…'});const {loadPyodide}=await import(root+'pyodide.mjs');python=await loadPyodide({indexURL:root});postMessage({type:'status',message:'Loading pandas and NumPy…'});await python.loadPackage(['numpy','pandas']);await python.runPythonAsync(helpers);postMessage({type:'ready'});})();
+async function ready(packages){
+ if(!boot)boot=(async()=>{postMessage({type:'status',message:'Loading Python…'});const {loadPyodide}=await import(root+'pyodide.mjs');python=await loadPyodide({indexURL:root});postMessage({type:'status',message:'Loading notebook packages…'});await python.loadPackage(['numpy','pandas',...(packages?.includes('scikit-learn')?['scikit-learn']:[])]);await python.runPythonAsync(helpers);postMessage({type:'ready'});})();
  return boot;
 }
 let chain=Promise.resolve();
 self.onmessage=({data})=>{chain=chain.then(async()=>{
  const {id,source,check}=data;
  try{
-  await ready();if(data.type==='init')return;
+  await ready(data.packages);if(data.type==='init')return;
   if(typeof source!=='string'||source.length>20000||typeof check!=='string'||check.length>5000)throw Error('Invalid cell request.');
   const fn=python.globals.get('_run_cell');let result;
   try{result=JSON.parse(fn(source,check));}finally{fn.destroy();}
