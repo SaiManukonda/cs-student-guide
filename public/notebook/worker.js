@@ -17,7 +17,14 @@ def _capture(value):
         _outputs.append({"kind": "text", "text": _np.array2string(value, threshold=100)[:20000]})
     else:
         _outputs.append({"kind": "text", "text": repr(value)[:20000]})
-_scope = {"__name__": "__main__", "display": _capture}
+def _download_file(name, data):
+    import base64, re
+    if not isinstance(data, bytes) or len(data) > 1000000:
+        raise ValueError("Downloads must be bytes under 1 MB")
+    if not re.fullmatch(r"[a-zA-Z0-9_-]+[.]zip", name):
+        raise ValueError("Use a simple .zip filename")
+    _outputs.append({"kind": "file", "name": name, "base64": base64.b64encode(data).decode("ascii")})
+_scope = {"__name__": "__main__", "display": _capture, "download_file": _download_file}
 def _run_cell(source, check):
     global _outputs
     _outputs = []
@@ -44,7 +51,7 @@ def _run_cell(source, check):
     return _json.dumps({"outputs": _outputs[:15], "error": error, "checkError": check_error})
 `;
 async function ready(packages){
- if(!boot)boot=(async()=>{postMessage({type:'status',message:'Loading Python…'});const {loadPyodide}=await import(root+'pyodide.mjs');python=await loadPyodide({indexURL:root});postMessage({type:'status',message:'Loading notebook packages…'});await python.loadPackage(['numpy','pandas',...(packages?.includes('scikit-learn')?['scikit-learn']:[])]);await python.runPythonAsync(helpers);postMessage({type:'ready'});})();
+ if(!boot)boot=(async()=>{postMessage({type:'status',message:'Loading Python…'});const {loadPyodide}=await import(root+'pyodide.mjs');python=await loadPyodide({indexURL:root});postMessage({type:'status',message:'Loading notebook packages…'});await python.loadPackage(['numpy','pandas',...['scikit-learn','pyyaml'].filter(p=>packages?.includes(p))]);await python.runPythonAsync(helpers);postMessage({type:'ready'});})();
  return boot;
 }
 let chain=Promise.resolve();

@@ -11,8 +11,9 @@ export const projectLabSchema=z.object({files:z.object({'index.html':z.string().
 function makeNotebookSchema(ids:[string,...string[]]){return z.object({cells:z.array(z.object({id:z.string().regex(/^[a-z0-9-]{1,60}$/),source:z.string().max(20000)})).min(ids.length).max(20).refine(c=>new Set(c.map(x=>x.id)).size===c.length&&ids.every(id=>c.some(x=>x.id===id))),completed:z.array(z.enum(ids)).max(ids.length).refine(c=>new Set(c).size===c.length)});}
 export const notebookSchema=makeNotebookSchema(['load','clean','arrays','filter','group','report']);
 export const mlNotebookSchema=makeNotebookSchema(['explore','split','baseline','train','evaluate','predict']);
+export const ciNotebookSchema=makeNotebookSchema(['app','tests','failure','build','workflow','ship']);
 export const workspaceSchema=z.object({
- notebooks:z.object({'campus-sales':notebookSchema.optional(),'iris-classifier':mlNotebookSchema.optional()}).strict().default({}),
+ notebooks:z.object({'campus-sales':notebookSchema.optional(),'iris-classifier':mlNotebookSchema.optional(),'test-to-deploy':ciNotebookSchema.optional()}).strict().default({}),
  projectLabs:z.record(z.enum(['taskboard-basics']),projectLabSchema).default({}),
  planner:planner.optional(),collegePlans:z.record(z.enum(['umd','uiuc','gatech','vt','umich']),campusPlan).default({}),
  applications:z.array(z.object({id:z.string().uuid(),company:z.string().trim().min(1).max(120),role:z.string().trim().min(1).max(180),url:z.string().max(2000).refine(v=>!v||/^https?:\/\//.test(v)),status:z.enum(['Saved','Applied','Interviewing','Offer','Rejected']),date:z.string().regex(/^\d{4}-\d{2}-\d{2}$/),notes:text,employmentType:z.enum(['Not specified','Internship','Full-time']).default('Not specified')})).max(1000),

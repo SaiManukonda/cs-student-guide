@@ -1,6 +1,6 @@
 export type NotebookCell={id:string;source:string};
 export type NotebookProgress={cells:NotebookCell[];completed:string[]};
-export type NotebookOutput={kind:'text';text:string}|{kind:'table';columns:string[];rows:string[][];total:number};
+export type NotebookOutput={kind:'file';name:string;base64:string}|{kind:'text';text:string}|{kind:'table';columns:string[];rows:string[][];total:number};
 export const notebookId='campus-sales';
 export const salesCSV=`order_id,day,item,category,units,unit_price
 1,Mon,Coffee,Drinks,12,2.5

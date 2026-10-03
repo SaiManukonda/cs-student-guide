@@ -3,6 +3,7 @@ import {useEffect,useRef,useState} from 'react';
 import {Play,Square,FileCode2,FolderOpen,Check,Download} from 'lucide-react';
 import CodeEditor from '../code-editor';
 import NotebookLab from './notebook';
+import {ciCourse} from './ci-course';
 import {mlCourse} from './ml-course';
 import {notebookLessons,notebookId} from './notebook-course';
 import {OutLink,type SavedState} from '../workspace';
@@ -12,16 +13,18 @@ import {checkpoint,fileNames,freshLab,lessons,projectId,type ProjectFile,type La
 
 type Props={state:SavedState;save:(s:SavedState)=>Promise<boolean>;saving:boolean};
 export default function ProjectLab(props:Props){
- const [selected,setSelected]=useState<'taskboard'|'notebook'|'ml'|null>(null);
+ const [selected,setSelected]=useState<'taskboard'|'notebook'|'ml'|'ci'|null>(null);
  if(selected==='taskboard')return <Lab {...props} onBack={()=>setSelected(null)}/>;
+ if(selected==='ci')return <NotebookLab {...props} course={ciCourse} onBack={()=>setSelected(null)}/>;
  if(selected==='ml')return <NotebookLab {...props} course={mlCourse} onBack={()=>setSelected(null)}/>;
  if(selected==='notebook')return <NotebookLab {...props} onBack={()=>setSelected(null)}/>;
- const task=props.state.projectLabs?.[projectId],notebook=props.state.notebooks?.[notebookId],ml=props.state.notebooks?.[mlCourse.id];
+ const task=props.state.projectLabs?.[projectId],notebook=props.state.notebooks?.[notebookId],ml=props.state.notebooks?.[mlCourse.id],ci=props.state.notebooks?.[ciCourse.id];
  return <section className="project-directory" aria-label="Available projects">
  <p className="project-directory-intro">Choose a project. Learn by building, run your code, and save your progress.</p>
  <article><div className="project-directory-meta"><span>01 · Web development</span><span>Beginner · 7 lessons</span></div><h2>Taskboard</h2><p>Build a task tracker from scratch. Create, read, update and delete tasks, then keep them in browser storage.</p><div className="project-directory-footer"><span>HTML · CSS · JavaScript</span><span>{task?.completed.length||0} / 7 complete</span><button className="primary" onClick={()=>setSelected('taskboard')}>{task?'Continue Taskboard':'Open Taskboard'}</button></div></article>
  <article><div className="project-directory-meta"><span>02 · Data analysis</span><span>Beginner · 6 lessons</span></div><h2>Campus café sales</h2><p>Clean a sales dataset, calculate revenue with NumPy, and build a pandas report in a runnable Python notebook.</p><div className="project-directory-footer"><span>Python · pandas · NumPy</span><span>{notebook?.completed.length||0} / {notebookLessons.length} complete</span><button className="primary" onClick={()=>setSelected('notebook')}>{notebook?'Continue sales notebook':'Open sales notebook'}</button></div></article>
  <article><div className="project-directory-meta"><span>03 · Machine learning</span><span>Beginner · 6 lessons</span></div><h2>Your first classifier</h2><p>Train a flower classifier with scikit-learn. Split your data, compare a baseline, evaluate mistakes, and predict new examples.</p><div className="project-directory-footer"><span>{mlCourse.stack}</span><span>{ml?.completed.length||0} / 6 complete</span><button className="primary" onClick={()=>setSelected('ml')}>{ml?'Continue classifier':'Open classifier'}</button></div></article>
+ <article><div className="project-directory-meta"><span>04 · CI/CD</span><span>Beginner · 6 lessons</span></div><h2>From tests to deployment</h2><p>Test a small site, catch a regression, build an artifact, and prepare a GitHub Actions deployment. Export the repository to run it on GitHub.</p><div className="project-directory-footer"><span>{ciCourse.stack}</span><span>{ci?.completed.length||0} / 6 complete</span><button className="primary" onClick={()=>setSelected('ci')}>{ci?'Continue CI/CD project':'Open CI/CD project'}</button></div></article>
  </section>;
 }
 function Lab({state,save,saving,onBack}:Props&{onBack:()=>void}){
