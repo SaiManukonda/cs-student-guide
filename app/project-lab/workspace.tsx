@@ -2,7 +2,8 @@
 import {useEffect,useRef,useState} from 'react';
 import {Play,Square,FileCode2,FolderOpen,Check,Download} from 'lucide-react';
 import CodeEditor from '../code-editor';
-import {TutorialLibrary} from '../learning';
+import NotebookLab from './notebook';
+import {notebookLessons,notebookId} from './notebook-course';
 import {OutLink,type SavedState} from '../workspace';
 import {projectLabSchema} from '../workspace-schema';
 import {buildPreview,type CheckResult} from './preview';
@@ -10,11 +11,17 @@ import {checkpoint,fileNames,freshLab,lessons,projectId,type ProjectFile,type La
 
 type Props={state:SavedState;save:(s:SavedState)=>Promise<boolean>;saving:boolean};
 export default function ProjectLab(props:Props){
- const [view,setView]=useState('taskboard');
- return <><div className="lab-project-picker"><label htmlFor="project-choice">Project</label><select id="project-choice" value={view} onChange={e=>setView(e.target.value)}><option value="taskboard">Taskboard · CRUD basics</option><option value="videos">Video project library</option></select><span>HTML · CSS · JavaScript</span></div>
- <div hidden={view!=='taskboard'}><Lab {...props}/></div>{view==='videos'&&<TutorialLibrary kind="projects" {...props}/>}</>;
+ const [selected,setSelected]=useState<'taskboard'|'notebook'|null>(null);
+ if(selected==='taskboard')return <Lab {...props} onBack={()=>setSelected(null)}/>;
+ if(selected==='notebook')return <NotebookLab {...props} onBack={()=>setSelected(null)}/>;
+ const task=props.state.projectLabs?.[projectId],notebook=props.state.notebooks?.[notebookId];
+ return <section className="project-directory" aria-label="Available projects">
+ <p className="project-directory-intro">Choose a project. Learn by building, run your code, and save your progress.</p>
+ <article><div className="project-directory-meta"><span>01 · Web development</span><span>Beginner · 7 lessons</span></div><h2>Taskboard</h2><p>Build a task tracker from scratch. Create, read, update and delete tasks, then keep them in browser storage.</p><div className="project-directory-footer"><span>HTML · CSS · JavaScript</span><span>{task?.completed.length||0} / 7 complete</span><button className="primary" onClick={()=>setSelected('taskboard')}>{task?'Continue Taskboard':'Open Taskboard'}</button></div></article>
+ <article><div className="project-directory-meta"><span>02 · Data analysis</span><span>Beginner · 6 lessons</span></div><h2>Campus café sales</h2><p>Clean a sales dataset, calculate revenue with NumPy, and build a pandas report in a runnable Python notebook.</p><div className="project-directory-footer"><span>Python · pandas · NumPy</span><span>{notebook?.completed.length||0} / {notebookLessons.length} complete</span><button className="primary" onClick={()=>setSelected('notebook')}>{notebook?'Continue sales notebook':'Open sales notebook'}</button></div></article>
+ </section>;
 }
-function Lab({state,save,saving}:Props){
+function Lab({state,save,saving,onBack}:Props&{onBack:()=>void}){
  const [lab,setLab]=useState<LabProgress>(()=>state.projectLabs?.[projectId]||freshLab());
  const [saved,setSaved]=useState(()=>JSON.stringify(state.projectLabs?.[projectId]||freshLab()));
  const [file,setFile]=useState<ProjectFile>(()=>lessons[(state.projectLabs?.[projectId]||freshLab()).lesson].file),[panel,setPanel]=useState('Editor');
@@ -55,11 +62,12 @@ function Lab({state,save,saving}:Props){
  useEffect(()=>{if(!test)return;const id=setTimeout(()=>{setResults([{label:'Check timed out',passed:false,detail:'Look for an endless loop or a script error, then try again.'}]);setTest(null)},8000);return()=>clearTimeout(id)},[test]);
  function start(){const token=crypto.randomUUID();setLogs([]);setStatus('Starting…');setRun({token,files:JSON.stringify(lab.files),html:buildPreview(lab.files,{token,lesson:lab.lesson,check:false,storage:lab.storage})});setPanel('Preview');}
  function check(){const token=crypto.randomUUID();setResults(null);setLogs([]);const storage:Record<string,string>=lab.lesson===6?{taskboard:JSON.stringify([{id:'check-first',title:'Check fixture',done:false},{id:'check-saved',title:'Previously saved task',done:false}])}:{};setTest({token,lesson:lab.lesson,files:JSON.stringify(lab.files),html:buildPreview(lab.files,{token,lesson:lab.lesson,check:true,storage})});}
- async function persist(){const snapshot=lab;setSaveError('');if(await save({...state,projectLabs:{...state.projectLabs,[projectId]:snapshot}}))setSaved(JSON.stringify(snapshot));else setSaveError('Progress was not saved. Your code is still here; try Save progress again.');}
+ async function persist(){const snapshot=lab;setSaveError('');if(await save({...state,projectLabs:{...state.projectLabs,[projectId]:snapshot}})){setSaved(JSON.stringify(snapshot));return true;}setSaveError('Progress was not saved. Your code is still here; try Save progress again.');return false;}
  function chooseLesson(index:number){update({lesson:index});setFile(lessons[index].file);setHint(false);setSolution(false);setResults(null);setTest(null);setReplace(null);}
  function applyCheckpoint(){update({files:checkpoint(replace==='solution'?lab.lesson:lab.lesson-1)});setReplace(null);setResults(null);setTest(null);setPanel('Editor');}
  function download(){const blob=new Blob([lab.files[file]],{type:file.endsWith('.html')?'text/html':file.endsWith('.css')?'text/css':'text/javascript'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=file;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
  return <section className="project-lab" aria-label="Guided project workspace">
+ <button className="text-link project-back" disabled={saving} onClick={async()=>{if(!dirty||await persist())onBack()}}>Back to project library</button>
  <div className="lab-toolbar"><div><strong>Taskboard</strong><span>Frontend CRUD · 7 lessons</span></div><span className="lab-save-state" role="status">{dirty?'Unsaved changes':'Progress saved'}</span><button className="secondary" disabled={saving||!dirty} onClick={persist}>{saving?'Saving…':'Save progress'}</button><button className="primary" onClick={start}><Play size={15}/>Run</button><button className="secondary" disabled={!run} onClick={()=>{setRun(null);setStatus('Stopped')}}><Square size={14}/>Stop</button></div>
  {saveError&&<p className="notice" role="alert">{saveError}</p>}
  <div className="lab-layout">

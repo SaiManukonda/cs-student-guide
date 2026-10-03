@@ -1,5 +1,5 @@
 'use client';
-import {useEffect,useRef,useState} from 'react';
+import {useEffect,useRef,useState,useId} from 'react';
 import {basicSetup} from 'codemirror';
 import {Compartment,EditorState} from '@codemirror/state';
 import {EditorView,keymap} from '@codemirror/view';
@@ -25,7 +25,8 @@ const palette=(dark:boolean)=>EditorView.theme({
  '.cm-tooltip-autocomplete > ul > li[aria-selected]':{backgroundColor:dark?'#18352f':'#d0e0d7',color:dark?'#8bd7ca':'#201c16'},
  '.cm-panels':{backgroundColor:dark?'#2b2821':'#eee8d9',color:dark?'#f4ead6':'#201c16'},
 },{dark});
-export default function CodeEditor({value,onChange,language,disabled=false}:{value:string;onChange:(value:string)=>void;language:Language|'html'|'css';disabled?:boolean}){
+export default function CodeEditor({value,onChange,language,disabled=false,label}:{value:string;onChange:(value:string)=>void;language:Language|'html'|'css';disabled?:boolean;label?:string}){
+ const shortcutsId=useId();
  const host=useRef<HTMLDivElement>(null),view=useRef<EditorView|null>(null),change=useRef(onChange);
  change.current=onChange;
  const [position,setPosition]=useState({line:1,column:1});
@@ -35,7 +36,7 @@ export default function CodeEditor({value,onChange,language,disabled=false}:{val
   const appearance=()=>{const dark=document.documentElement.classList.contains('dark');return [palette(dark),...(dark?[oneDark]:[])]};
   const editor=new EditorView({parent:host.current,state:EditorState.create({doc:value,extensions:[
    basicSetup,modes[language](),indentUnit.of('    '),EditorState.tabSize.of(4),keymap.of([indentWithTab]),
-   EditorView.contentAttributes.of({'aria-label':`Your ${language} solution`,'aria-describedby':'editor-shortcuts',spellcheck:'false',autocapitalize:'off',autocorrect:'off'}),
+   EditorView.contentAttributes.of({'aria-label':label||`Your ${language} solution`,'aria-describedby':shortcutsId,spellcheck:'false',autocapitalize:'off',autocorrect:'off'}),
    theme.current.of(appearance()),readonly.current.of(EditorState.readOnly.of(disabled)),
    EditorState.transactionFilter.of(tr=>tr.newDoc.length>20000?[]:tr),
    EditorView.updateListener.of(update=>{
@@ -52,5 +53,5 @@ export default function CodeEditor({value,onChange,language,disabled=false}:{val
  },[]);
  useEffect(()=>{const editor=view.current;if(editor&&editor.state.doc.toString()!==value)editor.dispatch({changes:{from:0,to:editor.state.doc.length,insert:value}})},[value]);
  useEffect(()=>{view.current?.dispatch({effects:readonly.current.reconfigure(EditorState.readOnly.of(disabled))})},[disabled]);
- return <><div className="ide-editor" ref={host}/><div className="ide-status"><span>Ln {position.line}, Col {position.column}</span><span id="editor-shortcuts">Tab: indent · Esc then Tab: leave editor</span><span>Spaces: 4</span></div></>;
+ return <><div className="ide-editor" ref={host}/><div className="ide-status"><span>Ln {position.line}, Col {position.column}</span><span id={shortcutsId}>Tab: indent · Esc then Tab: leave editor</span><span>Spaces: 4</span></div></>;
 }
