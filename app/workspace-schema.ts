@@ -12,7 +12,9 @@ function makeNotebookSchema(ids:[string,...string[]]){return z.object({cells:z.a
 export const notebookSchema=makeNotebookSchema(['load','clean','arrays','filter','group','report']);
 export const mlNotebookSchema=makeNotebookSchema(['explore','split','baseline','train','evaluate','predict']);
 export const ciNotebookSchema=makeNotebookSchema(['app','tests','failure','build','workflow','ship']);
+export const interviewSchema=z.object({code:z.string().max(10000),mode:z.enum(['interviewer','assistant']),messages:z.array(z.object({role:z.enum(['user','assistant']),content:z.string().max(3000)})).max(40)});
 export const workspaceSchema=z.object({
+ interviews:z.record(z.enum(['ticket-queue']),interviewSchema).default({}),
  notebooks:z.object({'campus-sales':notebookSchema.optional(),'iris-classifier':mlNotebookSchema.optional(),'test-to-deploy':ciNotebookSchema.optional()}).strict().default({}),
  projectLabs:z.record(z.enum(['taskboard-basics']),projectLabSchema).default({}),
  planner:planner.optional(),collegePlans:z.record(z.enum(['umd','uiuc','gatech','vt','umich']),campusPlan).default({}),
@@ -20,4 +22,4 @@ export const workspaceSchema=z.object({
  projects:z.array(text).max(100),courses:z.array(text).max(1500),college:z.enum(universityNames),resumeSource:z.string().max(100000).default(''),practiceSolved:z.array(z.string().max(100)).max(100).default([]),
  submissions:z.array(z.object({id:z.string().uuid(),problem:z.string().max(100),language:z.enum(['javascript','python','java','cpp']).default('javascript'),passed:z.number().int().min(0).max(100),total:z.number().int().min(1).max(100),code:z.string().max(20000),date:z.string().max(40)})).max(200)
 });
-export const emptyWorkspace={notebooks:{},projectLabs:{},applications:[],projects:[],courses:[],college:'',collegePlans:{},resumeSource:'',practiceSolved:[],submissions:[]};
+export const emptyWorkspace={interviews:{},notebooks:{},projectLabs:{},applications:[],projects:[],courses:[],college:'',collegePlans:{},resumeSource:'',practiceSolved:[],submissions:[]};

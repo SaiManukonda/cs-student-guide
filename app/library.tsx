@@ -15,6 +15,7 @@ import {type CampusId} from './campus-programs';
 import {Clubs} from './learning';
 import ResumeStudio from './resume-studio';
 import Practice from './practice';
+import InterviewWorkspace from './interview/workspace';
 import AiCourse from './ai-course';
 import GitCourse from './git-course';
 import ProjectLab from './project-lab/workspace';
@@ -22,6 +23,7 @@ type Props={section:string;state:SavedState;save:(s:SavedState)=>Promise<boolean
 type Job={id:string;company:string;role:string;url:string;locations:string[];category:string;terms:string[];posted:number;employmentType:string};
 export default function Library(props:Props){const {section,state,save,saving}=props;
  if(section==='opportunities')return <Opportunities {...props}/>;
+ if(section==='ai-interviews')return <InterviewWorkspace state={state} save={save} saving={saving}/>;
  if(section==='practice')return <Practice state={state} save={save} saving={saving}/>;
  if(section==='resumes')return <ResumeStudio state={state} save={save} saving={saving}/>;
  if(section==='clubs')return <Clubs college={state.college}/>;

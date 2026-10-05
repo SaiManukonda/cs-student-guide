@@ -4,6 +4,7 @@ import "./newspaper.css";
 import "./welcome.css";
 import "./dark-mode.css";
 import "./project-lab/lab.css";
+import "./interview/style.css";
 
 export const metadata: Metadata = {
   title: "CompSci Guide — Your computer science workspace",
