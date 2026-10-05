@@ -1,7 +1,7 @@
 'use client';
 import {useEffect,useRef,useState} from 'react';
 import {ArrowLeft,ArrowRight} from 'lucide-react';
-import {Snippet,Checkpoint} from './ai-course';
+import {Snippet,Checkpoint} from './course-components';
 import {OutLink} from './workspace';
 const sections=[['basics','Understand Git'],['setup','Set up a practice repository'],['commit','Review & commit changes'],['branches','Work on a branch'],['conflicts','Resolve a merge conflict'],['remotes','Publish & collaborate'],['undo','Undo without losing work'],['habits','Use Git on a real project']] as const;
 export default function GitCourse(){const [active,setActive]=useState(0);const heading=useRef<HTMLHeadingElement>(null);

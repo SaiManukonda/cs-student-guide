@@ -7,7 +7,7 @@ const features=[
  ['Coding practice','Blind 75. JavaScript, Python, Java, C++.'],
  ['Projects','Ideas and build-along tutorials.'],
  ['Resumes','LaTeX templates, editor, and preview.'],
- ['AI & Git literacy','Step-by-step tool tutorials.'],
+ ['AI interviews & Git','Interview practice and Git tutorials.'],
 ];
 
 export default function Welcome({signedIn=false,returnTo='/courses'}:{signedIn?:boolean;returnTo?:string}){

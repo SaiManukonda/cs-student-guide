@@ -9,7 +9,7 @@ A minimal workspace for computer science students at Rutgers–New Brunswick, UM
 - **Application tracker:** save roles, update statuses, and keep notes.
 - **Opportunity board:** searchable internship listings from Simplify and Pitt CSC.
 - **Project library:** video walkthroughs with prerequisites and exercises.
-- **AI literacy:** a seven-section written Claude Code course with a Python practice project.
+- **AI interviews:** browser-local interview practice and coding assistance with executable tests.
 - **Git literacy:** an eight-section written course with branching, merge conflicts, GitHub collaboration, and undo exercises.
 - **Resume studio:** Jake’s Resume LaTeX template, browser compilation, PDF preview, and saved drafts.
 - **Coding practice:** all 75 Blind 75 questions, searchable by topic and difficulty, with JavaScript, Python, Java, and C++ execution and saved submission history.
@@ -62,7 +62,7 @@ Authentication is enforced on the server. Only a trusted authentication gateway 
 | `app/library.tsx` | Page selection and opportunity board |
 | `app/course-planner.tsx`, `app/rutgers-courses.ts` | Course planner and degree calculations |
 | `app/rutgers-catalog.json` | Sourced Rutgers core, electives, and science courses |
-| `app/ai-course.tsx`, `app/git-course.tsx` | Written AI and Git courses |
+| `app/interview/`, `app/git-course.tsx` | AI interview practice and written Git course |
 | `app/learning.tsx` | Project videos and club directory |
 | `app/resume-studio.tsx` | LaTeX editor and saved drafts |
 | `app/practice.tsx` | Coding practice interface |

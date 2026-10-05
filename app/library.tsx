@@ -16,7 +16,6 @@ import {Clubs} from './learning';
 import ResumeStudio from './resume-studio';
 import Practice from './practice';
 import InterviewWorkspace from './interview/workspace';
-import AiCourse from './ai-course';
 import GitCourse from './git-course';
 import ProjectLab from './project-lab/workspace';
 type Props={section:string;state:SavedState;save:(s:SavedState)=>Promise<boolean>;add:(a?:{company:string;role:string;url:string;employmentType:string})=>void;saving:boolean};
@@ -27,7 +26,6 @@ export default function Library(props:Props){const {section,state,save,saving}=p
  if(section==='practice')return <Practice state={state} save={save} saving={saving}/>;
  if(section==='resumes')return <ResumeStudio state={state} save={save} saving={saving}/>;
  if(section==='clubs')return <Clubs college={state.college}/>;
- if(section==='ai-literacy')return <AiCourse/>;
  if(section==='git-literacy')return <GitCourse/>;
  if(section==='projects')return <ProjectLab state={state} save={save} saving={saving}/>;
  if(section==='courses'&&isUniversity(state.college)){const id=universities[state.college].id;return id==='rutgers'?<CoursePlanner key={id} state={state} save={save} saving={saving}/>:<CampusPlanner key={id} id={id as CampusId} state={state} save={save} saving={saving}/>;}
