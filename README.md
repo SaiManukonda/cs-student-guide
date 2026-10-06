@@ -9,7 +9,7 @@ A minimal workspace for computer science students at Rutgers–New Brunswick, UM
 - **Application tracker:** save roles, update statuses, and keep notes.
 - **Opportunity board:** searchable internship listings from Simplify and Pitt CSC.
 - **Project library:** video walkthroughs with prerequisites and exercises.
-- **AI interviews:** browser-local interview practice and coding assistance with executable tests.
+- **AI interviews:** browser-local copilot debugging in a 12-file Python repository, selectable file context, 18 executable tests, and saved investigation notes.
 - **Git literacy:** an eight-section written course with branching, merge conflicts, GitHub collaboration, and undo exercises.
 - **Resume studio:** Jake’s Resume LaTeX template, browser compilation, PDF preview, and saved drafts.
 - **Coding practice:** all 75 Blind 75 questions, searchable by topic and difficulty, with JavaScript, Python, Java, and C++ execution and saved submission history.

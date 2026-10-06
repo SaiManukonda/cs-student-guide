@@ -1,4 +1,5 @@
 import {z} from 'zod';
+import {repositoryFiles} from './interview/repository-data';
 import {universityNames} from './university';
 const text=z.string().max(3000);
 const courseCode=z.string().min(1).max(40);
@@ -13,7 +14,10 @@ export const notebookSchema=makeNotebookSchema(['load','clean','arrays','filter'
 export const mlNotebookSchema=makeNotebookSchema(['explore','split','baseline','train','evaluate','predict']);
 export const ciNotebookSchema=makeNotebookSchema(['app','tests','failure','build','workflow','ship']);
 export const interviewSchema=z.object({code:z.string().max(10000),mode:z.enum(['interviewer','assistant']),messages:z.array(z.object({role:z.enum(['user','assistant']),content:z.string().max(3000)})).max(40)});
+const repoPaths=Object.keys(repositoryFiles) as [keyof typeof repositoryFiles,...(keyof typeof repositoryFiles)[]];
+export const repoSessionSchema=z.object({files:z.object(Object.fromEntries(repoPaths.map(path=>[path,z.string().max(10000)])) as Record<keyof typeof repositoryFiles,z.ZodString>).strict().refine(files=>Object.values(files).reduce((n,s)=>n+s.length,0)<=60000),selected:z.array(z.enum(repoPaths)).max(repoPaths.length).refine(a=>new Set(a).size===a.length),messages:z.array(z.object({role:z.enum(['user','assistant']),content:z.string().max(3000),attachments:z.array(z.enum(repoPaths)).max(repoPaths.length).optional(),includedTests:z.boolean().optional()})).max(40),includeTests:z.boolean(),notes:z.string().max(3000)});
 export const workspaceSchema=z.object({
+ repoSessions:z.record(z.enum(['supportdesk-debugging']),repoSessionSchema).default({}),
  interviews:z.record(z.enum(['ticket-queue']),interviewSchema).default({}),
  notebooks:z.object({'campus-sales':notebookSchema.optional(),'iris-classifier':mlNotebookSchema.optional(),'test-to-deploy':ciNotebookSchema.optional()}).strict().default({}),
  projectLabs:z.record(z.enum(['taskboard-basics']),projectLabSchema).default({}),
@@ -22,4 +26,4 @@ export const workspaceSchema=z.object({
  projects:z.array(text).max(100),courses:z.array(text).max(1500),college:z.enum(universityNames),resumeSource:z.string().max(100000).default(''),practiceSolved:z.array(z.string().max(100)).max(100).default([]),
  submissions:z.array(z.object({id:z.string().uuid(),problem:z.string().max(100),language:z.enum(['javascript','python','java','cpp']).default('javascript'),passed:z.number().int().min(0).max(100),total:z.number().int().min(1).max(100),code:z.string().max(20000),date:z.string().max(40)})).max(200)
 });
-export const emptyWorkspace={interviews:{},notebooks:{},projectLabs:{},applications:[],projects:[],courses:[],college:'',collegePlans:{},resumeSource:'',practiceSolved:[],submissions:[]};
+export const emptyWorkspace={repoSessions:{},interviews:{},notebooks:{},projectLabs:{},applications:[],projects:[],courses:[],college:'',collegePlans:{},resumeSource:'',practiceSolved:[],submissions:[]};

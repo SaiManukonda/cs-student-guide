@@ -59,7 +59,7 @@ self.onmessage=({data})=>{chain=chain.then(async()=>{
  const {id,source,check}=data;
  try{
   await ready(data.packages);if(data.type==='init')return;
-  if(typeof source!=='string'||source.length>20000||typeof check!=='string'||check.length>5000)throw Error('Invalid cell request.');
+  if(typeof source!=='string'||source.length>100000||typeof check!=='string'||check.length>5000)throw Error('Invalid cell request.');
   const fn=python.globals.get('_run_cell');let result;
   try{result=JSON.parse(fn(source,check));}finally{fn.destroy();}
   postMessage({type:'result',id,execution:++execution,...result});
